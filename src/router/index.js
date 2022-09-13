@@ -23,6 +23,11 @@ const routes = [
       name: 'secondary-market',
       component: () => import(/* webpackChunkName: "about" */ '../views/secondary-market.vue')
     },
+    {
+      path: '/for-advisors',
+      name: 'for-advisors',
+      component: () => import(/* webpackChunkName: "about" */ '../views/for-advisors.vue')
+    },
 ]  
 
 

@@ -105,79 +105,42 @@
               <p class="mt-5">Interested in the benefits of real estate broadly and how Cadre is differentiated? <br>
                 Learn more here.</p>
         </section>
-
-
-        <div class="p-5" style="background-color: #f5f5f5;" id="home-improve">
-            <div class="row p-5  text-left d-flex justify-content-center">
-              <div class="col-3  ml-5 pl-5">
-                <h2 style="color: black;"> Performance that
-                  speaks for itself.</h2>
-                <b class="mt-4" style="color: black;">OUR PERFORMANCE AS OF 6/15/2022</b>
-      
-                <div class="p-3 pt-5 pb-5">
-                  <div class="row">
-                    <div class="mr-3">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
-                        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 9.5C7 8.672 6.552 8 6 8s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5zM4.285 6.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 4.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 3.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM10 8c-.552 0-1 .672-1 1.5s.448 1.5 1 1.5 1-.672 1-1.5S10.552 8 10 8z"/>
-                      </svg>
-                    </div>
-                    <div >
-                      <b style="color:black !important">$5.02B+</b>
-                      <p style="color:black !important">Total Transaction Value</p>
-                    </div>
-                  </div>
-                  <hr style="background-color:purple">
-                  <div class="row">
-                    <div class="mr-3">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
-                        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 9.5C7 8.672 6.552 8 6 8s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5zM4.285 6.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 4.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 3.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM10 8c-.552 0-1 .672-1 1.5s.448 1.5 1 1.5 1-.672 1-1.5S10.552 8 10 8z"/>
-                      </svg>
-                    </div>
-                    <div >
-                      <b style="color:black !important">27.5%</b>
-                      <p style="color:black !important">Historical Rate of Return2</p>
-                    </div>
-                  </div>
-                  <hr style="background-color:purple">
-                  <div class="row">
-                    <div class="mr-3">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
-                        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 9.5C7 8.672 6.552 8 6 8s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5zM4.285 6.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 4.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 3.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM10 8c-.552 0-1 .672-1 1.5s.448 1.5 1 1.5 1-.672 1-1.5S10.552 8 10 8z"/>
-                      </svg>
-                    </div>
-                    <div >
-                      <b style="color:black !important">$338.6M+</b>
-                      <p style="color:black !important">Gross Distributions to Investors3</p>
-                    </div>
-                  </div>
-                </div>
-                <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">See Our Track Record</button>
-              </div>
-              <div class="col-6 ">
-                
-              </div>
-      
-              <p class="mt-5 text-center" style="color:#818181 !important">Are you a registered investment advisor or institution? Learn how Cadre can partner with you.
-                <br>
-                Current client? Welcome back! Log in here.</p>
-            </div>
-          </div>
-
-
-
           
 
         <section class="p-5" style="background-color: #f5f5f5;">
 
             <div class="p-5 row">
                 <div class="col p-5 text-left">
-                    <div class="d-flex ml-5 pl-5 align-content-center flex-wrap">
-                        <h1><b style="color:black">How Deal-by-Deal <br> investing works.</b></h1>
-                        <p style="color:black" class="mt-3">Members of Cadre are invited to invest in top-quality <br> commercial real estate alongside leading institutions on <br> our platform.</p>
+                    <div class="d-flex ml-5 pt-5  pl-5 align-content-center flex-wrap">
+                        <h1 class="mt-5">How the Cadre <b style="color:purple">Secondary Market works.</b></h1>
+                        <p style="color:black" class="mt-3">Buy and sell in the Cadre Secondary Market on a quarterly basis.</p>
                     </div>
                 </div>
                 <div class="col p-5">
-                    imag here 
+                <div>
+                    <!-- card -->
+                    <div class="mb-3 ml-3 mr-3">
+                        <div class="card-fancy text-left p-4" style="width: 25rem;">
+                          <div class="card-body" style="height:13rem">
+                            <h3><b style="color:black" class="ml-3"> Seller </b></h3>
+                              <p class="card-title pl-3 pr-3 mb-4" style="color: black;">Sellers seek to liquidate shares of commercial real estate investments through the Cadre platform in order to reallocate capital as needed.</p>
+                                <p style="color: black;" class="card-title pl-3 pr-3 mb-4" >  No other platform offers this groundbreaking pool of potential liquidity.</p>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div>
+                    <!-- card -->
+                    <div class="mb-3 ml-3 mr-3">
+                        <div class="card-fancy text-left p-4" style="width: 25rem;">
+                          <div class="card-body" style="height:13rem">
+                              <h3><b style="color:black" class="ml-3"> Buyer </b></h3>
+                              <p class="card-title pl-3 pr-3 mb-4" style="color: black;">Buyers select specific commercial real estate investments with established business plans through the Cadre Secondary Market. We provide comprehensive data on each asset. Motivated sellers are often willing to sell at a discounted price.</p>
+                              <p style="color: black;">No other platform provides this type of streamlined access to fund and deal-by-deal private real estate secondaries.</p>
+                            </div>
+                        </div>
+                      </div>
+                </div>
                 </div>
             </div>
             
@@ -213,7 +176,7 @@
                     <div class="ml-3 mr-3">
                       <div class="card-fancy text-left p-4" style="width: 22rem;">
                         <div class="card-body" style="height:13rem">
-                            <h3><b style="color:black"> 3.Earn </b></h3>
+                            <h3><b style="color:black"> 3. Earn </b></h3>
                           <!-- <h5 class="card-title">Card title</h5> -->
                           <p class="card-title pl-3 pr-3" style="color: black;">Track the ongoing performance of your investment through accessible, detailed reports on our platform.</p>
                         </div>
@@ -222,7 +185,8 @@
   
                   </div>
                   <button type="button" class="btn p-2 mb-4  mt-5 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">View Details</button>
-  
+                  
+                  <p style="color:#818181 !important">Looking for ground-floor investment opportunities?  Invest in a diversified portfolio through Cadre Funds or <br> select individual assets within Deal-by-Deal.</p>
                
             </div>
         </section>

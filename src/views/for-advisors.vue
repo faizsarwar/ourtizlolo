@@ -1,0 +1,455 @@
+<template>
+    <div >
+  
+      <div class="p-5 " style="background-color: black;" id="home-hero">
+        <div class="row p-5  text-left d-flex justify-content-center">
+          <div class="col-3  ml-5 pl-5">
+            <h2><b> Partner with Cadre to empower your clients.</b></h2>
+            <p class="mt-4">Cadre’s premier commercial real estate investment platform lets you offer your clients the same opportunities as some of the best-known institutional investors in the world.            </p>
+            <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">Contact Us</button> 
+        </div>
+          <div class="col-6 ">
+            image here 
+          </div>
+        </div>
+      </div>
+  
+      <div class="p-5" style="background-color: #f5f5f5;" id="home-improve">
+        <div class="row p-5  text-left d-flex justify-content-center">
+          <div class="col-3  ml-5 pl-5">
+            <h2 style="color: black;"> Performance that
+              speaks for itself.</h2>
+            <b class="mt-4" style="color: black;">OUR PERFORMANCE AS OF 6/15/2022</b>
+  
+            <div class="p-3 pt-5 pb-5">
+              <div class="row">
+                <div class="mr-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
+                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 9.5C7 8.672 6.552 8 6 8s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5zM4.285 6.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 4.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 3.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM10 8c-.552 0-1 .672-1 1.5s.448 1.5 1 1.5 1-.672 1-1.5S10.552 8 10 8z"/>
+                  </svg>
+                </div>
+                <div >
+                  <b style="color:black !important">$5.02B+</b>
+                  <p style="color:black !important">Total Transaction Value</p>
+                </div>
+              </div>
+              <hr style="background-color:purple">
+              <div class="row">
+                <div class="mr-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
+                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 9.5C7 8.672 6.552 8 6 8s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5zM4.285 6.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 4.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 3.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM10 8c-.552 0-1 .672-1 1.5s.448 1.5 1 1.5 1-.672 1-1.5S10.552 8 10 8z"/>
+                  </svg>
+                </div>
+                <div >
+                  <b style="color:black !important">27.5%</b>
+                  <p style="color:black !important">Historical Rate of Return2</p>
+                </div>
+              </div>
+              <hr style="background-color:purple">
+              <div class="row">
+                <div class="mr-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
+                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 9.5C7 8.672 6.552 8 6 8s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5zM4.285 6.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 4.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 3.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM10 8c-.552 0-1 .672-1 1.5s.448 1.5 1 1.5 1-.672 1-1.5S10.552 8 10 8z"/>
+                  </svg>
+                </div>
+                <div >
+                  <b style="color:black !important">$338.6M+</b>
+                  <p style="color:black !important">Gross Distributions to Investors3</p>
+                </div>
+              </div>
+            </div>
+            <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">See Our Track Record</button>
+          </div>
+          <div class="col-6 ">
+            
+          </div>
+  
+          <p class="mt-5 text-center" style="color:#818181 !important">Are you a registered investment advisor or institution? Learn how Cadre can partner with you.
+            <br>
+            Current client? Welcome back! Log in here.</p>
+        </div>
+      </div>
+  
+            <!--  -->
+            <section class="bg-light" id="home-performance">
+              <div class="p-5">
+                <div class="pl-5 pr-5">
+                  <h2><b style="color: black;"> Legacies start here.</b> <b style="color:purple"> Grow here. </b></h2>
+               
+                  <p style="color: black;" class="pl-5 pr-5 mt-4 text-center">Partner with Cadre for instant access to premium apartment, industrial, office and hotel assets. World-class <br> real estate managers and operators. Proprietary technology that makes the whole process <br> smarter, faster, and more efficient.</p>  
+               
+                  <div class="d-flex justify-content-center">
+  
+                    <!-- card -->
+                    <div class="ml-3 mr-3">
+                      <div class="card" style="width: 22rem;">
+                        <div class=" pt-3 pb-2" style="background-color: #8E44AD; color:white">
+                          <h5>Cadre Funds</h5>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-title pl-3 pr-3 mb-4" style="color: black;">Invest in a diversified portfolio of properties in high-growth markets across the U.S.</p>
+                          <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                          <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- card -->
+                    <div class="ml-3 mr-3">
+                      <div class="card" style="width: 22rem;">
+                        <div class=" pt-3 pb-2" style="background-color: #8E44AD; color:white">
+                          <h5>Deal-By-Deal</h5>
+                        </div>
+                        <div class="card-body">
+                          <!-- <h5 class="card-title">Card title</h5> -->
+                          <p class="card-title pl-3 pr-3" style="color: black;">Select individual commercial real estate investments through Cadre's Deal-by-Deal platform. Become a member to see available opportunities.</p>
+                          <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- card -->
+                    <div class="ml-3 mr-3">
+                      <div class="card" style="width: 22rem;">
+                        <div class=" pt-3 pb-2" style="background-color: #8E44AD; color:white">
+                          <h5>Secondary Market</h5>
+                        </div>
+                        <div class="card-body">
+                          <!-- <h5 class="card-title">Card title</h5> -->
+                          <p class="card-title pl-3 pr-3" style="color: black;">Purchase shares of private real estate with established business plans, potentially at an attractive price relative to NAV.</p>
+                          <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button>
+                        </div>
+                      </div>
+                    </div>
+  
+                  </div>
+               
+               
+                </div>
+              </div>
+            </section>
+  
+  
+            <section class="pt-5 pb-5" id="home-efficient">
+              <div class="p-5 mt-5">
+                <div class="row p-5 mt-5 ">
+                  <div class="col-6 ml-3 text-left pl-5 pr-5 mt-4">
+                    <h1><b style="color: black;">Trusted by </b> <br> <b style="color:purple">leading </b>  <b style="color: black;">institutional investors.</b></h1>
+                    <p style="color: #818181;" class="mt-4">Some of the world’s most sophisticated and experienced institutions are Cadre <br> clients. We continue to meet their rigorous operational, financial, <br>  and governance standards in the same real estate funds and deal-by-deal offerings <br> we deliver to individuals and advisors.</p>
+                </div>
+                  <div class="col-4 pl-5">
+  
+                    <div class="row m-4">
+                      <div class="card bg-light" style="width: 22rem;">
+                        <div class=" pt-3 pb-2" >
+                          <h5>Icon Here</h5>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <div class="row m-4 ">
+                      <div class="card bg-light" style="width: 22rem;">
+                        <div class=" pt-3 pb-2" >
+                          <h5>Icon Here</h5>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <div class="row m-4">
+                      <div class="card bg-light" style="width: 22rem;">
+                        <div class=" pt-3 pb-2" >
+                          <h5>Icon Here</h5>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+  
+                <p class="mt-5 text-center" style="color:#818181 !important">Are you a registered investment advisor or institution? Learn how Cadre can partner with you. <br>
+                  Current client? Welcome back! Log in here.</p>
+                  
+              </div>
+            </section>
+  
+            <section class="p-5" style="background-color:#f5f5f5;">
+                <div class="p-5">
+                    <h1><b style="color: black"> What Cadre brings to you </b></h1>
+                    <div class="d-flex justify-content-center">
+                        <div class="m-5">
+                            <!-- card -->
+                            <div class="ml-3 mr-3">
+                                <div class="card p-4" style="width: 25rem;">
+                                    <h3><b style="color:black">Advisors</b></h3>
+                                    <div class="card-body text-left p-4" style="height:28rem">
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                                    <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                                  </svg>
+                                            </div>
+                                            <div class="col">
+                                                Experienced team of commercial real estate investment professionals
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                                    <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                                  </svg>
+                                            </div>
+                                            <div class="col">
+                                                Established network of world-class real estate operators
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                                    <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                                  </svg>
+                                            </div>
+                                            <div class="col">
+                                                Transparent due diligence on each investment opportunity
+                                            </div>
+
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                                    <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                                  </svg>
+                                            </div>
+                                            <div class="col">
+                                                Comprehensive performance reporting including valuations and custodial integration
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                                    <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                                  </svg>
+                                            </div>
+                                            <div class="col">
+                                                Control over presentation of information to clients
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-5">
+                            <!-- card -->
+                            <div class="ml-3 mr-3">
+                                <div class="card p-4" style="width: 25rem;">
+                                    <h3><b style="color:black">Clients</b></h3>
+                                    <div class="card-body text-left p-4" style="height:28rem">
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                                    <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                                  </svg>
+                                            </div>
+                                            <div class="col">
+                                                Low fees for institutional-quality private real estate
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                                    <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                                  </svg>
+                                            </div>
+                                            <div class="col">
+                                                Attractive value opportunities on the Cadre Secondary Market
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                                    <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                                  </svg>
+                                            </div>
+                                            <div class="col">
+                                                Groundbreaking opportunities for liquidity
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                                    <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                                  </svg>
+                                            </div>
+                                            <div class="col">
+                                                Curated commercial real estate deals at both an individual asset and fund level
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                                    <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                                  </svg>
+                                            </div>
+                                            <div class="col">
+                                                Visibility into performance through our platform if or when desired
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="p-5" style="background-color:purple">
+                <div class="p-5">
+                    <h1><b>Essential diversification and <br> effective wealth generation.</b></h1>
+                    <p>Only 12% of investors who work with a registered investment advisor <br>  have discussed commercial real estate investing with their advisors. <br> Cadre is here to help you have that conversation.</p>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <!-- card -->
+                    <div class="ml-3 mr-3">
+                        <div class="card" style="width: 22rem; background-color: #8E44AD; color:white">
+                          <div class=" pt-5 pb-2" style="">
+                            <h4><b> Why Real Estate? </b></h4>
+                          </div>
+                          <div class="card-body text-left">
+                            <p class="card-title pl-3 pr-3 mb-4" >Investments in private real estate may provide essential portfolio diversification, stable income, superior long-term returns and unique tax benefits.</p>
+                            <p class="card-title pl-3 pr-3 mb-4">Read our research on the benefits of investing in private real estate.</p>
+                        </div>
+                        </div>
+                      </div>
+
+                    <!-- card -->
+                    <div class="ml-3 mr-3">
+                      <div class="card" style="width: 22rem; background-color: #8E44AD; color:white">
+                        <div class=" pt-5 pb-2" style="">
+                          <h4><b> Why Cadre? </b></h4>
+                        </div>
+                        <div class="card-body text-left">
+                          <p class="card-title pl-3 pr-3 mb-4" >We help registered investment advisors deliver low-cost, institutional-quality private real estate investing to their clients, from core stabilized deals to ground-up development, with the unprecedented opportunity for liquidity.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                                          <!-- card -->
+                    <div class="ml-3 mr-3">
+                        <div class="card" style="width: 22rem; background-color: #8E44AD; color:white">
+                          <div class=" pt-5 pb-2" style="">
+                            <h4><b> Why Now? </b></h4>
+                          </div>
+                          <div class="card-body text-left">
+                            <p class="card-title pl-3 pr-3 mb-4" >Commercial real estate has historically proven to be an attractive hedge against inflation. It is typically a more stable asset class than stocks or bonds, both of which are closely tied to market movements. There’s no time like the present to help your clients take charge of their long-term prosperity.</p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </section>
+
+  
+            <section class="p-5" id="home-investors">
+              <div class="p-5 m-5 text-left" id="home-insights">
+                <h3 class="ml-4"><b style="color: black;"> Footnotes </b></h3>
+                <ol>
+                  <li>Total transaction value represents the underwritten peak all-in cost of real estate investments included in offerings by Cadre since the formation of our Investment Committee (including realized investments).</li>
+                  <li>IRR calculation represents an equity weighted average annualized internal rate of return (IRR) for realized real estate investments of offerings by Cadre since the formation of our Investment Committee through to the date of calculation, after deduction of fees and expenses. Equity multiple represents the investment multiple on equity, which is calculated by dividing the aggregate realized proceeds for the applicable investment after deduction of fees and expenses. For recently realized investments, an estimate of proceeds to vehicles managed by Cadre may be used. The use of a different methodology may result in a materially different return metric.</li>
+                  <li>Gross distributions to investors refers to the sum of any income distributions, sale gains, and return of capital without deduction for any investor specific withholding or contribution interest. Distributions are not guaranteed. A portion of the gross distributions reflect a return of principal.</li>
+                  <li>Past performance is no guarantee of future results. Any historical returns, expected returns, or probability projections are not guaranteed and may not reflect actual future performance.</li>
+                </ol>
+  
+                <h3 class="ml-4 mt-5 "><b style="color: black;">Important Disclosures</b></h3>
+                <div class="ml-4">
+                  <h4 class=" mt-3 mb-0"><b style="color: black;">Private Securities</b></h4>
+                  <p style="color: black;">Investments in private offerings are speculative and involve a high degree of risk. Investments in private offerings are not bank deposits and therefore are not insured by the FDIC or guaranteed by any other party. Investors must be qualified as an accredited investor to participate in private offerings and you may be required to verify your status as an accredited investor. No securities commission or regulatory authority has recommended or approved any investment or the accuracy or completeness of any of the information or materials provided by or through us.</p>
+    
+                  <h4 class=" mt-3 mb-0"><b style="color: black;">Not Advice</b></h4>
+                  <p style="color: black;">This communication is not to be construed as investment, tax, or legal advice in relation to the relevant subject matter; investors must seek their own legal or other professional advice before making any investment to determine whether an investment is suitable for them.</p>
+    
+                  <h4 class=" mt-3 mb-0"><b style="color: black;">Performance Not Guaranteed</b></h4>
+                  <p style="color: black;">Past performance is no guarantee of future results. Any historical returns, expected returns, or probability projections are not guaranteed and may not reflect actual future performance.</p>  
+  
+                  <h4 class=" mt-3 mb-0"><b style="color: black;">Risk of Loss</b></h4>
+                  <p style="color: black;">All investments involve a high degree of risk and may result in partial or total loss of your investment.</p>
+  
+                  <h4 class=" mt-3 mb-0"><b style="color: black;">Liquidity Not Guaranteed</b></h4>
+                  <p style="color: black;">Investments offered by Cadre are illiquid and there is never any guarantee that you will be able to exit your investments on the Secondary Market or at what price an exit (if any) will be achieved.</p>
+  
+                  <h4 class=" mt-3 mb-0"><b style="color: black;">Not a Public Exchange</b></h4>
+                  <p style="color: black;">The Cadre Secondary Market is NOT a stock exchange or public securities exchange, there is no guarantee of liquidity and no guarantee that the Cadre Secondary Market will continue to operate or remain available to investors.</p>
+  
+                  <p style="color: black;">More complete disclosures and the terms and conditions relating to an investment in a particular private placement is contained in the investment memorandum.</p>
+                </div>
+                
+  
+              </div>
+            </section>
+  
+    </div>
+  </template>
+  
+  
+  <script >
+    import { defineComponent } from 'vue'
+  
+  
+    export default defineComponent({
+      name: 'swiper-example-vertical-',
+      title: 'Vertical slider',
+      url: import.meta.url,
+        data(){
+        return {
+            allProducts:[],
+        }
+    },
+      components: {
+      //   Swiper,
+      //   SwiperSlide,
+      },
+      setup() {
+        return {
+          
+        }
+      }
+    })
+  
+  </script>
+  
+  <style lang="scss" scoped>
+  
+  b, p{
+    color: white;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 46px;
+    line-height: 110%;
+    font-weight: 900;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  </style>
