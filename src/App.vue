@@ -44,7 +44,7 @@
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="/for-advisors">For Advisors</a>
-                    <a class="dropdown-item" href="#">For Institutions</a>
+                    <a class="dropdown-item" href="/institutions">For Institutions</a>
                   </div>
                 </li>
                 <li class="nav-item dropdown ml-2 mr-2">
@@ -52,8 +52,8 @@
                     Reseacrh
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Track Record </a>
-                    <a class="dropdown-item" href="#">Insights</a>
+                    <a class="dropdown-item" href="/track-record">Track Record </a>
+                    <!-- <a class="dropdown-item" href="#">Insights</a> -->
                   </div>
                 </li>
                 <li class="nav-item dropdown ml-2 mr-2">
@@ -61,10 +61,10 @@
                     About US 
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Our Company  </a>
-                    <a class="dropdown-item" href="#">Why Cadre</a>
-                    <a class="dropdown-item" href="#">Media</a>
-                    <a class="dropdown-item" href="#">FAQ</a>
+                    <a class="dropdown-item" href="/our-company">Our Company  </a>
+                    <a class="dropdown-item" href="/why-cadre">Why Cadre</a>
+                    <!-- <a class="dropdown-item" href="#">Media</a> -->
+                    <!-- <a class="dropdown-item" href="#">FAQ</a> -->
                   </div>
                 </li>
 
@@ -183,17 +183,17 @@
 
             <ul class="ml-0">
               <li>
-                <a style="color: #818181 !important" href="/"
+                <a style="color: #818181 !important" href="/track-record"
                   >Track Record
                 </a>
               </li>
-              <li>
+              <!-- <li>
                 <a
                   style="color: #818181 !important"
                   href="/"
                   >Insights</a
                 >
-              </li>
+              </li> -->
             </ul>
           </div>
 
@@ -208,14 +208,14 @@
 
             <ul class="ml-0">
               <li>
-                <a style="color: #818181 !important" href="/"
+                <a style="color: #818181 !important" href="/our-company"
                   >Our Company
                 </a>
               </li>
               <li>
                 <a
                   style="color: #818181 !important"
-                  href="/"
+                  href="/why-cadre"
                   >Why Cadre</a
                 >
               </li>

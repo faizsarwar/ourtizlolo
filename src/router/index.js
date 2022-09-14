@@ -28,6 +28,26 @@ const routes = [
       name: 'for-advisors',
       component: () => import(/* webpackChunkName: "about" */ '../views/for-advisors.vue')
     },
+    {
+      path: '/institutions',
+      name: 'institutions',
+      component: () => import(/* webpackChunkName: "about" */ '../views/institutions.vue')
+    },
+    {
+      path: '/track-record',
+      name: 'track-record',
+      component: () => import(/* webpackChunkName: "about" */ '../views/track-record.vue')
+    },
+    {
+      path: '/our-company',
+      name: 'our-company',
+      component: () => import(/* webpackChunkName: "about" */ '../views/our-company.vue')
+    },
+    {
+      path: '/why-cadre',
+      name: 'why-cadre',
+      component: () => import(/* webpackChunkName: "about" */ '../views/why-cadre.vue')
+    },
 ]  
 
 
