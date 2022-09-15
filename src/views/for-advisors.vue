@@ -170,7 +170,7 @@
               </div>
             </section>
   
-            <section class="p-5" style="background-color:#f5f5f5;">
+            <section class="p-5" id="home-best-known" style="background-color:#f5f5f5;">
                 <div class="p-5">
                     <h1><b style="color: black"> What Cadre brings to you </b></h1>
                     <div class="d-flex justify-content-center">
@@ -317,7 +317,7 @@
                 </div>
             </section>
 
-            <section class="p-5" style="background-color:purple">
+            <section class="p-5" id="home-tabs" style="background-color:purple">
                 <div class="p-5">
                     <h1><b>Essential diversification and <br> effective wealth generation.</b></h1>
                     <p>Only 12% of investors who work with a registered investment advisor <br>  have discussed commercial real estate investing with their advisors. <br> Cadre is here to help you have that conversation.</p>
@@ -363,7 +363,7 @@
             </section>
 
   
-            <section class="p-5" id="home-investors">
+            <section class="p-5" id="home-wealth">
               <div class="p-5 m-5 text-left" id="home-insights">
                 <h3 class="ml-4"><b style="color: black;"> Footnotes </b></h3>
                 <ol>
@@ -396,9 +396,14 @@
                   <p style="color: black;">More complete disclosures and the terms and conditions relating to an investment in a particular private placement is contained in the investment memorandum.</p>
                 </div>
                 
-  
+                <div id="home-investors">
+                  
+                </div>
+                <div id="home-insights"></div>
+      
               </div>
             </section>
+
   
     </div>
   </template>

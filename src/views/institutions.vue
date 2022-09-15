@@ -34,7 +34,7 @@
         </div>
       </div>
 
-      <div class="p-5" style="background-color: #f5f5f5;" id="home-improve">
+      <div class="p-5" style="background-color: #f5f5f5;" id="home-performance">
         <div class="row p-5  text-left d-flex justify-content-center">
           <div class="col-3  ml-5 pl-5">
             <h2 style="color: black;"> Performance that
@@ -91,7 +91,7 @@
       </div>
 
 
-      <section id="home-best-known">
+      <section id="home-efficient">
         <div class="p-5 m-5 d-flex justify-content-center">
           <div class="tab">
             <button class="tablinks m-4 p-2 btn btn-dark" onclick="openCity(event, 'OPTIMIZATION')">OPTIMIZATION</button>
@@ -225,13 +225,13 @@
   
   
             <section class="pt-5 pb-5" id="home-efficient">
-              <div class="p-5 mt-5">
+              <div class="p-5 mt-5" id="home-best-known">
                 <div class="row p-5 mt-5 ">
                   <div class="col-6 ml-3 text-left pl-5 pr-5 mt-4">
                     <h1><b style="color: black;">Trusted by </b> <br> <b style="color:purple">leading </b>  <b style="color: black;">institutional investors.</b></h1>
                     <p style="color: #818181;" class="mt-4">Some of the world’s most sophisticated and experienced institutions are Cadre <br> clients. We continue to meet their rigorous operational, financial, <br>  and governance standards in the same real estate funds and deal-by-deal offerings <br> we deliver to individuals and advisors.</p>
                 </div>
-                  <div class="col-4 pl-5">
+                  <div class="col-4 pl-5" id="home-tabs">
   
                     <div class="row m-4">
                       <div class="card bg-light" style="width: 22rem;">
@@ -260,10 +260,12 @@
                   </div>
                 </div>
   
-                <p class="mt-5 text-center" style="color:#818181 !important">Are you a registered investment advisor or institution? Learn how Cadre can partner with you. <br>
+                <p class="mt-5 text-center" id="home-wealth" style="color:#818181 !important">Are you a registered investment advisor or institution? Learn how Cadre can partner with you. <br>
                   Current client? Welcome back! Log in here.</p>
-                  
               </div>
+
+              <div id="home-investors"></div>
+              <div id="home-insights"></div>
             </section>
   
 

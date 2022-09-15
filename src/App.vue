@@ -121,12 +121,12 @@
               <li>
                 <a
                   style="color: #818181 !important"
-                  href="/"
+                  href="/cadre-funds"
                   >Cadre Funds</a
                 >
               </li>
               <li>
-                <a style="color: #818181 !important" href="/"
+                <a style="color: #818181 !important" href="/deal-by-deal"
                   >Deal-By-Deal</a
                 >
               </li>
@@ -134,17 +134,17 @@
               <li>
                 <a
                   style="color: #818181 !important"
-                  href="/"
+                  href="/secondary-market"
                   >Secondary Market</a
                 >
               </li>
-              <li>
+              <!-- <li>
                 <a
                   style="color: #818181 !important"
                   href="/visit-usvisit-us/"
                   >Visit Us</a
                 >
-              </li>
+              </li> -->
             </ul>
           </div>
           <!-- Grid column -->
@@ -160,12 +160,12 @@
 
             <ul class="ml-0">
               <li>
-                <a style="color: #818181 !important" href="/shop-all"
+                <a style="color: #818181 !important" href="/institutions"
                   >Institutions</a
                 >
               </li>
               <li>
-                <a style="color: #818181 !important" href="/shop-all"
+                <a style="color: #818181 !important" href="/for-advisors"
                   >Advisors</a
                 >
               </li>
@@ -219,7 +219,7 @@
                   >Why Cadre</a
                 >
               </li>
-              <li>
+              <!-- <li>
                 <a
                   style="color: #818181 !important"
                   href="/"
@@ -232,7 +232,7 @@
                   href="/"
                   >FAQs</a
                 >
-              </li>
+              </li> -->
             </ul>
           </div>
         

@@ -1,7 +1,7 @@
 <template>
     <div>
-        <section class="p-5">
-            <div class="p-5 row">
+        <section class="p-5" id="home-hero">
+            <div class="p-5 row" >
                 <div class="col-8 pl-5 text-left">
                     <h1 class="mb-5">
                         <b style="color:black">
@@ -35,12 +35,12 @@
 
         <section class="p-5 text-left">
 
-            <div class="p-5 pb-0 ml-5">
+            <div class="p-5 pb-0 ml-5" id="home-improve">
                 <h1 ><b style="color: black;">Fully Realized Investments</b></h1>
                 <p style="color: black;">13 investments</p>
             </div>
 
-            <div class="p-5  row">
+            <div class="p-5  row" id="home-performance">
 
                 <div class="col-4">
                 <!-- card -->
@@ -174,7 +174,7 @@
             </div>
 
 
-            <div class="p-5  row">
+            <div class="p-5  row" id="home-efficient">
 
                 <div class="col-4">
                 <!-- card -->
@@ -307,7 +307,7 @@
 
             </div>
 
-            <div class="p-5  row">
+            <div class="p-5  row" id="home-best-known">
 
                 <div class="col-4">
                 <!-- card -->
@@ -443,8 +443,8 @@
         </section>
 
 
-        <section class="p-5" id="home-investors">
-            <div class="p-5 m-5 text-left" id="home-insights">
+        <section class="p-5" id="home-tabs">
+            <div class="p-5 m-5 text-left" id="">
               <h3 class="ml-4"><b style="color: black;"> Footnotes </b></h3>
               <ol>
                 <li>Total transaction value represents the underwritten peak all-in cost of real estate investments included in offerings by Cadre since the formation of our Investment Committee (including realized investments).</li>
@@ -454,7 +454,7 @@
               </ol>
 
               <h3 class="ml-4 mt-5 "><b style="color: black;">Important Disclosures</b></h3>
-              <div class="ml-4">
+              <div class="ml-4" id="home-wealth">
                 <h4 class=" mt-3 mb-0"><b style="color: black;">Private Securities</b></h4>
                 <p style="color: black;">Investments in private offerings are speculative and involve a high degree of risk. Investments in private offerings are not bank deposits and therefore are not insured by the FDIC or guaranteed by any other party. Investors must be qualified as an accredited investor to participate in private offerings and you may be required to verify your status as an accredited investor. No securities commission or regulatory authority has recommended or approved any investment or the accuracy or completeness of any of the information or materials provided by or through us.</p>
   
@@ -477,6 +477,10 @@
               </div>
               
 
+            </div>
+            <div id="home-investors">
+            </div>
+            <div id="home-insights">
             </div>
           </section>
 

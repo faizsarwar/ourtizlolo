@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <section class="p-5 ">
+        <section class="p-5 " id="home-hero">
             <div class="m-5 p-5">
                 <h1><b style="color: black;"> Grow your 
                   </b><b style="color: purple;"> wealth
@@ -13,7 +13,7 @@
             </div>
         </section>
 
-        <section class="p-5">
+        <section class="p-5" id="home-improve">
             <div class=" d-flex justify-content-center ">
                 <div class="pl-5 pr-4 mr-2 ml-5 text-left">
                     <h1><b style="color:black ;"> A </b> <b style="color:purple ;"> vital <br> component </b> <b style="color:black ;"> of <br> premier <br> portfolios.</b></h1>
@@ -53,7 +53,7 @@
             </div>
         </section>
      
-        <section class="pb-5 pt-5 bg-light">
+        <section class="pb-5 pt-5 bg-light" id="home-performance">
             <h1><b style="color:black">What the Cadre Secondary <br>
                 Market brings to you.</b></h1>
             
@@ -141,8 +141,8 @@
 
 
 
-        <section class="p-5" id="home-investors">
-            <div class="p-5 m-5 text-left" id="home-insights">
+        <section class="p-5" id="home-efficient">
+            <div class="p-5 m-5 text-left" id="home-best-known">
               <h3 class="ml-4"><b style="color: black;"> Footnotes </b></h3>
               <ol>
                 <li>Total transaction value represents the underwritten peak all-in cost of real estate investments included in offerings by Cadre since the formation of our Investment Committee (including realized investments).</li>
@@ -176,6 +176,10 @@
               
 
             </div>
+            <div id="home-tabs"></div>
+            <div id="home-wealth"></div>
+            <div id="home-investors"></div>
+            <div id="home-insights"></div>
           </section>
 
     </div>

@@ -1,14 +1,14 @@
 <template>
     <div>
 
-        <section class="p-5 ">
+        <section class="p-5 " id="home-hero">
             <div class="m-5 p-5">
                 <h1><b style="color: black;"> Cadre brings real change
                     to 
                     </b><b style="color: purple;">real estate.
                 </b> <br></h1>
             </div>
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center" id="home-improve">
                 <div class="m-3">
                     <p style="color: black;">Trailblazing technology</p>
                 </div>
@@ -22,7 +22,7 @@
         </section>
      
 
-        <section class="p-5">
+        <section class="p-5" id="home-performance">
             <div class="p-5 ">
                 <h1><b style="color: black;"> Our technology</b><b style="color: purple;"> empowers
                     </b> <br>
@@ -31,7 +31,7 @@
                 </p>
             </div>
 
-            <div class="d-flex justify-content-center text-left  mt-2 mb-2">
+            <div class="d-flex justify-content-center text-left  mt-2 mb-2" id="home-efficient">
                 <div class="m-4">
                     <h1>image here </h1>
                     <!-- <p style="color: black">Deep bench of investment <br> professionals</p> -->
@@ -43,7 +43,7 @@
                 </div>
             </div>
 
-            <div class="d-flex justify-content-center text-left mt-2 mb-2">
+            <div class="d-flex justify-content-center text-left mt-2 mb-2" id="home-best-known">
                 <div class="m-4">
                     <h1>image here </h1>
                     <!-- <p style="color: black">Deep bench of investment <br> professionals</p> -->
@@ -55,24 +55,25 @@
                 </div>
             </div>
  
-            <div class="d-flex justify-content-center text-left mt-2 mb-2">
-                <div class="m-4">
+            <div class="d-flex justify-content-center text-left mt-2 mb-2" >
+                <div class="m-4" id="home-investors">
                     <h1>image here </h1>
                     <!-- <p style="color: black">Deep bench of investment <br> professionals</p> -->
                 </div>
-                <div class="m-4">
+                <div class="m-4" id="home-wealth">
                     <h3><b style="color:black">Next-Generation Asset Management</b></h3>
                     <p style="color:black">Cadre developed new technology for its in-house asset <br> management team to more rapidly assess key financial <br> and operating performance metrics, and to optimize the value of <br> our holdings. By automating these complex tasks through <br> technology, our real estate investment professionals are able <br> to better focus on maximizing the value of our investors’ <br> capital and enhancing investor returns. </p>
                     <button type="button" class="btn p-2 pl-3 pr-3" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button>
                 </div>
             </div>
- 
+            
+            <div ></div>
             
         </section>
 
 
 
-        <section class="pt-5 pb-5" id="home-efficient">
+        <section class="pt-5 pb-5" id="home-tabs">
             <div class="p-5 mt-5">
               <div class="row p-5 mt-5 ">
                 <div class="col-6 ml-3 text-left pl-5 pr-5 mt-4">
@@ -115,7 +116,7 @@
           </section>
 
 
-        <section class="p-5" id="home-investors">
+        <section class="p-5" id="home-insights">
             <div class="p-5 m-5 text-left" id="home-insights">
               <h3 class="ml-4"><b style="color: black;"> Footnotes </b></h3>
               <ol>

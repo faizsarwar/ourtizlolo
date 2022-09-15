@@ -1,6 +1,6 @@
 <template>
     <div >
-        <section class="pl-5">
+        <section id="home-hero" class="pl-5">
             <div class="row m-5 pl-5">
                 <div class="col pt-5 pl-5 text-left">
                     <p style="color: black;">CADRE FUNDS</p>
@@ -15,7 +15,7 @@
             </div>
         </section>
 
-        <section class="p-5" style="background-color: #f5f5f5;">
+        <section id="home-improve" class="p-5" style="background-color: #f5f5f5;">
 
             <div class="p-5 row">
                 <div class="col p-5 text-left">
@@ -30,7 +30,7 @@
             
         </section>
 
-        <section class="p-5" style="background-color: #f5f5f5;">
+        <section id="home-performance" class="p-5" style="background-color: #f5f5f5;">
             <h1><b style="color: black;"> What an investment in <br>
                 Cadre Funds offers you.</b> </h1>
             <div class="p-3 mt-4 d-flex justify-content-center">
@@ -71,7 +71,7 @@
             <button type="button" class="btn p-3 ml-5 mt-3 pl-5 pr-5" style="border-radius:25px !important; background-color:purple; color:white">Become An Investor</button>
         </section>
 
-        <section class="pb-5">
+        <section id="home-efficient" class="pb-5">
             <div class="p-5 m-5 d-flex justify-content-center">
                 <div class="tab">
                   <button class="tablinks m-4 p-2 btn btn-dark" onclick="openCity(event, 'Direct-Investments')">Direct Investments</button>
@@ -135,11 +135,11 @@
               </div>
         </section>
 
-        <section class="p-5" id="home-investors">
-            <div class="p-5 m-5 text-left" id="home-insights">
+        <section  class="p-5" id="home-best-known">
+            <div class="p-5 m-5 text-left" id="home-tabs">
 
               <h3 class="ml-4 mt-5 mb-4"><b style="color: black;">Important Disclosures</b></h3>
-              <div class="ml-4 mt-4 pt-4">
+              <div class="ml-4 mt-4 pt-4" id="home-wealth">
                 <h4 class=" mt-3 mb-0"><b style="color: black;">Private Securities</b></h4>
                 <p style="color: black;">Investments in private offerings are speculative and involve a high degree of risk. Investments in private offerings are not bank deposits and therefore are not insured by the FDIC or guaranteed by any other party. Investors must be qualified as an accredited investor to participate in private offerings and you may be required to verify your status as an accredited investor. No securities commission or regulatory authority has recommended or approved any investment or the accuracy or completeness of any of the information or materials provided by or through us.</p>
   
@@ -160,8 +160,10 @@
 
                 <p style="color: black;">More complete disclosures and the terms and conditions relating to an investment in a particular private placement is contained in the investment memorandum.</p>
               </div>
-              
-
+              <div id="home-investors">
+              </div>
+              <div id="home-insights">
+              </div>
             </div>
           </section>
 

@@ -1,6 +1,6 @@
 <template>
     <div >
-        <section class="pl-5">
+        <section class="pl-5" id="home-hero">
             <div class="row m-5 pl-5">
                 <div class="col pt-5 pl-5 text-left">
                     <p style="color: black;">SECONDARY MARKET
@@ -17,7 +17,7 @@
         </section>
 
 
-        <section class="pb-5 pt-5 bg-light">
+        <section class="pb-5 pt-5 bg-light" id="home-improve">
             <h1><b style="color:black">What the Cadre Secondary <br>
                 Market brings to you.</b></h1>
             
@@ -107,7 +107,7 @@
         </section>
           
 
-        <section class="p-5" style="background-color: #f5f5f5;">
+        <section class="p-5" id="home-performance" style="background-color: #f5f5f5;">
 
             <div class="p-5 row">
                 <div class="col p-5 text-left">
@@ -146,7 +146,7 @@
             
         </section>
 
-        <section class="p-5">
+        <section class="p-5" id="home-efficient">
             <div class="p-5">
                 <h1><b style="color:black" >Join our cadre of investors.</b></h1>
                 <p style="color:#818181 !important">Detailed information about Cadre Deal-by-Deal investing is available to members <br> of the Cadre investment platform.</p>
@@ -191,11 +191,11 @@
             </div>
         </section>
 
-        <section class="p-5" id="home-investors">
-            <div class="p-5 m-5 text-left" id="home-insights">
+        <section class="p-5" id="home-best-known">
+            <div class="p-5 m-5 text-left" id="home-tabs">
 
               <h3 class="ml-4 mt-5 mb-4"><b style="color: black;">Important Disclosures</b></h3>
-              <div class="ml-4 mt-4 pt-4">
+              <div class="ml-4 mt-4 pt-4" id="home-wealth">
                 <h4 class=" mt-3 mb-0"><b style="color: black;">Private Securities</b></h4>
                 <p style="color: black;">Investments in private offerings are speculative and involve a high degree of risk. Investments in private offerings are not bank deposits and therefore are not insured by the FDIC or guaranteed by any other party. Investors must be qualified as an accredited investor to participate in private offerings and you may be required to verify your status as an accredited investor. No securities commission or regulatory authority has recommended or approved any investment or the accuracy or completeness of any of the information or materials provided by or through us.</p>
   
@@ -216,7 +216,10 @@
 
                 <p style="color: black;">More complete disclosures and the terms and conditions relating to an investment in a particular private placement is contained in the investment memorandum.</p>
               </div>
-              
+              <div class="home-investors">
+              </div>
+              <div class="home-insights">
+              </div>
 
             </div>
           </section>
