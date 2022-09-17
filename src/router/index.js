@@ -9,8 +9,8 @@ const routes = [
       component: () => import(/* webpackChunkName: "about" */ '../views/home.vue')
     },
     {
-      path: '/cadre-funds',
-      name: 'cadre-funds',
+      path: '/ourtizolo-funds',
+      name: 'ourtizolo-funds',
       component: () => import(/* webpackChunkName: "about" */ '../views/cadre-funds.vue')
     },
     {
@@ -44,8 +44,8 @@ const routes = [
       component: () => import(/* webpackChunkName: "about" */ '../views/our-company.vue')
     },
     {
-      path: '/why-cadre',
-      name: 'why-cadre',
+      path: '/why-ourtizolo',
+      name: 'why-ourtizolo',
       component: () => import(/* webpackChunkName: "about" */ '../views/why-cadre.vue')
     },
 ]  
