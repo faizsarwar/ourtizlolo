@@ -5,7 +5,7 @@
             <div class="m-5 p-5">
                 <h1><b style="color: black;"> ourtizolo brings real change
                     to 
-                    </b><b style="color: purple;">real estate.
+                    </b><b style="color: #005091;">real estate.
                 </b> <br></h1>
             </div>
             <div class="d-flex justify-content-center" id="home-improve">
@@ -24,7 +24,7 @@
 
         <section class="p-5" id="home-performance">
             <div class="p-5 ">
-                <h1><b style="color: black;"> Our technology</b><b style="color: purple;"> empowers
+                <h1><b style="color: black;"> Our technology</b><b style="color: #005091;"> empowers
                     </b> <br>
                     <b style="color: black;"> our people. </b></h1>
                 <p style="color: black;" class="mt-4">ourtizolo uses predictive models and workflow tools to reengineer the investment experience. Our real <br> estate investment platform is distinguished in its ability to gather, analyze, and leverage information, <br> with radical improvements in workflow efficiency.
@@ -39,7 +39,7 @@
                 <div class="m-4">
                     <h3><b style="color:black">Data-Driven Market Selection</b></h3>
                     <p style="color:black">Proprietary machine learning models analyze tens of thousands <br> of variables to identify the U.S. real estate markets with the <br> highest potential for price appreciation and income generation: <br> the ourtizolo 15.1</p>
-                    <button type="button" class="btn p-2 pl-3 pr-3" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button>
+                    <button type="button" class="btn p-2 pl-3 pr-3" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
                 </div>
             </div>
 
@@ -51,7 +51,7 @@
                 <div class="m-4">
                     <h3><b style="color:black">Competitive Deal Selection</b></h3>
                     <p style="color:black">Millions of granular data points are ingested into ourtizolo’s real <br> estate deal management software. These data insights provide a <br> meaningful competitive edge, by enabling ourtizolo to more <br> accurately identify trending locations and project rent growth. <br> As a result, we can more quickly identify selective investment <br> opportunities through our tech-enabled underwriting process                   </p>
-                    <button type="button" class="btn p-2 pl-3 pr-3" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button>
+                    <button type="button" class="btn p-2 pl-3 pr-3" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
                 </div>
             </div>
  
@@ -63,7 +63,7 @@
                 <div class="m-4" id="home-wealth">
                     <h3><b style="color:black">Next-Generation Asset Management</b></h3>
                     <p style="color:black">ourtizolo developed new technology for its in-house asset <br> management team to more rapidly assess key financial <br> and operating performance metrics, and to optimize the value of <br> our holdings. By automating these complex tasks through <br> technology, our real estate investment professionals are able <br> to better focus on maximizing the value of our investors’ <br> capital and enhancing investor returns. </p>
-                    <button type="button" class="btn p-2 pl-3 pr-3" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button>
+                    <button type="button" class="btn p-2 pl-3 pr-3" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
                 </div>
             </div>
             
@@ -77,7 +77,7 @@
             <div class="p-5 mt-5">
               <div class="row p-5 mt-5 ">
                 <div class="col-6 ml-3 text-left pl-5 pr-5 mt-4">
-                  <h1><b style="color: black;">Trusted by </b> <br> <b style="color:purple">leading </b>  <b style="color: black;">institutional investors.</b></h1>
+                  <h1><b style="color: black;">Trusted by </b> <br> <b style="color:#005091">leading </b>  <b style="color: black;">institutional investors.</b></h1>
                   <p style="color: #818181;" class="mt-4">Some of the world’s most sophisticated and experienced institutions are ourtizolo <br> clients. We continue to meet their rigorous operational, financial, <br>  and governance standards in the same real estate funds and deal-by-deal offerings <br> we deliver to individuals and advisors.</p>
               </div>
                 <div class="col-4 pl-5">

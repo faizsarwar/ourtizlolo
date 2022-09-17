@@ -6,7 +6,7 @@
           <div class="col-3  ml-5 pl-5">
             <h2><b> Partner with ourtizolo to empower your clients.</b></h2>
             <p class="mt-4">ourtizolo’s premier commercial real estate investment platform lets you offer your clients the same opportunities as some of the best-known institutional investors in the world.            </p>
-            <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">Contact Us</button> 
+            <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Contact Us</button> 
         </div>
           <div class="col-6 ">
             image here 
@@ -33,7 +33,7 @@
                   <p style="color:black !important">Total Transaction Value</p>
                 </div>
               </div>
-              <hr style="background-color:purple">
+              <hr style="background-color:#005091">
               <div class="row">
                 <div class="mr-3">
                   <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
@@ -45,7 +45,7 @@
                   <p style="color:black !important">Historical Rate of Return2</p>
                 </div>
               </div>
-              <hr style="background-color:purple">
+              <hr style="background-color:#005091">
               <div class="row">
                 <div class="mr-3">
                   <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
@@ -58,7 +58,7 @@
                 </div>
               </div>
             </div>
-            <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">See Our Track Record</button>
+            <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">See Our Track Record</button>
           </div>
           <div class="col-6 ">
             
@@ -74,7 +74,7 @@
             <section class="bg-light" id="home-performance">
               <div class="p-5">
                 <div class="pl-5 pr-5">
-                  <h2><b style="color: black;"> Legacies start here.</b> <b style="color:purple"> Grow here. </b></h2>
+                  <h2><b style="color: black;"> Legacies start here.</b> <b style="color:#005091"> Grow here. </b></h2>
                
                   <p style="color: black;" class="pl-5 pr-5 mt-4 text-center">Partner with ourtizolo for instant access to premium apartment, industrial, office and hotel assets. World-class <br> real estate managers and operators. Proprietary technology that makes the whole process <br> smarter, faster, and more efficient.</p>  
                
@@ -83,39 +83,39 @@
                     <!-- card -->
                     <div class="ml-3 mr-3">
                       <div class="card" style="width: 22rem;">
-                        <div class=" pt-3 pb-2" style="background-color: #8E44AD; color:white">
+                        <div class=" pt-3 pb-2" style="background-color: #50b8ff; color:white">
                           <h5>ourtizolo Funds</h5>
                         </div>
                         <div class="card-body">
                           <p class="card-title pl-3 pr-3 mb-4" style="color: black;">Invest in a diversified portfolio of properties in high-growth markets across the U.S.</p>
                           <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                          <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button>
+                          <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
                         </div>
                       </div>
                     </div>
                     <!-- card -->
                     <div class="ml-3 mr-3">
                       <div class="card" style="width: 22rem;">
-                        <div class=" pt-3 pb-2" style="background-color: #8E44AD; color:white">
+                        <div class=" pt-3 pb-2" style="background-color: #50b8ff; color:white">
                           <h5>Deal-By-Deal</h5>
                         </div>
                         <div class="card-body">
                           <!-- <h5 class="card-title">Card title</h5> -->
                           <p class="card-title pl-3 pr-3" style="color: black;">Select individual commercial real estate investments through ourtizolo's Deal-by-Deal platform. Become a member to see available opportunities.</p>
-                          <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button>
+                          <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
                         </div>
                       </div>
                     </div>
                     <!-- card -->
                     <div class="ml-3 mr-3">
                       <div class="card" style="width: 22rem;">
-                        <div class=" pt-3 pb-2" style="background-color: #8E44AD; color:white">
+                        <div class=" pt-3 pb-2" style="background-color: #50b8ff; color:white">
                           <h5>Secondary Market</h5>
                         </div>
                         <div class="card-body">
                           <!-- <h5 class="card-title">Card title</h5> -->
                           <p class="card-title pl-3 pr-3" style="color: black;">Purchase shares of private real estate with established business plans, potentially at an attractive price relative to NAV.</p>
-                          <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button>
+                          <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
                         </div>
                       </div>
                     </div>
@@ -132,7 +132,7 @@
               <div class="p-5 mt-5">
                 <div class="row p-5 mt-5 ">
                   <div class="col-6 ml-3 text-left pl-5 pr-5 mt-4">
-                    <h1><b style="color: black;">Trusted by </b> <br> <b style="color:purple">leading </b>  <b style="color: black;">institutional investors.</b></h1>
+                    <h1><b style="color: black;">Trusted by </b> <br> <b style="color:#005091">leading </b>  <b style="color: black;">institutional investors.</b></h1>
                     <p style="color: #818181;" class="mt-4">Some of the world’s most sophisticated and experienced institutions are ourtizolo <br> clients. We continue to meet their rigorous operational, financial, <br>  and governance standards in the same real estate funds and deal-by-deal offerings <br> we deliver to individuals and advisors.</p>
                 </div>
                   <div class="col-4 pl-5">
@@ -182,7 +182,7 @@
                                     <div class="card-body text-left p-4" style="height:28rem">
                                         <div class="row">
                                             <div class="col-2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#005091" class="bi bi-check-circle" viewBox="0 0 16 16">
                                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                                     <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
                                                   </svg>
@@ -194,7 +194,7 @@
                                         <hr>
                                         <div class="row">
                                             <div class="col-2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#005091" class="bi bi-check-circle" viewBox="0 0 16 16">
                                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                                     <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
                                                   </svg>
@@ -206,7 +206,7 @@
                                         <hr>
                                         <div class="row">
                                             <div class="col-2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#005091" class="bi bi-check-circle" viewBox="0 0 16 16">
                                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                                     <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
                                                   </svg>
@@ -219,7 +219,7 @@
                                         <hr>
                                         <div class="row">
                                             <div class="col-2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#005091" class="bi bi-check-circle" viewBox="0 0 16 16">
                                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                                     <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
                                                   </svg>
@@ -231,7 +231,7 @@
                                         <hr>
                                         <div class="row">
                                             <div class="col-2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#005091" class="bi bi-check-circle" viewBox="0 0 16 16">
                                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                                     <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
                                                   </svg>
@@ -252,7 +252,7 @@
                                     <div class="card-body text-left p-4" style="height:28rem">
                                         <div class="row">
                                             <div class="col-2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#005091" class="bi bi-check-circle" viewBox="0 0 16 16">
                                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                                     <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
                                                   </svg>
@@ -264,7 +264,7 @@
                                         <hr>
                                         <div class="row">
                                             <div class="col-2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#005091" class="bi bi-check-circle" viewBox="0 0 16 16">
                                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                                     <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
                                                   </svg>
@@ -276,7 +276,7 @@
                                         <hr>
                                         <div class="row">
                                             <div class="col-2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#005091" class="bi bi-check-circle" viewBox="0 0 16 16">
                                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                                     <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
                                                   </svg>
@@ -288,7 +288,7 @@
                                         <hr>
                                         <div class="row">
                                             <div class="col-2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#005091" class="bi bi-check-circle" viewBox="0 0 16 16">
                                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                                     <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
                                                   </svg>
@@ -300,7 +300,7 @@
                                         <hr>
                                         <div class="row">
                                             <div class="col-2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#005091" class="bi bi-check-circle" viewBox="0 0 16 16">
                                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                                     <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
                                                   </svg>
@@ -317,7 +317,7 @@
                 </div>
             </section>
 
-            <section class="p-5" id="home-tabs" style="background-color:purple">
+            <section class="p-5" id="home-tabs" style="background-color:#005091">
                 <div class="p-5">
                     <h1><b>Essential diversification and <br> effective wealth generation.</b></h1>
                     <p>Only 12% of investors who work with a registered investment advisor <br>  have discussed commercial real estate investing with their advisors. <br> ourtizolo is here to help you have that conversation.</p>
@@ -325,7 +325,7 @@
                 <div class="d-flex justify-content-center">
                     <!-- card -->
                     <div class="ml-3 mr-3">
-                        <div class="card" style="width: 22rem; background-color: #8E44AD; color:white">
+                        <div class="card" style="width: 22rem; background-color: #50b8ff; color:white">
                           <div class=" pt-5 pb-2" style="">
                             <h4><b> Why Real Estate? </b></h4>
                           </div>
@@ -338,7 +338,7 @@
 
                     <!-- card -->
                     <div class="ml-3 mr-3">
-                      <div class="card" style="width: 22rem; background-color: #8E44AD; color:white">
+                      <div class="card" style="width: 22rem; background-color: #50b8ff; color:white">
                         <div class=" pt-5 pb-2" style="">
                           <h4><b> Why ourtizolo? </b></h4>
                         </div>
@@ -350,7 +350,7 @@
 
                                           <!-- card -->
                     <div class="ml-3 mr-3">
-                        <div class="card" style="width: 22rem; background-color: #8E44AD; color:white">
+                        <div class="card" style="width: 22rem; background-color: #50b8ff; color:white">
                           <div class=" pt-5 pb-2" style="">
                             <h4><b> Why Now? </b></h4>
                           </div>

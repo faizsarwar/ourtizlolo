@@ -5,10 +5,10 @@
                 <div class="col pt-5 pl-5 text-left">
                     <p style="color: black;">SECONDARY MARKET
                     </p>
-                    <h1><b style="color:purple"> Potential liquidity.</b>  <br>   <b style="color: black;"> Quarterly.</b></h1>
+                    <h1><b style="color:#005091"> Potential liquidity.</b>  <br>   <b style="color: black;"> Quarterly.</b></h1>
                     <p class="mt-5" style="color: black;">The ourtizolo Secondary Market matches buyers and sellers of private real <br> estate. This revolutionary exchange offers attractive opportunities to <br> value investors, while sellers get unprecedented access to potential <br> liquidity. New properties are available every quarter.</p>
                     <!-- <p style="color: black;">Sign up in seconds to get notified when new ourtizolo Funds are open for investmen</p> -->
-                    <button type="button" class="btn p-2  mt-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">Request Access</button>
+                    <button type="button" class="btn p-2  mt-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Request Access</button>
                 </div>
                 <div class="col">
                     img  here
@@ -40,13 +40,13 @@
                   <div class="text-left m-3 ml-5">
                     <h1>
                         Reduce your     
-                      <b style="color: purple;"> investment </b> horizon.</h1>
+                      <b style="color: #005091;"> investment </b> horizon.</h1>
                       <p style="color: #818181;" class="mt-4">
                         Maintain long-term flexibility by opportunistically <br> purchasing or selling shares in high-quality, private real <br> estate mid-cycle on our platform.
                      </p>
                   </div>
                 </div>
-                <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">Request Access</button>
+                <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Request Access</button>
 
               </div>
               
@@ -57,13 +57,13 @@
                         <h1>picture here </h1>
                     </div>
                     <div class="text-left m-3 ml-5">
-                      <h1>Control your  <br> <b style="color: purple;"> cash flow.  </b><br></h1>
+                      <h1>Control your  <br> <b style="color: #005091;"> cash flow.  </b><br></h1>
                         <p style="color: #818181;" class="mt-4">
                             Purchase shares of income-producing private real estate, <br> often at an attractive price relative to net asset value <br> (NAV). Or sell shares efficiently to help optimize your <br> returns.
                          </p>
                     </div>
                   </div>
-                  <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white"> Request Access</button>
+                  <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white"> Request Access</button>
 
               </div>
               
@@ -73,7 +73,7 @@
                         <h1>picture here </h1>
                     </div>
                     <div class="text-left m-3 ml-5">
-                      <h1>View the  <b style="color: purple;">big picture </b>.  
+                      <h1>View the  <b style="color: #005091;">big picture </b>.  
                         </h1>
                         <p style="color: #818181;" class="mt-4">
                             See what we see. ourtizolo supplies institutional-quality due <br> diligence and full historical performance to both buyers and <br> sellers of commercial real estate on the ourtizolo platform.
@@ -81,7 +81,7 @@
                         </p>
                     </div>
                   </div>
-                  <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">Request Access</button>
+                  <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Request Access</button>
 
               </div>
 
@@ -91,14 +91,14 @@
                         <h1>picture here </h1>
                     </div>
                     <div class="text-left m-3 ml-5">
-                      <h1>De-risk your  <br> <b style="color: purple;">decision-making </b>. <br>
+                      <h1>De-risk your  <br> <b style="color: #005091;">decision-making </b>. <br>
                         </h1>
                         <p style="color: #818181;" class="mt-4">
                             Feel confident about purchasing or selling shares in <br> multifamily, industrial, office and other real estate property <br> types through a marketplace where ourtizolo matches and <br> settles transactions.
                         </p>
                     </div>
                   </div>
-                  <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">Request Access</button>
+                  <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Request Access</button>
 
               </div>
 
@@ -112,7 +112,7 @@
             <div class="p-5 row">
                 <div class="col p-5 text-left">
                     <div class="d-flex ml-5 pt-5  pl-5 align-content-center flex-wrap">
-                        <h1 class="mt-5">How the ourtizolo <b style="color:purple">Secondary Market works.</b></h1>
+                        <h1 class="mt-5">How the ourtizolo <b style="color:#005091">Secondary Market works.</b></h1>
                         <p style="color:black" class="mt-3">Buy and sell in the ourtizolo Secondary Market on a quarterly basis.</p>
                     </div>
                 </div>
@@ -184,7 +184,7 @@
                     </div>
   
                   </div>
-                  <button type="button" class="btn p-2 mb-4  mt-5 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">View Details</button>
+                  <button type="button" class="btn p-2 mb-4  mt-5 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">View Details</button>
                   
                   <p style="color:#818181 !important">Looking for ground-floor investment opportunities?  Invest in a diversified portfolio through ourtizolo Funds or <br> select individual assets within Deal-by-Deal.</p>
                

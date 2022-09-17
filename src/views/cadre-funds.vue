@@ -4,10 +4,10 @@
             <div class="row m-5 pl-5">
                 <div class="col pt-5 pl-5 text-left">
                     <p style="color: black;">ourtizolo FUNDS</p>
-                    <h1><b style="color:purple"> Diversified portfolios </b><br> <b style="color: black;"> for</b><b style="color:purple"> investors </b> <br>   <b style="color: black;"> who want it all.</b></h1>
+                    <h1><b style="color:#005091"> Diversified portfolios </b><br> <b style="color: black;"> for</b><b style="color:#005091"> investors </b> <br>   <b style="color: black;"> who want it all.</b></h1>
                     <p class="mt-5" style="color: black;">A one-and-done portfolio of commercial real estate in top-growth <br> markets. Assets include apartment, hotel, industrial and other  <br> properties—all managed by our experienced investment professionals.</p>
                     <p style="color: black;">Sign up in seconds to get notified when new ourtizolo Funds are open for investmen</p>
-                    <button type="button" class="btn p-2  mt-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">Request Access</button>
+                    <button type="button" class="btn p-2  mt-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Request Access</button>
                 </div>
                 <div class="col">
                     img  here
@@ -19,9 +19,9 @@
 
             <div class="p-5 row">
                 <div class="col p-5 text-left">
-                    <h1 class="ml-5" ><b style="color: black;"> Don't miss out on </b> <br><b style="color:purple"> ourtizolo's next fund</b>!</h1>
+                    <h1 class="ml-5" ><b style="color: black;"> Don't miss out on </b> <br><b style="color:#005091"> ourtizolo's next fund</b>!</h1>
                     <p  class="ml-5" style="color: black;">If you missed out on the success of our flagship ourtizolo Direct <br> Access Fund, sign up now to be notified for your next <br> opportunity to outperform with ourtizolo Funds. </p>
-                    <button type="button" class="btn p-2 ml-5 mt-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">See Our Track Record</button>
+                    <button type="button" class="btn p-2 ml-5 mt-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">See Our Track Record</button>
                 </div>
                 <div class="col p-5">
                     slider here
@@ -68,7 +68,7 @@
                                         </div>
                                       </div>
             </div>
-            <button type="button" class="btn p-3 ml-5 mt-3 pl-5 pr-5" style="border-radius:25px !important; background-color:purple; color:white">Become An Investor</button>
+            <button type="button" class="btn p-3 ml-5 mt-3 pl-5 pr-5" style="border-radius:25px !important; background-color:#005091; color:white">Become An Investor</button>
         </section>
 
         <section id="home-efficient" class="pb-5">
@@ -89,7 +89,7 @@
                   <div class="text-left m-3 ml-5">
                     <h1>
                         Simplified Access to  <br>
-                      <b style="color: purple;"> Direct Investments. </b></h1>
+                      <b style="color: #005091;"> Direct Investments. </b></h1>
                       <p style="color: #818181;" class="mt-4">
                         Invest in a real estate private equity fund that reduces barriers <br> to institutional-quality assets more efficiently and with low fees.
                       </p>
@@ -106,7 +106,7 @@
                         <h1>picture here </h1>
                     </div>
                     <div class="text-left m-3 ml-5">
-                      <h1><b style="color: purple;">Data-Driven </b><br> Market Selection  <br>
+                      <h1><b style="color: #005091;">Data-Driven </b><br> Market Selection  <br>
                         </h1>
                         <p style="color: #818181;" class="mt-4">
                             Benefit from ourtizolo’s strategic combination of real estate investment <br> insights and predictive analytics we use to identify assets with attractive<br>  return profiles in top-growth markets.
@@ -123,7 +123,7 @@
                         <h1>picture here </h1>
                     </div>
                     <div class="text-left m-3 ml-5">
-                      <h1><b style="color: purple;">Client-Centric  </b>Approach  <br>
+                      <h1><b style="color: #005091;">Client-Centric  </b>Approach  <br>
                         </h1>
                         <p style="color: #818181;" class="mt-4">
                             Satisfy a wide-ranging risk appetite with investments in core/core-plus to <br>

@@ -10,7 +10,7 @@
                 real estate
                 portfolios.</b></h2>
             <p class="mt-4">ourtizolo’s premier commercial real estate investment platform lets you offer your clients the same opportunities as some of the best-known institutional investors in the world.            </p>
-            <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">Contact Us</button> 
+            <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Contact Us</button> 
         </div>
           <div class="col-6 ">
             image here 
@@ -53,7 +53,7 @@
                   <p style="color:black !important">Total Transaction Value</p>
                 </div>
               </div>
-              <hr style="background-color:purple">
+              <hr style="background-color:#005091">
               <div class="row">
                 <div class="mr-3">
                   <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
@@ -65,7 +65,7 @@
                   <p style="color:black !important">Historical Rate of Return2</p>
                 </div>
               </div>
-              <hr style="background-color:purple">
+              <hr style="background-color:#005091">
               <div class="row">
                 <div class="mr-3">
                   <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
@@ -78,7 +78,7 @@
                 </div>
               </div>
             </div>
-            <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">See Our Track Record</button>
+            <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">See Our Track Record</button>
           </div>
           <div class="col-6 ">
             
@@ -130,7 +130,7 @@
                 </p>
                 <p class="mt-5" style="color: #818181;">Liquidity Not Guaranteed. Investments offered by ourtizolo are illiquid and there is <br> never any guarantee that you will be able to exit your investments on the <br>  Secondary Market or at what price an exit (if any) will be achieved.
                     ‍</p>
-                <!-- <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button> -->
+                <!-- <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button> -->
             </div>
           </div>
           <h4 style="color: #818181;" class="m-4">“ourtizolo accomplishes its goals with technology, which it <br> employs to provide investors with a transparent platform that <br> they can log into to learn of new investment opportunities, to <br> get data on properties and markets, and to get practical <br> information about individual portfolios.”</h4>
@@ -161,7 +161,7 @@
             <section class="bg-light" id="home-performance">
               <div class="p-5 mb-5">
                 <div class="pl-5 pt-5 pr-5 mt-5 mb-5">
-                  <h2><b class="mt-5"  style="color: black;"> Diversity is</b> <b style="color:purple"> central </b> <b style="color: black;">to our mission.</b></h2>
+                  <h2><b class="mt-5"  style="color: black;"> Diversity is</b> <b style="color:#005091"> central </b> <b style="color: black;">to our mission.</b></h2>
                
                   <p style="color: black;" class="pl-5 pr-5 mt-4 text-center">ourtizolo is a minority-owned, minority-led investment manager. Our diversity, equity, and inclusion <br> (DEI) strategy is core to all we do, and includes initiatives to:
                     ‍</p>  
@@ -174,7 +174,7 @@
                         <div class="card-body p-5" style="height: 12rem;">
                           <p class="card-title pl-3 pr-3 mb-4" style="color: black;">Allocate investment capital to back minority-owned real estate operating partners.</p>
                           <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                          <!-- <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button> -->
+                          <!-- <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button> -->
                         </div>
                       </div>
                     </div>
@@ -184,7 +184,7 @@
                         <div class="card-body p-5" style="height: 12rem;">
                           <!-- <h5 class="card-title">Card title</h5> -->
                           <p class="card-title pl-3 pr-3" style="color: black;">Desposit corporate cash with minority-owned depository institutions.</p>
-                          <!-- <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button> -->
+                          <!-- <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button> -->
                         </div>
                       </div>
                     </div>
@@ -200,7 +200,7 @@
                         <div class="card-body p-5" style="height: 12rem;">
                           <p class="card-title pl-3 pr-3 mb-4" style="color: black;">Partner with minority-owned banks to participate in financing our properties.</p>
                           <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                          <!-- <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button> -->
+                          <!-- <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button> -->
                         </div>
                       </div>
                     </div>
@@ -210,7 +210,7 @@
                         <div class="card-body p-5" style="height: 12rem;">
                           <!-- <h5 class="card-title">Card title</h5> -->
                           <p class="card-title pl-3 pr-3" style="color: black;">Maintain a consistent number of affordable rental units for families within our multifamily properties.</p>
-                          <!-- <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button> -->
+                          <!-- <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button> -->
                         </div>
                       </div>
                     </div>
@@ -228,7 +228,7 @@
               <div class="p-5 mt-5" id="home-best-known">
                 <div class="row p-5 mt-5 ">
                   <div class="col-6 ml-3 text-left pl-5 pr-5 mt-4">
-                    <h1><b style="color: black;">Trusted by </b> <br> <b style="color:purple">leading </b>  <b style="color: black;">institutional investors.</b></h1>
+                    <h1><b style="color: black;">Trusted by </b> <br> <b style="color:#005091">leading </b>  <b style="color: black;">institutional investors.</b></h1>
                     <p style="color: #818181;" class="mt-4">Some of the world’s most sophisticated and experienced institutions are ourtizolo <br> clients. We continue to meet their rigorous operational, financial, <br>  and governance standards in the same real estate funds and deal-by-deal offerings <br> we deliver to individuals and advisors.</p>
                 </div>
                   <div class="col-4 pl-5" id="home-tabs">
@@ -270,12 +270,12 @@
   
 
 
-            <section class="p-5" style="background-color: purple;">
+            <section class="p-5" style="background-color: #005091;">
                 <div class="p-5 m-5">
                     <h1 class="mt-5"><b> Join our network of world-class
                         institutional investors. </b></h1>
                     <p class="mb-5">Connect with ourtizolo to invest.</p>
-                    <button type="button" class="btn ml-3 mr-3 p-2 pl-3 pr-3" style="border-radius:20px !important; color:purple; border-color: purple; background-color:white">Contact Us</button>
+                    <button type="button" class="btn ml-3 mr-3 p-2 pl-3 pr-3" style="border-radius:20px !important; color:#005091; border-color: #005091; background-color:white">Contact Us</button>
                 </div>
             </section>
 

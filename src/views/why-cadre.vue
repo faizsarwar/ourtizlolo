@@ -4,11 +4,11 @@
         <section class="p-5 " id="home-hero">
             <div class="m-5 p-5">
                 <h1><b style="color: black;"> Grow your 
-                  </b><b style="color: purple;"> wealth
+                  </b><b style="color: #005091;"> wealth
                 </b> <br>
                 <b style="color: black;">   your way. </b></h1>
                 <p style="color: black;" class="mt-5 mb-5">ourtizolo' offers diverse ways for our clients to invest: through Deal-by-Deal opportunities, <br> ourtizolo' Funds, and the ourtizolo' Secondary Market. Sign up to view exclusive deals on the <br> ourtizolo' platform.</p>
-                <button type="button" class="btn p-2 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">Sign In</button>
+                <button type="button" class="btn p-2 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Sign In</button>
  
             </div>
         </section>
@@ -16,9 +16,9 @@
         <section class="p-5" id="home-improve">
             <div class=" d-flex justify-content-center ">
                 <div class="pl-5 pr-4 mr-2 ml-5 text-left">
-                    <h1><b style="color:black ;"> A </b> <b style="color:purple ;"> vital <br> component </b> <b style="color:black ;"> of <br> premier <br> portfolios.</b></h1>
+                    <h1><b style="color:black ;"> A </b> <b style="color:#005091 ;"> vital <br> component </b> <b style="color:black ;"> of <br> premier <br> portfolios.</b></h1>
                     <p style="color:black ;">Investment managers and institutional investors routinely use real estate to diversify outside of stocks and bonds. Additionally,  investing in real estate provides the following  benefits:</p>
-                    <button type="button" class="btn p-2 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">Sign In</button>
+                    <button type="button" class="btn p-2 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Sign In</button>
  
                 </div>
                 <div class="pr-3 pl-4 ">
@@ -81,7 +81,7 @@
                         <h1>picture here </h1>
                     </div>
                   </div>
-                  <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white"> Sign Up</button>
+                  <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white"> Sign Up</button>
 
               </div>
               
@@ -99,7 +99,7 @@
                         <h1>picture here </h1>
                     </div>
                   </div>
-                  <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white"> Sign Up</button>
+                  <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white"> Sign Up</button>
               </div>
               
               <div id="Liquidity" class="tabcontent pb-5">
@@ -114,7 +114,7 @@
                         <h1><b style="color: black;"> picture here </b></h1>
                     </div>
                   </div>
-                  <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">Request Access</button>
+                  <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Request Access</button>
               </div>
 
               <div id="Fees" class="tabcontent pb-5">
@@ -129,7 +129,7 @@
                         <h1>picture here </h1>
                     </div>
                   </div>
-                  <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">Request Access</button>
+                  <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Request Access</button>
               </div>
 
 

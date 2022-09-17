@@ -33,7 +33,7 @@
                 <p style="color:black !important">Total Transaction Value</p>
               </div>
             </div>
-            <hr style="background-color:purple">
+            <hr style="background-color:#005091">
             <div class="row">
               <div class="mr-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
@@ -45,7 +45,7 @@
                 <p style="color:black !important">Historical Rate of Return2</p>
               </div>
             </div>
-            <hr style="background-color:purple">
+            <hr style="background-color:#005091">
             <div class="row">
               <div class="mr-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
@@ -58,7 +58,7 @@
               </div>
             </div>
           </div>
-          <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">See Our Track Record</button>
+          <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">See Our Track Record</button>
         </div>
         <div class="col-6 ">
           
@@ -74,7 +74,7 @@
           <section class="bg-light" id="home-performance">
             <div class="p-5">
               <div class="pl-5 pr-5">
-                <h2><b style="color: black;"> Legacies start here.</b> <b style="color:purple"> Grow here. </b></h2>
+                <h2><b style="color: black;"> Legacies start here.</b> <b style="color:#005091"> Grow here. </b></h2>
              
                 <p style="color: black;" class="pl-5 pr-5 mt-4 text-center">Partner with ourtizolo for instant access to premium apartment, industrial, office and hotel assets. World-class <br> real estate managers and operators. Proprietary technology that makes the whole process <br> smarter, faster, and more efficient.</p>  
              
@@ -83,39 +83,39 @@
                   <!-- card -->
                   <div class="ml-3 mr-3">
                     <div class="card" style="width: 22rem;">
-                      <div class=" pt-3 pb-2" style="background-color: #8E44AD; color:white">
+                      <div class=" pt-3 pb-2" style="background-color: #50b8ff; color:white">
                         <h5>ourtizolo Funds</h5>
                       </div>
                       <div class="card-body">
                         <p class="card-title pl-3 pr-3 mb-4" style="color: black;">Invest in a diversified portfolio of properties in high-growth markets across the U.S.</p>
                         <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                        <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button>
+                        <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
                       </div>
                     </div>
                   </div>
                   <!-- card -->
                   <div class="ml-3 mr-3">
                     <div class="card" style="width: 22rem;">
-                      <div class=" pt-3 pb-2" style="background-color: #8E44AD; color:white">
+                      <div class=" pt-3 pb-2" style="background-color: #50b8ff; color:white">
                         <h5>Deal-By-Deal</h5>
                       </div>
                       <div class="card-body">
                         <!-- <h5 class="card-title">Card title</h5> -->
                         <p class="card-title pl-3 pr-3" style="color: black;">Select individual commercial real estate investments through ourtizolo's Deal-by-Deal platform. Become a member to see available opportunities.</p>
-                        <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button>
+                        <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
                       </div>
                     </div>
                   </div>
                   <!-- card -->
                   <div class="ml-3 mr-3">
                     <div class="card" style="width: 22rem;">
-                      <div class=" pt-3 pb-2" style="background-color: #8E44AD; color:white">
+                      <div class=" pt-3 pb-2" style="background-color: #50b8ff; color:white">
                         <h5>Secondary Market</h5>
                       </div>
                       <div class="card-body">
                         <!-- <h5 class="card-title">Card title</h5> -->
                         <p class="card-title pl-3 pr-3" style="color: black;">Purchase shares of private real estate with established business plans, potentially at an attractive price relative to NAV.</p>
-                        <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button>
+                        <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
                       </div>
                     </div>
                   </div>
@@ -132,7 +132,7 @@
             <div class="p-5">
               <div class="row p-5">
                 <div class="col-6 ml-3 pl-5 pr-5 mt-4">
-                  <h1><b style="color: black;"> Invest alongside some of the </b> <br> <b style="color:purple"> best-known</b>  <b style="color: black;"> institutional investors in the world, including:</b></h1>
+                  <h1><b style="color: black;"> Invest alongside some of the </b> <br> <b style="color:#005091"> best-known</b>  <b style="color: black;"> institutional investors in the world, including:</b></h1>
                 </div>
                 <div class="col-4 pl-5">
 
@@ -183,7 +183,7 @@
               <div class="d-flex justify-content-center">
                 <div class="text-left m-3 mr-5">
                   <h1>Reimagine <br>
-                    <b style="color: purple;"> liquidity. </b></h1>
+                    <b style="color: #005091;"> liquidity. </b></h1>
                     <p style="color: #818181;" class="mt-4">
                       The ourtizolo Secondary Market offers unprecedented <br> opportunities for liquidity
                     </p>
@@ -193,7 +193,7 @@
                     <p style="color: #818181;">
                       It’s a win-win. And it’s only at ourtizolo.
                     </p>
-                    <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button>
+                    <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
                 </div>
                 <div class="m-3 ml-5">
                   <h1>picture here </h1>
@@ -209,11 +209,11 @@
               <div class="d-flex justify-content-center">
                 <div class="text-left m-3 mr-5">
                   <h1>Comprehensive investment<br>
-                    <b style="color: purple;"> transparency. </b></h1>
+                    <b style="color: #005091;"> transparency. </b></h1>
                     <p style="color: #818181;" class="mt-4">
                       Legacy real estate funds rarely offer you a clear <br> view of the investment road ahead. ourtizolo <br> provides unprecedented asset level transparency, <br> so you can see exactly which properties you own <br> and understand how your investment is <br> performing at every turn.
                     </p>
-                    <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button>
+                    <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
                 </div>
                 <div class="m-3 ml-5">
                   <h1>picture here </h1>
@@ -226,11 +226,11 @@
             <div id="Data" class="tabcontent">
               <div class="d-flex justify-content-center">
                 <div class="text-left m-3 mr-5">
-                  <h1><b style="color: purple;"> Revolutionary, data-driven. </b><br>investment approach.
+                  <h1><b style="color: #005091;"> Revolutionary, data-driven. </b><br>investment approach.
                     </h1>
                     <p style="color: #818181;" class="mt-4">
                       ourtizolo built proprietary data science tools to <br> improve upon traditional real estate processes. <br> Our technology produces deeper investment <br> insights that improve investment performance,⁴ <br> while creating efficiencies that allow us to reduce <br> costs for our investors. </p>
-                    <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">Learn More</button>
+                    <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
                 </div>
                 <div class="m-3 ml-5">
                   <h1>picture here </h1>
@@ -244,8 +244,8 @@
           <section class="p-5" id="home-tabs">
             <div class="d-flex justify-content-center p-5">
               <div class="m-5">
-                <h1 style="mb-5"><b style="color: purple"> Hedge inflation </b>and <br>
-                  <b style="color: purple"> reduce volatility. </b></h1>
+                <h1 style="mb-5"><b style="color: #005091"> Hedge inflation </b>and <br>
+                  <b style="color: #005091"> reduce volatility. </b></h1>
 
                   <h2 style="mt-5">Image Here</h2>
               </div>
@@ -272,7 +272,7 @@
             </div>
           </section>
 
-          <section class="p-5" style="background-color: purple;" id="home-wealth">
+          <section class="p-5" style="background-color: #005091;" id="home-wealth">
             <div class="p-5">
               <div class="pt-5 mt-3">
                 <h1><b style="color: white;">What type of investor are you?</b></h1>
@@ -281,34 +281,34 @@
               <div class="d-flex d-flex justify-content-center p-5">
                                   <!-- card -->
                                   <div class="ml-3 mr-3">
-                                    <div class="card" style="width: 22rem; background-color: #8E44AD; color:white">
+                                    <div class="card" style="width: 22rem; background-color: #50b8ff; color:white">
                                       <div class="card-body" style="height: 16rem !important;">
                                         <h5 class="mb-4">Icone here</h5>
                                         <h3 style="color: white;">Individuals</h3>
                                         <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                                        <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:white; color:purple">Learn More</button>
+                                        <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:white; color:#005091">Learn More</button>
                                       </div>
                                     </div>
                                   </div>
                                                     <!-- card -->
                   <div class="ml-3 mr-3">
-                    <div class="card" style="width: 22rem;background-color: #8E44AD; color:white">
+                    <div class="card" style="width: 22rem;background-color: #50b8ff; color:white">
                       <div class="card-body" style="height: 16rem !important;">
                         <h5 class="mb-4">Icone here</h5>
                         <h3 style="color: white;">institutions</h3>
                         <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                        <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:white; color:purple">Learn More</button>
+                        <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:white; color:#005091">Learn More</button>
                       </div>
                     </div>
                   </div>
                                     <!-- card -->
                                     <div class="ml-3 mr-3">
-                                      <div class="card" style="width: 22rem;background-color: #8E44AD; color:white">
+                                      <div class="card" style="width: 22rem;background-color: #50b8ff; color:white">
                                         <div class="card-body" style="height: 16rem !important;">
                                           <h5 class="mb-4">Icone here</h5>
                                           <h3 style="color: white;">Investments</h3>
                                           <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                                          <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:white; color:purple2">Learn More</button>
+                                          <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:white; color:#0050912">Learn More</button>
                                         </div>
                                       </div>
                                     </div>

@@ -23,7 +23,7 @@
                         </div>
                     </div>
                     <p style="color:black">Since 2015, we’ve acquired 49 deals across 25 markets in the United States. In addition to strong overall operating performance, our realized investments have outperformed underwriting.</p>
-                    <button type="button" class="btn p-2 pl-3 ml-3 mt-3 pr-3" style=" background-color:purple; color:white">Get Started</button>
+                    <button type="button" class="btn p-2 pl-3 ml-3 mt-3 pr-3" style=" background-color:#005091'; color:white">Get Started</button>
         
                 </div>
                 <div class="col-4">

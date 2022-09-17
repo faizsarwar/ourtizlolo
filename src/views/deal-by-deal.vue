@@ -4,10 +4,10 @@
             <div class="row m-5 pl-5">
                 <div class="col pt-5 pl-5 text-left">
                     <p style="color: black;">DEAL-BY-DEAL</p>
-                    <h1><b style="color:purple"> Ultimate  </b> <b style="color: black;"> control</b><b style="color:purple"> And </b> <br>   <b style="color: black;"> customization.</b></h1>
+                    <h1><b style="color:#005091"> Ultimate  </b> <b style="color: black;"> control</b><b style="color:#005091"> And </b> <br>   <b style="color: black;"> customization.</b></h1>
                     <p class="mt-5" style="color: black;">Build a bespoke real estate portfolio, one investment at a time, from a <br> selection of institutional-quality commercial properties.</p>
                     <!-- <p style="color: black;">Sign up in seconds to get notified when new ourtizolo Funds are open for investmen</p> -->
-                    <button type="button" class="btn p-2  mt-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">View Details</button>
+                    <button type="button" class="btn p-2  mt-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">View Details</button>
                 </div>
                 <div class="col">
                     img  here
@@ -34,7 +34,7 @@
                       <p style="color:black !important">Total Transaction Value</p>
                     </div>
                   </div>
-                  <hr style="background-color:purple">
+                  <hr style="background-color:#005091">
                   <div class="row">
                     <div class="mr-3">
                       <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
@@ -46,7 +46,7 @@
                       <p style="color:black !important">Historical Rate of Return2</p>
                     </div>
                   </div>
-                  <hr style="background-color:purple">
+                  <hr style="background-color:#005091">
                   <div class="row">
                     <div class="mr-3">
                       <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
@@ -59,7 +59,7 @@
                     </div>
                   </div>
                 </div>
-                <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">See Our Track Record</button>
+                <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">See Our Track Record</button>
               </div>
               <div class="col-6 ">
                 
@@ -93,13 +93,13 @@
                   <div class="text-left m-3 ml-5">
                     <h1>
                         Optimize your   
-                      <b style="color: purple;"> portfolio </b></h1>
+                      <b style="color: #005091;"> portfolio </b></h1>
                       <p style="color: #818181;" class="mt-4">
                         Select individual commercial real estate properties to match your <br> personal investment objectives. Enjoy potential alpha generation <br> and tax advantages from direct investing.
                       </p>
                   </div>
                 </div>
-                <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">View Details</button>
+                <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">View Details</button>
 
               </div>
               
@@ -110,14 +110,14 @@
                         <h1>picture here </h1>
                     </div>
                     <div class="text-left m-3 ml-5">
-                      <h1>Actively build your  <br> <b style="color: purple;"> real estate portfolio  </b><br>
+                      <h1>Actively build your  <br> <b style="color: #005091;"> real estate portfolio  </b><br>
                         </h1>
                         <p style="color: #818181;" class="mt-4">
                             Stay nimble by investing in multifamily apartment, office, hotel, and <br> industrial deals selected for their potential to outperform by our <br> advanced data science team, on-the-ground operators, and <br> seasoned investment professionals.
                         </p>
                     </div>
                   </div>
-                  <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">View Details</button>
+                  <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">View Details</button>
 
               </div>
               
@@ -127,13 +127,13 @@
                         <h1>picture here </h1>
                     </div>
                     <div class="text-left m-3 ml-5">
-                      <h1>Institutional network scaled for <br> <b style="color: purple;">individuals and advisors </b>Approach  <br>
+                      <h1>Institutional network scaled for <br> <b style="color: #005091;">individuals and advisors </b>Approach  <br>
                         </h1>
                         <p style="color: #818181;" class="mt-4">
                             Access our extensive, growing network of world-class real estate <br> operators and investments at a fraction of the cost of building <br> these capabilities from scratch.</p>
                     </div>
                   </div>
-                  <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">View Details</button>
+                  <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">View Details</button>
 
               </div>
         </section>
@@ -194,7 +194,7 @@
                     </div>
   
                   </div>
-                  <button type="button" class="btn p-2 mb-4  mt-5 pl-5 pr-5" style="border-radius:20px !important; background-color:purple; color:white">View Details</button>
+                  <button type="button" class="btn p-2 mb-4  mt-5 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">View Details</button>
   
                
             </div>

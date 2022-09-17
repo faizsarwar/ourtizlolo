@@ -8,7 +8,7 @@
     "
     class="p-0 m-0"
   >
-      <div style="background-color: purple" class="center_elements pt-1 pb-1">
+      <div style="background-color: #0087e2" class="center_elements pt-1 pb-1">
         <p class="mt-2 mb-2" >
           <a href="/" style="color:aliceblue"> Just In: Read Our Quarterly Commercial Real Estate Insights </a>
         </p>
@@ -84,8 +84,8 @@
             
           </div>
           <div class="">
-            <button type="button" class="btn ml-3 mr-3 p-2 pl-3 pr-3" style="border-radius:20px !important; color:purple; border-color: purple; background-color:white">Sign Up</button>
-            <button type="button" class="btn p-2 pl-3 pr-3" style="border-radius:20px !important; background-color:purple; color:white">Sign In</button>
+            <button type="button" class="btn ml-3 mr-3 p-2 pl-3 pr-3" style="border-radius:20px !important; color:#0087e2; border-color: #0087e2; background-color:white">Sign Up</button>
+            <button type="button" class="btn p-2 pl-3 pr-3" style="border-radius:20px !important; background-color:#0087e2; color:white">Sign In</button>
           </div>
         </div>
       </div>
