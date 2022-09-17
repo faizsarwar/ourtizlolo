@@ -17,10 +17,19 @@
   
     <section class="header-main border-bottom  pl-5 pr-5" id="navbar_top" style="background-color:white">
       <div class="container-fluid" >
-        <div class=" ml-5 mr-5 pt-3 pb-3  d-flex justify-content-around">
-          <div class="">
-            <a href="/">
-              <h1 style="color: black;">Logo Here </h1>
+        <div class=" pt-2 pb-2 pl-0 pr-0  d-flex justify-content-around">
+          <div class=" p-0 m-0">
+            <a href="/" >
+              <img
+              :src="require('@/assets/img/Logo-Color-Positive.png')"
+              alt=""
+              style="
+                background-size: contain;
+                background-repeat: no-repeat;
+                text-align: center;
+                width: 30%;
+              "
+            />
             </a>
           </div>
           <div class="">
@@ -797,7 +806,7 @@ li a {
   }
 }
 #app {
-  font-family: Bogle, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: 'Exo 2';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -846,10 +855,10 @@ nav {
 }
 
 html{
-  font-family: sans-serif;
+  font-family: 'Exo 2';
 }
 body{
-  font-family: 'Calibre r',sans-serif;
+  font-family: 'Exo 2';
 }
 .icon {
   font-size: 30px;
@@ -1031,7 +1040,7 @@ b {
 }
 
 .faiz {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Exo 2';
   position: relative;
   text-decoration: none;
   font-weight: 100;
@@ -1040,7 +1049,7 @@ b {
 }
 
 .navbar li {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Exo 2';
   position: relative;
   text-decoration: none;
   font-weight: 100;
