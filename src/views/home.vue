@@ -89,7 +89,10 @@
                       <div class="card-body">
                         <p class="card-title pl-3 pr-3 mb-4" style="color: black;">Invest in a diversified portfolio of properties in high-growth markets across the U.S.</p>
                         <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                        <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
+                        <button type="button" class="btn p-2 pl-3 mb-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
+                        <div class="p-0 m-0">
+                          <img :src="icon4" />
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -102,7 +105,10 @@
                       <div class="card-body">
                         <!-- <h5 class="card-title">Card title</h5> -->
                         <p class="card-title pl-3 pr-3" style="color: black;">Select individual commercial real estate investments through ourtizolo's Deal-by-Deal platform. Become a member to see available opportunities.</p>
-                        <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
+                        <button type="button" class="btn p-2 pl-3 mb-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
+                        <div class="p-0 m-0">
+                          <img :src="icon5" />
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -115,7 +121,11 @@
                       <div class="card-body">
                         <!-- <h5 class="card-title">Card title</h5> -->
                         <p class="card-title pl-3 pr-3" style="color: black;">Purchase shares of private real estate with established business plans, potentially at an attractive price relative to NAV.</p>
-                        <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
+                        <button type="button" class="btn p-2 pl-3 mb-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
+                        <div class="p-0 m-0">
+                          <img :src="icon6" />
+                        </div>
+
                       </div>
                     </div>
                   </div>
@@ -139,7 +149,16 @@
                   <div class="row m-4">
                     <div class="card bg-light" style="width: 22rem;">
                       <div class=" pt-3 pb-2" >
-                        <h5>Icon Here</h5>
+                        <img
+                        :src="require('@/assets/img/logoo1.png')"
+                        alt=""
+                        style="
+                          background-size: contain;
+                          background-repeat: no-repeat;
+                          text-align: center;
+                          width: 50%;
+                        "
+                      />
                       </div>
                     </div>
                   </div>
@@ -147,7 +166,16 @@
                   <div class="row m-4 ">
                     <div class="card bg-light" style="width: 22rem;">
                       <div class=" pt-3 pb-2" >
-                        <h5>Icon Here</h5>
+                        <img
+                        :src="require('@/assets/img/logoo2.png')"
+                        alt=""
+                        style="
+                          background-size: contain;
+                          background-repeat: no-repeat;
+                          text-align: center;
+                          width: 50%;
+                        "
+                      />
                       </div>
                     </div>
                   </div>
@@ -155,7 +183,16 @@
                   <div class="row m-4">
                     <div class="card bg-light" style="width: 22rem;">
                       <div class=" pt-3 pb-2" >
-                        <h5>Icon Here</h5>
+                        <img
+                        :src="require('@/assets/img/logoo3.png')"
+                        alt=""
+                        style="
+                          background-size: contain;
+                          background-repeat: no-repeat;
+                          text-align: center;
+                          width: 50%;
+                        "
+                      />
                       </div>
                     </div>
                   </div>
@@ -196,7 +233,7 @@
                     <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
                 </div>
                 <div class="m-3 ml-5">
-                  <h1>picture here </h1>
+                  <img :src="mySVG1" />
                 </div>
               </div>
               <h4 style="color: #818181;" class="m-4">
@@ -216,7 +253,7 @@
                     <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
                 </div>
                 <div class="m-3 ml-5">
-                  <h1>picture here </h1>
+                  <img :src="mySVG2" />
                 </div>
               </div>
               <h4 style="color: #818181;" class="m-4">“ourtizolo accomplishes its goals with technology, which it <br> employs to provide investors with a transparent platform that <br> they can log into to learn of new investment opportunities, to <br> get data on properties and markets, and to get practical <br> information about individual portfolios.”</h4>
@@ -233,7 +270,7 @@
                     <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
                 </div>
                 <div class="m-3 ml-5">
-                  <h1>picture here </h1>
+                  <img :src="mySVG3" />
                 </div>
               </div>
               <h4 style="color: #818181;" class="m-4">“ourtizolo accomplishes its goals with technology, which it <br> employs to provide investors with a transparent platform that <br> they can log into to learn of new investment opportunities, to <br> get data on properties and markets, and to get practical <br> information about individual portfolios.”</h4>
@@ -247,7 +284,16 @@
                 <h1 style="mb-5"><b style="color: #005091"> Hedge inflation </b>and <br>
                   <b style="color: #005091"> reduce volatility. </b></h1>
 
-                  <h2 style="mt-5">Image Here</h2>
+                  <img
+                  :src="require('@/assets/img/f1.png')"
+                  alt=""
+                  style="
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    text-align: center;
+                    width: 50%;
+                  "
+                />
               </div>
               <div class="m-5 pt-5 text-left">
                 <div class="pt-5">
@@ -283,7 +329,7 @@
                                   <div class="ml-3 mr-3">
                                     <div class="card" style="width: 22rem; background-color: #50b8ff; color:white">
                                       <div class="card-body" style="height: 16rem !important;">
-                                        <h5 class="mb-4">Icone here</h5>
+                                        <img :src="icon1" />
                                         <h3 style="color: white;">Individuals</h3>
                                         <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                                         <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:white; color:#005091">Learn More</button>
@@ -294,7 +340,7 @@
                   <div class="ml-3 mr-3">
                     <div class="card" style="width: 22rem;background-color: #50b8ff; color:white">
                       <div class="card-body" style="height: 16rem !important;">
-                        <h5 class="mb-4">Icone here</h5>
+                        <img :src="icon2" />
                         <h3 style="color: white;">institutions</h3>
                         <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                         <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:white; color:#005091">Learn More</button>
@@ -305,7 +351,7 @@
                                     <div class="ml-3 mr-3">
                                       <div class="card" style="width: 22rem;background-color: #50b8ff; color:white">
                                         <div class="card-body" style="height: 16rem !important;">
-                                          <h5 class="mb-4">Icone here</h5>
+                                          <img :src="icon3" />
                                           <h3 style="color: white;">Investments</h3>
                                           <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                                           <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:white; color:#0050912">Learn More</button>
@@ -360,7 +406,6 @@
 <script >
   import { defineComponent } from 'vue'
 
-
   export default defineComponent({
     name: 'swiper-example-vertical-',
     title: 'Vertical slider',
@@ -368,10 +413,20 @@
       data(){
       return {
           allProducts:[],
+          mySVG2: require('../assets/img/6245a14a9de15ddf987c3ab2_tranparacy-img.svg'),
+          mySVG3: require('../assets/img/6245a1899de15d81b87c3b50_data-driven-graph.svg'),
+          mySVG1: require('../assets/img/62df12f7dc504d31c5617d7f_my-investments-3-p-500.png'),
+          icon1: require('../assets/img/icon1.png'),
+          icon2: require('../assets/img/icon2.svg'),
+          icon3: require('../assets/img/icon3.svg'),
+          icon4: require('../assets/img/icon4.svg'),
+          icon5: require('../assets/img/icon5.svg'),
+          icon6: require('../assets/img/icon6.svg'),
       }
   },
     components: {
     //   Swiper,
+    // svg1
     //   SwiperSlide,
     },
     setup() {

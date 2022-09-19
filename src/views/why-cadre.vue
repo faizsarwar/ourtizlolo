@@ -78,7 +78,16 @@
                          </p>
                     </div>
                     <div class="m-3 mr-5">
-                        <h1>picture here </h1>
+                      <img
+                      :src="require('@/assets/img/c1.jpg')"
+                      alt=""
+                      style="
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        text-align: center;
+                        width: 50%;
+                      "
+                    />
                     </div>
                   </div>
                   <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white"> Sign Up</button>
@@ -87,16 +96,25 @@
               
               <!-- Tab2  -->
               <div id="Operators" class="tabcontent pb-5">
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center p-5">
 
                     <div class="text-left m-3 ml-5">
-                      <h2><b style="color: black;">National Base of Top Operating Partners</b></h2>
+                      <h2 class="ml-5"><b style="color: black;">National Base of Top Operating Partners</b></h2>
                         <p style="color: #818181;" class="mt-4">
                             We partner with hundreds of seasoned operators to source <br> and manage multifamily, office, hotel, and industrial <br> properties that deliver stable income and outsized <br> investment returns.
                         </p>
                     </div>
                     <div class="m-3 mr-5">
-                        <h1>picture here </h1>
+                      <img
+                      :src="require('@/assets/img/c2.jpg')"
+                      alt=""
+                      style="
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        text-align: center;
+                        width: 50%;
+                      "
+                    />
                     </div>
                   </div>
                   <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white"> Sign Up</button>
@@ -105,13 +123,22 @@
               <div id="Liquidity" class="tabcontent pb-5">
                 <div class="d-flex justify-content-center">
                     <div class="text-left m-3 ml-5">
-                      <h1>Groundbreaking Liquidity</h1>
+                      <h1><b style="color:black"> Groundbreaking Liquidity </b></h1>
                         <p style="color: #818181;" class="mt-4">
                             See what we see. ourtizolo' supplies institutional-quality due <br> diligence and full historical performance to both buyers and <br> sellers of commercial real estate on the ourtizolo' platform.
                         </p>
                     </div>
                     <div class="m-3 mr-5">
-                        <h1><b style="color: black;"> picture here </b></h1>
+                      <img
+                      :src="require('@/assets/img/c3.jpg')"
+                      alt=""
+                      style="
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        text-align: center;
+                        width: 50%;
+                      "
+                    />
                     </div>
                   </div>
                   <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Request Access</button>
@@ -126,7 +153,18 @@
                        </p>
                     </div>
                     <div class="m-3 mr-5">
-                        <h1>picture here </h1>
+                      <div class="m-3 mr-5">
+                        <img
+                        :src="require('@/assets/img/c2.jpg')"
+                        alt=""
+                        style="
+                          background-size: contain;
+                          background-repeat: no-repeat;
+                          text-align: center;
+                          width: 50%;
+                        "
+                      />
+                      </div>
                     </div>
                   </div>
                   <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Request Access</button>

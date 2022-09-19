@@ -104,7 +104,7 @@
         <div id="OPTIMIZATION" class="tabcontent " style="display:block">
           <div class="d-flex justify-content-center">
             <div class="m-3 ml-5">
-                <h1>picture here </h1>
+              <img :src="mySVG3" />
               </div>
             <div class="text-left p-5 m-3 mr-5">
               <h1><b style="color: black;"> Optimize alpha through tech efficiencies.</b></h1>
@@ -121,7 +121,7 @@
         <div id="CUSTOMIZATION" class="tabcontent">
           <div class="d-flex justify-content-center">
             <div class="m-3 ml-5">
-                <h1>picture here </h1>
+              <img :src="mySVG1" />
               </div>
             <div class="text-left m-3 mr-5">
               <h1><b style="color: black;">  Control your investment horizon. </b></h1>
@@ -140,7 +140,7 @@
         <div id="Tranparency" class="tabcontent">
           <div class="d-flex justify-content-center">
             <div class="m-3 ml-5">
-                <h1>picture here </h1>
+              <img :src="mySVG2" />
               </div>  
             <div class="text-left m-3 mr-5">
               <h1><b style="color: black;">Granular insights into assets at all times.</b></h1>
@@ -331,6 +331,9 @@
       url: import.meta.url,
         data(){
         return {
+            mySVG2: require('../assets/img/6245a14a9de15ddf987c3ab2_tranparacy-img.svg'),
+            mySVG3: require('../assets/img/6245a1899de15d81b87c3b50_data-driven-graph.svg'),
+            mySVG1: require('../assets/img/62df12f7dc504d31c5617d7f_my-investments-3-p-500.png'),
             allProducts:[],
         }
     },

@@ -3,13 +3,25 @@
   
       <div class="p-5 " style="background-color: black;" id="home-hero">
         <div class="row p-5  text-left d-flex justify-content-center">
-          <div class="col-3  ml-5 pl-5">
+          <div class="col-3  ml-5 pr-5 pl-3">
             <h2><b> Partner with ourtizolo to empower your clients.</b></h2>
             <p class="mt-4">ourtizolo’s premier commercial real estate investment platform lets you offer your clients the same opportunities as some of the best-known institutional investors in the world.            </p>
             <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Contact Us</button> 
         </div>
-          <div class="col-6 ">
-            image here 
+          <div class="col-6 pl-5">
+            <div class="pl-5 ml-5">
+                <img
+                :src="require('@/assets/img/advisor.jpg')"
+                class="ml-5"
+                alt=""
+                style="
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                  text-align: center;
+                  width: 50%;
+                "
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -89,7 +101,10 @@
                         <div class="card-body">
                           <p class="card-title pl-3 pr-3 mb-4" style="color: black;">Invest in a diversified portfolio of properties in high-growth markets across the U.S.</p>
                           <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                          <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
+                          <button type="button" class="btn p-2 mb-3 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
+                          <div class="p-0 m-0">
+                            <img :src="icon4" />
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -102,7 +117,10 @@
                         <div class="card-body">
                           <!-- <h5 class="card-title">Card title</h5> -->
                           <p class="card-title pl-3 pr-3" style="color: black;">Select individual commercial real estate investments through ourtizolo's Deal-by-Deal platform. Become a member to see available opportunities.</p>
-                          <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
+                          <button type="button" class="btn p-2 mb-3 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
+                          <div class="p-0 m-0">
+                            <img :src="icon5" />
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -115,7 +133,10 @@
                         <div class="card-body">
                           <!-- <h5 class="card-title">Card title</h5> -->
                           <p class="card-title pl-3 pr-3" style="color: black;">Purchase shares of private real estate with established business plans, potentially at an attractive price relative to NAV.</p>
-                          <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
+                          <button type="button" class="btn p-2 pl-3 mb-3 pr-3 mt-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
+                          <div class="p-0 m-0">
+                            <img :src="icon6" />
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -135,33 +156,60 @@
                     <h1><b style="color: black;">Trusted by </b> <br> <b style="color:#005091">leading </b>  <b style="color: black;">institutional investors.</b></h1>
                     <p style="color: #818181;" class="mt-4">Some of the world’s most sophisticated and experienced institutions are ourtizolo <br> clients. We continue to meet their rigorous operational, financial, <br>  and governance standards in the same real estate funds and deal-by-deal offerings <br> we deliver to individuals and advisors.</p>
                 </div>
-                  <div class="col-4 pl-5">
-  
-                    <div class="row m-4">
-                      <div class="card bg-light" style="width: 22rem;">
-                        <div class=" pt-3 pb-2" >
-                          <h5>Icon Here</h5>
-                        </div>
+                <div class="col-4 pl-5">
+
+                  <div class="row m-4">
+                    <div class="card bg-light" style="width: 22rem;">
+                      <div class=" pt-3 pb-2" >
+                        <img
+                        :src="require('@/assets/img/logoo1.png')"
+                        alt=""
+                        style="
+                          background-size: contain;
+                          background-repeat: no-repeat;
+                          text-align: center;
+                          width: 50%;
+                        "
+                      />
                       </div>
                     </div>
-  
-                    <div class="row m-4 ">
-                      <div class="card bg-light" style="width: 22rem;">
-                        <div class=" pt-3 pb-2" >
-                          <h5>Icon Here</h5>
-                        </div>
-                      </div>
-                    </div>
-  
-                    <div class="row m-4">
-                      <div class="card bg-light" style="width: 22rem;">
-                        <div class=" pt-3 pb-2" >
-                          <h5>Icon Here</h5>
-                        </div>
-                      </div>
-                    </div>
-                    
                   </div>
+
+                  <div class="row m-4 ">
+                    <div class="card bg-light" style="width: 22rem;">
+                      <div class=" pt-3 pb-2" >
+                        <img
+                        :src="require('@/assets/img/logoo2.png')"
+                        alt=""
+                        style="
+                          background-size: contain;
+                          background-repeat: no-repeat;
+                          text-align: center;
+                          width: 50%;
+                        "
+                      />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row m-4">
+                    <div class="card bg-light" style="width: 22rem;">
+                      <div class=" pt-3 pb-2" >
+                        <img
+                        :src="require('@/assets/img/logoo3.png')"
+                        alt=""
+                        style="
+                          background-size: contain;
+                          background-repeat: no-repeat;
+                          text-align: center;
+                          width: 50%;
+                        "
+                      />
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
                 </div>
   
                 <p class="mt-5 text-center" style="color:#818181 !important">Are you a registered investment advisor or institution? Learn how ourtizolo can partner with you. <br>
@@ -419,7 +467,10 @@
       url: import.meta.url,
         data(){
         return {
-            allProducts:[],
+          icon4: require('../assets/img/icon4.svg'),
+          icon5: require('../assets/img/icon5.svg'),
+          icon6: require('../assets/img/icon6.svg'),
+          allProducts:[],
         }
     },
       components: {

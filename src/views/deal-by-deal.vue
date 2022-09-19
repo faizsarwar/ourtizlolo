@@ -88,9 +88,18 @@
               <div id="Optimization" class="tabcontent pb-5" style="display:block">
                 <div class="d-flex justify-content-center">
                   <div class="m-3 mr-5">
-                      <h1>picture here </h1>
+                    <img
+                    :src="require('@/assets/img/a2.jpg')"
+                    alt=""
+                    style="
+                      background-size: contain;
+                      background-repeat: no-repeat;
+                      text-align: center;
+                      width: 40%;
+                    "
+                  />
                   </div>
-                  <div class="text-left m-3 ml-5">
+                  <div class="text-left m-3 mt-5 ml-5">
                     <h1>
                         Optimize your   
                       <b style="color: #005091;"> portfolio </b></h1>
@@ -107,7 +116,7 @@
               <div id="customization" class="tabcontent pb-5">
                 <div class="d-flex justify-content-center">
                     <div class="m-3 mr-5">
-                        <h1>picture here </h1>
+                    <img :src="mySVG1" />
                     </div>
                     <div class="text-left m-3 ml-5">
                       <h1>Actively build your  <br> <b style="color: #005091;"> real estate portfolio  </b><br>
@@ -124,7 +133,16 @@
               <div id="Network" class="tabcontent pb-5">
                 <div class="d-flex justify-content-center">
                     <div class="m-3 mr-5">
-                        <h1>picture here </h1>
+                      <img
+                      :src="require('@/assets/img/a2.jpg')"
+                      alt=""
+                      style="
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        text-align: center;
+                        width: 40%;
+                      "
+                    />
                     </div>
                     <div class="text-left m-3 ml-5">
                       <h1>Institutional network scaled for <br> <b style="color: #005091;">individuals and advisors </b>Approach  <br>
@@ -166,6 +184,7 @@
                     <!-- card -->
                     <div class="ml-3 mr-3">
                       <div class="card-fancy text-left p-4" style="width: 22rem;">
+                        <img :src="icon1" style="background-color: purple;  border-radius:8px" class="p-2 ml-5" />
                         <div class="card-body" style="height:13rem">
                             <h3><b style="color:black"> 1. Sign up </b></h3>
                             <p class="card-title pl-3 pr-3 mb-4" style="color: black;">Take just two minutes to answer a few  questions about your goals and create an  account with ourtizolo.</p>
@@ -175,6 +194,7 @@
                     <!-- card -->
                     <div class="ml-3 mr-3">
                       <div class="card-fancy text-left p-4" style="width: 22rem;">
+                        <img :src="icon2" style="background-color: purple;  border-radius:8px " class="p-2 ml-5" />
                         <div class="card-body" style="height:13rem">
                             <h3><b style="color:black"> 2. Invest</b></h3>
                           <!-- <h5 class="card-title">Card title</h5> -->
@@ -185,6 +205,7 @@
                     <!-- card -->
                     <div class="ml-3 mr-3">
                       <div class="card-fancy text-left p-4" style="width: 22rem;">
+                        <img :src="icon3" style="background-color: purple; border-radius:8px " class="p-2 ml-5" />
                         <div class="card-body" style="height:13rem">
                             <h3><b style="color:black"> 3.Earn </b></h3>
                           <!-- <h5 class="card-title">Card title</h5> -->
@@ -244,6 +265,10 @@
       url: import.meta.url,
         data(){
         return {
+            mySVG1: require('../assets/img/a1.svg'),
+            icon1: require('../assets/img/signup.svg'),
+            icon2: require('../assets/img/invest.svg'),
+            icon3: require('../assets/img/earn.svg'),
             allProducts:[],
         }
     },

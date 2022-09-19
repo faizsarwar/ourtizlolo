@@ -33,7 +33,16 @@
 
             <div class="d-flex justify-content-center text-left  mt-2 mb-2" id="home-efficient">
                 <div class="m-4">
-                    <h1>image here </h1>
+                  <img
+                  :src="require('@/assets/img/b2.jpg')"
+                  alt=""
+                  style="
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    text-align: center;
+                    width: 50%;
+                  "
+                />
                     <!-- <p style="color: black">Deep bench of investment <br> professionals</p> -->
                 </div>
                 <div class="m-4">
@@ -45,19 +54,37 @@
 
             <div class="d-flex justify-content-center text-left mt-2 mb-2" id="home-best-known">
                 <div class="m-4">
-                    <h1>image here </h1>
+                  <img
+                  :src="require('@/assets/img/b3.jpg')"
+                  alt=""
+                  style="
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    text-align: center;
+                    width: 50%;
+                  "
+                />
                     <!-- <p style="color: black">Deep bench of investment <br> professionals</p> -->
                 </div>
                 <div class="m-4">
                     <h3><b style="color:black">Competitive Deal Selection</b></h3>
-                    <p style="color:black">Millions of granular data points are ingested into ourtizolo’s real <br> estate deal management software. These data insights provide a <br> meaningful competitive edge, by enabling ourtizolo to more <br> accurately identify trending locations and project rent growth. <br> As a result, we can more quickly identify selective investment <br> opportunities through our tech-enabled underwriting process                   </p>
+                  <p style="color:black">Millions of granular data points are ingested into ourtizolo’s real <br> estate deal management software. These data insights provide a <br> meaningful competitive edge, by enabling ourtizolo to more <br> accurately identify trending locations and project rent growth. <br> As a result, we can more quickly identify selective investment <br> opportunities through our tech-enabled underwriting process                   </p>
                     <button type="button" class="btn p-2 pl-3 pr-3" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
                 </div>
             </div>
  
             <div class="d-flex justify-content-center text-left mt-2 mb-2" >
                 <div class="m-4" id="home-investors">
-                    <h1>image here </h1>
+                  <img
+                    :src="require('@/assets/img/b1.jpg')"
+                    alt=""
+                    style="
+                      background-size: contain;
+                      background-repeat: no-repeat;
+                      text-align: center;
+                      width: 50%;
+                    "
+                  />
                     <!-- <p style="color: black">Deep bench of investment <br> professionals</p> -->
                 </div>
                 <div class="m-4" id="home-wealth">

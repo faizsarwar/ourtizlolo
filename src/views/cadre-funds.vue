@@ -84,7 +84,16 @@
               <div id="Direct-Investments" class="tabcontent pb-5" style="display:block">
                 <div class="d-flex justify-content-center">
                   <div class="m-3 mr-5">
-                      <h1>picture here </h1>
+                    <img
+                    :src="require('@/assets/img/1.jpg')"
+                    alt=""
+                    style="
+                      background-size: contain;
+                      background-repeat: no-repeat;
+                      text-align: center;
+                      width: 40%;
+                    "
+                  />
                   </div>
                   <div class="text-left m-3 ml-5">
                     <h1>
@@ -103,7 +112,16 @@
               <div id="Data-Driven" class="tabcontent pb-5">
                 <div class="d-flex justify-content-center">
                     <div class="m-3 mr-5">
-                        <h1>picture here </h1>
+                      <img
+                      :src="require('@/assets/img/2.jpg')"
+                      alt=""
+                      style="
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        text-align: center;
+                        width: 40%;
+                      "
+                    />
                     </div>
                     <div class="text-left m-3 ml-5">
                       <h1><b style="color: #005091;">Data-Driven </b><br> Market Selection  <br>
@@ -119,8 +137,17 @@
               
               <div id="Client-Centric" class="tabcontent pb-5">
                 <div class="d-flex justify-content-center">
-                    <div class="m-3 mr-5">
-                        <h1>picture here </h1>
+                    <div class=" mr-5">
+                      <img
+                      :src="require('@/assets/img/3.jpg')"
+                      alt=""
+                      style="
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        text-align: center;
+                        width: 40%;
+                      "
+                    />
                     </div>
                     <div class="text-left m-3 ml-5">
                       <h1><b style="color: #005091;">Client-Centric  </b>Approach  <br>
@@ -130,7 +157,7 @@
                             value-add/opportunistic strategies across multifamily, office, industrial and <br> hospitality assets.       </p>
                     </div>
                   </div>
-                  <p style="color:black">Click here to learn more about our flagship fund, the ourtizolo Direct Access Fund (now closed to investors).</p>
+                  <p style="color:black" class="mt-3">Click here to learn more about our flagship fund, the ourtizolo Direct Access Fund (now closed to investors).</p>
 
               </div>
         </section>
