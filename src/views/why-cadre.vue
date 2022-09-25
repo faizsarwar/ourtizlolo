@@ -24,12 +24,12 @@
                 <div class="pr-3 pl-4 ">
                     <div class="container">
                         <div class="row justify-content-md-center ">
-                            <div class="col-4 text-left ">
+                            <div class="col-md-4 text-left ">
                                 <b style="color: black;">Inflation Protection</b>
                                 
                                 <p style="color: black;">While stocks, bonds, and cash tend to  be negatively affected by inflation, real estate has historically proven to  be an attractive hedge against  inflation.</p>
                             </div>
-                            <div class="col-4  text-left ">
+                            <div class="col-md-4  text-left ">
                                 <b style="color: black;">Volatility Hedge</b>
                                 <p style="color: black;">While stocks, bonds, and cash tend to  be negatively affected by inflation, real estate has historically proven to  be an attractive hedge against  inflation.</p>
                 
@@ -38,12 +38,12 @@
                     </div>
 
                     <div class="row justify-content-md-center ">
-                        <div class="col-4 text-left ">
+                        <div class="col-md-4 text-left ">
                             <b style="color: black;">Capital Appreciation</b>
                             
                             <p style="color: black;">As an asset class, real estate has generated attractive risk adjusted returns over time, which can help you achieve your long-term financial goals.</p>
                         </div>
-                        <div class="col-4  text-left ">
+                        <div class="col-md-4  text-left ">
                             <b style="color: black;">Cash Flow Generation</b>
                             <p style="color: black;">Diversifying across property types and real estate strategies can help to deliver predictable cash flow in varied market conditions.</p>
                         </div>

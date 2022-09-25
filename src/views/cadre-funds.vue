@@ -2,14 +2,14 @@
     <div >
         <section id="home-hero" class="pl-5">
             <div class="row m-5 pl-5">
-                <div class="col pt-5 pl-5 text-left">
+                <div class="col-lg pt-5 pl-5 text-left">
                     <p style="color: black;">ourtizolo FUNDS</p>
                     <h1><b style="color:#005091"> Diversified portfolios </b><br> <b style="color: black;"> for</b><b style="color:#005091"> investors </b> <br>   <b style="color: black;"> who want it all.</b></h1>
                     <p class="mt-5" style="color: black;">A one-and-done portfolio of commercial real estate in top-growth <br> markets. Assets include apartment, hotel, industrial and other  <br> properties—all managed by our experienced investment professionals.</p>
                     <p style="color: black;">Sign up in seconds to get notified when new ourtizolo Funds are open for investmen</p>
                     <button type="button" class="btn p-2  mt-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Request Access</button>
                 </div>
-                <div class="col">
+                <div class="col-lg">
                     img  here
                 </div>
             </div>
@@ -18,13 +18,13 @@
         <section id="home-improve" class="p-5" style="background-color: #f5f5f5;">
 
             <div class="p-5 row">
-                <div class="col p-5 text-left">
+                <div class="col-lg p-5 text-left">
                     <h1 class="ml-5" ><b style="color: black;"> Don't miss out on </b> <br><b style="color:#005091"> ourtizolo's next fund</b>!</h1>
                     <p  class="ml-5" style="color: black;">If you missed out on the success of our flagship ourtizolo Direct <br> Access Fund, sign up now to be notified for your next <br> opportunity to outperform with ourtizolo Funds. </p>
                     <button type="button" class="btn p-2 ml-5 mt-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">See Our Track Record</button>
                 </div>
-                <div class="col p-5">
-                    slider here
+                <div class="col-sm-3 ">
+                      <Swiper/>
                 </div>
             </div>
             
@@ -200,6 +200,7 @@
   
   <script >
     import { defineComponent } from 'vue'
+    import Swiper from '../components/slider.vue'
   
   
     export default defineComponent({
@@ -212,7 +213,7 @@
         }
     },
       components: {
-      //   Swiper,
+        Swiper,
       //   SwiperSlide,
       },
       setup() {

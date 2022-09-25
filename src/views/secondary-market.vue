@@ -2,7 +2,7 @@
     <div >
         <section class="pl-5" id="home-hero">
             <div class="row m-5 pl-5">
-                <div class="col pt-5 pl-5 text-left">
+                <div class="col-lg pt-5 pl-5 text-left">
                     <p style="color: black;">SECONDARY MARKET
                     </p>
                     <h1><b style="color:#005091"> Potential liquidity.</b>  <br>   <b style="color: black;"> Quarterly.</b></h1>
@@ -10,7 +10,7 @@
                     <!-- <p style="color: black;">Sign up in seconds to get notified when new ourtizolo Funds are open for investmen</p> -->
                     <button type="button" class="btn p-2  mt-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Request Access</button>
                 </div>
-                <div class="col">
+                <div class="col-lg">
                     img  here
                 </div>
             </div>

@@ -3,12 +3,12 @@
   
       <div class="p-5 " style="background-color: black;" id="home-hero">
         <div class="row p-5  text-left d-flex justify-content-center">
-          <div class="col-3  ml-5 pr-5 pl-3">
+          <div class="col-sm-3  ml-5 pr-5 pl-3">
             <h2><b> Partner with ourtizolo to empower your clients.</b></h2>
             <p class="mt-4">ourtizolo’s premier commercial real estate investment platform lets you offer your clients the same opportunities as some of the best-known institutional investors in the world.            </p>
             <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Contact Us</button> 
         </div>
-          <div class="col-6 pl-5">
+          <div class="col-lg pl-5">
             <div class="pl-5 ml-5">
                 <img
                 :src="require('@/assets/img/advisor.jpg')"
@@ -28,17 +28,15 @@
   
       <div class="p-5" style="background-color: #f5f5f5;" id="home-improve">
         <div class="row p-5  text-left d-flex justify-content-center">
-          <div class="col-3  ml-5 pl-5">
+          <div class="col-md-4  ml-5 mr-5 pl-5">
             <h2 style="color: black;"> Performance that
               speaks for itself.</h2>
             <b class="mt-4" style="color: black;">OUR PERFORMANCE AS OF 6/15/2022</b>
   
             <div class="p-3 pt-5 pb-5">
               <div class="row">
-                <div class="mr-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
-                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 9.5C7 8.672 6.552 8 6 8s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5zM4.285 6.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 4.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 3.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM10 8c-.552 0-1 .672-1 1.5s.448 1.5 1 1.5 1-.672 1-1.5S10.552 8 10 8z"/>
-                  </svg>
+                <div class="mr-3 gradient-icon purple">
+                  <img :src="SVG1"  />
                 </div>
                 <div >
                   <b style="color:black !important">$5.02B+</b>
@@ -47,10 +45,8 @@
               </div>
               <hr style="background-color:#005091">
               <div class="row">
-                <div class="mr-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
-                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 9.5C7 8.672 6.552 8 6 8s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5zM4.285 6.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 4.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 3.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM10 8c-.552 0-1 .672-1 1.5s.448 1.5 1 1.5 1-.672 1-1.5S10.552 8 10 8z"/>
-                  </svg>
+                <div class="mr-3 gradient-icon purple">
+                  <img :src="SVG2" />
                 </div>
                 <div >
                   <b style="color:black !important">27.5%</b>
@@ -59,10 +55,8 @@
               </div>
               <hr style="background-color:#005091">
               <div class="row">
-                <div class="mr-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
-                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 9.5C7 8.672 6.552 8 6 8s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5zM4.285 6.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 4.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 3.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM10 8c-.552 0-1 .672-1 1.5s.448 1.5 1 1.5 1-.672 1-1.5S10.552 8 10 8z"/>
-                  </svg>
+                <div class="mr-3 gradient-icon purple">
+                  <img :src="SVG3" />
                 </div>
                 <div >
                   <b style="color:black !important">$338.6M+</b>
@@ -72,14 +66,13 @@
             </div>
             <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">See Our Track Record</button>
           </div>
-          <div class="col-6 ">
-            
+          <div class="col-sm-3 ">
+            <Swiper/>
           </div>
-  
-          <p class="mt-5 text-center" style="color:#818181 !important">Are you a registered investment advisor or institution? Learn how ourtizolo can partner with you.
-            <br>
-            Current client? Welcome back! Log in here.</p>
         </div>
+        <p class="mt-5 text-center" style="color:#818181 !important">Are you a registered investment advisor or institution? Learn how ourtizolo can partner with you.
+          <br>
+          Current client? Welcome back! Log in here.</p>
       </div>
   
             <!--  -->
@@ -90,10 +83,10 @@
                
                   <p style="color: black;" class="pl-5 pr-5 mt-4 text-center">Partner with ourtizolo for instant access to premium apartment, industrial, office and hotel assets. World-class <br> real estate managers and operators. Proprietary technology that makes the whole process <br> smarter, faster, and more efficient.</p>  
                
-                  <div class="d-flex justify-content-center">
+                  <div class="row pl-5 pr-5">
   
                     <!-- card -->
-                    <div class="ml-3 mr-3">
+                    <div class="col-sm-3 ml-5 mr-5">
                       <div class="card" style="width: 22rem;">
                         <div class=" pt-3 pb-2" style="background-color: #50b8ff; color:white">
                           <h5>ourtizolo Funds</h5>
@@ -109,7 +102,7 @@
                       </div>
                     </div>
                     <!-- card -->
-                    <div class="ml-3 mr-3">
+                    <div class="col-sm-3 ml-5 mr-5">
                       <div class="card" style="width: 22rem;">
                         <div class=" pt-3 pb-2" style="background-color: #50b8ff; color:white">
                           <h5>Deal-By-Deal</h5>
@@ -125,7 +118,7 @@
                       </div>
                     </div>
                     <!-- card -->
-                    <div class="ml-3 mr-3">
+                    <div class="col-sm-3 ml-5 mr-5">
                       <div class="card" style="width: 22rem;">
                         <div class=" pt-3 pb-2" style="background-color: #50b8ff; color:white">
                           <h5>Secondary Market</h5>
@@ -152,11 +145,11 @@
             <section class="pt-5 pb-5" id="home-efficient">
               <div class="p-5 mt-5">
                 <div class="row p-5 mt-5 ">
-                  <div class="col-6 ml-3 text-left pl-5 pr-5 mt-4">
+                  <div class="col-lg ml-3 text-left pl-5 pr-5 mt-4">
                     <h1><b style="color: black;">Trusted by </b> <br> <b style="color:#005091">leading </b>  <b style="color: black;">institutional investors.</b></h1>
                     <p style="color: #818181;" class="mt-4">Some of the world’s most sophisticated and experienced institutions are ourtizolo <br> clients. We continue to meet their rigorous operational, financial, <br>  and governance standards in the same real estate funds and deal-by-deal offerings <br> we deliver to individuals and advisors.</p>
                 </div>
-                <div class="col-4 pl-5">
+                <div class="col-md-4 pl-5">
 
                   <div class="row m-4">
                     <div class="card bg-light" style="width: 22rem;">
@@ -221,70 +214,70 @@
             <section class="p-5" id="home-best-known" style="background-color:#f5f5f5;">
                 <div class="p-5">
                     <h1><b style="color: black"> What ourtizolo brings to you </b></h1>
-                    <div class="d-flex justify-content-center">
-                        <div class="m-5">
+                    <div class="row pl-5 pr-5">
+                        <div class="col-lg m-5">
                             <!-- card -->
                             <div class="ml-3 mr-3">
                                 <div class="card p-4" style="width: 25rem;">
                                     <h3><b style="color:black">Advisors</b></h3>
                                     <div class="card-body text-left p-4" style="height:28rem">
                                         <div class="row">
-                                            <div class="col-2">
+                                            <div class="col-sm-3">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#005091" class="bi bi-check-circle" viewBox="0 0 16 16">
                                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                                     <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
                                                   </svg>
                                             </div>
-                                            <div class="col">
+                                            <div class="col-lg">
                                                 Experienced team of commercial real estate investment professionals
                                             </div>
                                         </div>
                                         <hr>
                                         <div class="row">
-                                            <div class="col-2">
+                                            <div class="col-sm-3">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#005091" class="bi bi-check-circle" viewBox="0 0 16 16">
                                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                                     <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
                                                   </svg>
                                             </div>
-                                            <div class="col">
+                                            <div class="col-lg">
                                                 Established network of world-class real estate operators
                                             </div>
                                         </div>
                                         <hr>
                                         <div class="row">
-                                            <div class="col-2">
+                                            <div class="col-sm-3">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#005091" class="bi bi-check-circle" viewBox="0 0 16 16">
                                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                                     <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
                                                   </svg>
                                             </div>
-                                            <div class="col">
+                                            <div class="col-lg">
                                                 Transparent due diligence on each investment opportunity
                                             </div>
 
                                         </div>
                                         <hr>
                                         <div class="row">
-                                            <div class="col-2">
+                                            <div class="col-sm-3">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#005091" class="bi bi-check-circle" viewBox="0 0 16 16">
                                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                                     <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
                                                   </svg>
                                             </div>
-                                            <div class="col">
+                                            <div class="col-lg">
                                                 Comprehensive performance reporting including valuations and custodial integration
                                             </div>
                                         </div>
                                         <hr>
                                         <div class="row">
-                                            <div class="col-2">
+                                            <div class="col-sm-3">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#005091" class="bi bi-check-circle" viewBox="0 0 16 16">
                                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                                     <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
                                                   </svg>
                                             </div>
-                                            <div class="col">
+                                            <div class="col-lg">
                                                 Control over presentation of information to clients
                                             </div>
                                         </div>
@@ -292,68 +285,68 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="m-5">
+                        <div class="col-lg m-5">
                             <!-- card -->
-                            <div class="ml-3 mr-3">
+                            <div class="ml-3 mr-3 ">
                                 <div class="card p-4" style="width: 25rem;">
                                     <h3><b style="color:black">Clients</b></h3>
                                     <div class="card-body text-left p-4" style="height:28rem">
                                         <div class="row">
-                                            <div class="col-2">
+                                            <div class="col-sm-3">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#005091" class="bi bi-check-circle" viewBox="0 0 16 16">
                                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                                     <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
                                                   </svg>
                                             </div>
-                                            <div class="col">
+                                            <div class="col-lg text-left">
                                                 Low fees for institutional-quality private real estate
                                             </div>
                                         </div>
                                         <hr>
                                         <div class="row">
-                                            <div class="col-2">
+                                            <div class="col-sm-3">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#005091" class="bi bi-check-circle" viewBox="0 0 16 16">
                                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                                     <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
                                                   </svg>
                                             </div>
-                                            <div class="col">
+                                            <div class="col-lg">
                                                 Attractive value opportunities on the ourtizolo Secondary Market
                                             </div>
                                         </div>
                                         <hr>
                                         <div class="row">
-                                            <div class="col-2">
+                                            <div class="col-sm-3">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#005091" class="bi bi-check-circle" viewBox="0 0 16 16">
                                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                                     <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
                                                   </svg>
                                             </div>
-                                            <div class="col">
+                                            <div class="col-lg">
                                                 Groundbreaking opportunities for liquidity
                                             </div>
                                         </div>
                                         <hr>
                                         <div class="row">
-                                            <div class="col-2">
+                                            <div class="col-sm-3">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#005091" class="bi bi-check-circle" viewBox="0 0 16 16">
                                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                                     <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
                                                   </svg>
                                             </div>
-                                            <div class="col">
+                                            <div class="col-lg">
                                                 Curated commercial real estate deals at both an individual asset and fund level
                                             </div>
                                         </div>
                                         <hr>
                                         <div class="row">
-                                            <div class="col-2">
+                                            <div class="col-sm-3">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#005091" class="bi bi-check-circle" viewBox="0 0 16 16">
                                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                                     <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
                                                   </svg>
                                             </div>
-                                            <div class="col">
+                                            <div class="col-lg">
                                                 Visibility into performance through our platform if or when desired
                                             </div>
                                         </div>
@@ -370,9 +363,9 @@
                     <h1><b>Essential diversification and <br> effective wealth generation.</b></h1>
                     <p>Only 12% of investors who work with a registered investment advisor <br>  have discussed commercial real estate investing with their advisors. <br> ourtizolo is here to help you have that conversation.</p>
                 </div>
-                <div class="d-flex justify-content-center">
+                <div class="row pl-5 pr-5">
                     <!-- card -->
-                    <div class="ml-3 mr-3">
+                    <div class="ml-5 mr-5 col-sm-3">
                         <div class="card" style="width: 22rem; background-color: #50b8ff; color:white">
                           <div class=" pt-5 pb-2" style="">
                             <h4><b> Why Real Estate? </b></h4>
@@ -385,7 +378,7 @@
                       </div>
 
                     <!-- card -->
-                    <div class="ml-3 mr-3">
+                    <div class="ml-5 mr-5 col-sm-3">
                       <div class="card" style="width: 22rem; background-color: #50b8ff; color:white">
                         <div class=" pt-5 pb-2" style="">
                           <h4><b> Why ourtizolo? </b></h4>
@@ -397,7 +390,7 @@
                     </div>
 
                                           <!-- card -->
-                    <div class="ml-3 mr-3">
+                    <div class="ml-5 mr-5 col-sm-3">
                         <div class="card" style="width: 22rem; background-color: #50b8ff; color:white">
                           <div class=" pt-5 pb-2" style="">
                             <h4><b> Why Now? </b></h4>
@@ -459,7 +452,7 @@
   
   <script >
     import { defineComponent } from 'vue'
-  
+    import Swiper from '../components/slider.vue'
   
     export default defineComponent({
       name: 'swiper-example-vertical-',
@@ -467,6 +460,9 @@
       url: import.meta.url,
         data(){
         return {
+          SVG1: require('../assets/img/1.svg'),
+          SVG2: require('../assets/img/2.svg'),
+          SVG3: require('../assets/img/3.svg'),
           icon4: require('../assets/img/icon4.svg'),
           icon5: require('../assets/img/icon5.svg'),
           icon6: require('../assets/img/icon6.svg'),
@@ -474,7 +470,7 @@
         }
     },
       components: {
-      //   Swiper,
+        Swiper,
       //   SwiperSlide,
       },
       setup() {

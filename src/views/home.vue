@@ -3,12 +3,12 @@
 
     <div class="p-5 " style="background-color: black;" id="home-hero">
       <div class="row p-5  text-left d-flex justify-content-center">
-        <div class="col-3  ml-5 pl-5">
+        <div class="col-sm-3  ml-5 pl-5">
           <h2><b> Reimagine your financial future with ourtizolo.</b></h2>
           <p class="mt-4">ourtizolo's revolutionary platform breaks barriers to commercial real estate investing. We use the same high-quality underwriting available for deals to individuals, advisors, and institutions.</p>
           <p class="mt-4">Looking for specific properties? Diversified funds? Opportunities for liquidity? This is your all access-pass.</p>
         </div>
-        <div class="col-6 ">
+        <div class="col-lg ">
           
         </div>
       </div>
@@ -16,7 +16,7 @@
 
     <div class="p-5" style="background-color: #f5f5f5;" id="home-improve">
       <div class="row p-5  text-left d-flex justify-content-center">
-        <div class="col-3  ml-5 pl-5">
+        <div class="col-sm-3  ml-5 pl-5">
           <h2 style="color: black;"> Performance that
             speaks for itself.</h2>
           <b class="mt-4" style="color: black;">OUR PERFORMANCE AS OF 6/15/2022</b>
@@ -24,9 +24,7 @@
           <div class="p-3 pt-5 pb-5">
             <div class="row">
               <div class="mr-3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
-                  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 9.5C7 8.672 6.552 8 6 8s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5zM4.285 6.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 4.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 3.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM10 8c-.552 0-1 .672-1 1.5s.448 1.5 1 1.5 1-.672 1-1.5S10.552 8 10 8z"/>
-                </svg>
+                <img :src="SVG1" />
               </div>
               <div >
                 <b style="color:black !important">$5.02B+</b>
@@ -36,9 +34,7 @@
             <hr style="background-color:#005091">
             <div class="row">
               <div class="mr-3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
-                  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 9.5C7 8.672 6.552 8 6 8s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5zM4.285 6.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 4.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 3.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM10 8c-.552 0-1 .672-1 1.5s.448 1.5 1 1.5 1-.672 1-1.5S10.552 8 10 8z"/>
-                </svg>
+                <img :src="SVG2" />
               </div>
               <div >
                 <b style="color:black !important">27.5%</b>
@@ -48,9 +44,7 @@
             <hr style="background-color:#005091">
             <div class="row">
               <div class="mr-3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
-                  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 9.5C7 8.672 6.552 8 6 8s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5zM4.285 6.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 4.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 3.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM10 8c-.552 0-1 .672-1 1.5s.448 1.5 1 1.5 1-.672 1-1.5S10.552 8 10 8z"/>
-                </svg>
+                <img :src="SVG3" />
               </div>
               <div >
                 <b style="color:black !important">$338.6M+</b>
@@ -60,7 +54,7 @@
           </div>
           <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">See Our Track Record</button>
         </div>
-        <div class="col-6 ">
+        <div class="col-lg ">
           
         </div>
 
@@ -141,10 +135,10 @@
           <section class="pt-5 pb-5" id="home-efficient">
             <div class="p-5">
               <div class="row p-5">
-                <div class="col-6 ml-3 pl-5 pr-5 mt-4">
+                <div class="col-lg ml-3 pl-5 pr-5 mt-4">
                   <h1><b style="color: black;"> Invest alongside some of the </b> <br> <b style="color:#005091"> best-known</b>  <b style="color: black;"> institutional investors in the world, including:</b></h1>
                 </div>
-                <div class="col-4 pl-5">
+                <div class="col-md-4 pl-5">
 
                   <div class="row m-4">
                     <div class="card bg-light" style="width: 22rem;">
@@ -324,21 +318,21 @@
                 <h1><b style="color: white;">What type of investor are you?</b></h1>
                 <p class="mt-4">Learn how you can invest in ourtizolo Funds and other opportunities.</p>
               </div>
-              <div class="d-flex d-flex justify-content-center p-5">
+              <div class="row p-5">
                                   <!-- card -->
-                                  <div class="ml-3 mr-3">
-                                    <div class="card" style="width: 22rem; background-color: #50b8ff; color:white">
-                                      <div class="card-body" style="height: 16rem !important;">
-                                        <img :src="icon1" />
-                                        <h3 style="color: white;">Individuals</h3>
-                                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                                        <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:white; color:#005091">Learn More</button>
-                                      </div>
-                                    </div>
-                                  </div>
+                  <div class="col-sm-3 ml-5 mr-3">
+                    <div class="card" style="background-color: #50b8ff; color:white">
+                      <div class="card-body" style="height: 16rem !important;">
+                        <img :src="icon1" />
+                        <h3 style="color: white;">Individuals</h3>
+                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                        <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:white; color:#005091">Learn More</button>
+                      </div>
+                    </div>
+                  </div>
                                                     <!-- card -->
-                  <div class="ml-3 mr-3">
-                    <div class="card" style="width: 22rem;background-color: #50b8ff; color:white">
+                  <div class="col-sm-3 ml-3 mr-3">
+                    <div class="card" style="background-color: #50b8ff; color:white">
                       <div class="card-body" style="height: 16rem !important;">
                         <img :src="icon2" />
                         <h3 style="color: white;">institutions</h3>
@@ -347,17 +341,17 @@
                       </div>
                     </div>
                   </div>
-                                    <!-- card -->
-                                    <div class="ml-3 mr-3">
-                                      <div class="card" style="width: 22rem;background-color: #50b8ff; color:white">
-                                        <div class="card-body" style="height: 16rem !important;">
-                                          <img :src="icon3" />
-                                          <h3 style="color: white;">Investments</h3>
-                                          <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                                          <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:white; color:#0050912">Learn More</button>
-                                        </div>
-                                      </div>
-                                    </div>
+                  <!-- card -->
+                  <div class="col-sm-3 ml-3 mr-3">
+                    <div class="card" style="background-color: #50b8ff; color:white">
+                      <div class="card-body" style="height: 16rem !important;">
+                        <img :src="icon3" />
+                        <h3 style="color: white;">Investments</h3>
+                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                        <button type="button" class="btn p-2 pl-3 pr-3 mt-5" style="border-radius:20px !important; background-color:white; color:#0050912">Learn More</button>
+                      </div>
+                    </div>
+                  </div>
               </div>
             </div>
           </section>
@@ -416,6 +410,9 @@
           mySVG2: require('../assets/img/6245a14a9de15ddf987c3ab2_tranparacy-img.svg'),
           mySVG3: require('../assets/img/6245a1899de15d81b87c3b50_data-driven-graph.svg'),
           mySVG1: require('../assets/img/62df12f7dc504d31c5617d7f_my-investments-3-p-500.png'),
+          SVG1: require('../assets/img/1.svg'),
+          SVG2: require('../assets/img/2.svg'),
+          SVG3: require('../assets/img/3.svg'),
           icon1: require('../assets/img/icon1.png'),
           icon2: require('../assets/img/icon2.svg'),
           icon3: require('../assets/img/icon3.svg'),

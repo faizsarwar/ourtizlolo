@@ -9,15 +9,15 @@
                         </b>
                     </h1>
                     <div class="row mt -4">
-                        <div class="col">
+                        <div class="col-md-4">
                             <p style="color:black">Owned Transaction Value</p>
                             <h2><b style="color:black">$5.02B+</b></h2>
                         </div>
-                        <div class="col">
+                        <div class="col-md-4">
                             <p style="color:black">Gross Distributions to Investors</p>
                             <h2><b style="color:black">$338.6M+</b></h2>
                         </div>
-                        <div class="col">
+                        <div class="col-md-4">
                             <p style="color:black">Historical Rate of Return</p>
                             <h2><b style="color:black">27.5%</b></h2>
                         </div>
@@ -26,7 +26,7 @@
                     <button type="button" class="btn p-2 pl-3 ml-3 mt-3 pr-3" style=" background-color:#005091'; color:white">Get Started</button>
         
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     
                 </div>
 
@@ -42,12 +42,12 @@
 
             <div class="p-5  row" id="home-performance">
 
-                <div class="col-4">
+                <div class="col-md-4">
                 <!-- card -->
                 <div class="ml-3 mr-3">
                     <div class="card-fancy" style="width: 30rem;">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-sm">
                                 <!-- img -->
                             </div>
                             <div class="col-10 pt-5">
@@ -85,12 +85,12 @@
                   </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-md-4">
                     <!-- card -->
                     <div class="ml-3 mr-3">
                         <div class="card-fancy" style="width: 30rem;">
                             <div class="row">
-                                <div class="col-2">
+                                <div class="col-sm">
                                     <!-- img -->
                                 </div>
                                 <div class="col-10 pt-5">
@@ -128,12 +128,12 @@
                       </div>
                 </div>
                 
-                <div class="col-4">
+                <div class="col-md-4">
                     <!-- card -->
                     <div class="ml-3 mr-3">
                         <div class="card-fancy" style="width: 30rem;">
                             <div class="row">
-                                <div class="col-2">
+                                <div class="col-sm">
                                     <!-- img -->
                                 </div>
                                 <div class="col-10 pt-5">
@@ -176,12 +176,12 @@
 
             <div class="p-5  row" id="home-efficient">
 
-                <div class="col-4">
+                <div class="col-md-4">
                 <!-- card -->
                 <div class="ml-3 mr-3">
                     <div class="card-fancy" style="width: 30rem;">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-sm">
                                 <!-- img -->
                             </div>
                             <div class="col-10 pt-5">
@@ -219,12 +219,12 @@
                   </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-md-4">
                     <!-- card -->
                     <div class="ml-3 mr-3">
                         <div class="card-fancy" style="width: 30rem;">
                             <div class="row">
-                                <div class="col-2">
+                                <div class="col-sm">
                                     <!-- img -->
                                 </div>
                                 <div class="col-10 pt-5">
@@ -262,12 +262,12 @@
                       </div>
                 </div>
                 
-                <div class="col-4">
+                <div class="col-md-4">
                     <!-- card -->
                     <div class="ml-3 mr-3">
                         <div class="card-fancy" style="width: 30rem;">
                             <div class="row">
-                                <div class="col-2">
+                                <div class="col-sm">
                                     <!-- img -->
                                 </div>
                                 <div class="col-10 pt-5">
@@ -309,12 +309,12 @@
 
             <div class="p-5  row" id="home-best-known">
 
-                <div class="col-4">
+                <div class="col-md-4">
                 <!-- card -->
                 <div class="ml-3 mr-3">
                     <div class="card-fancy" style="width: 30rem;">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-sm">
                                 <!-- img -->
                             </div>
                             <div class="col-10 pt-5">
@@ -352,12 +352,12 @@
                   </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-md-4">
                     <!-- card -->
                     <div class="ml-3 mr-3">
                         <div class="card-fancy" style="width: 30rem;">
                             <div class="row">
-                                <div class="col-2">
+                                <div class="col-sm">
                                     <!-- img -->
                                 </div>
                                 <div class="col-10 pt-5">
@@ -395,12 +395,12 @@
                       </div>
                 </div>
                 
-                <div class="col-4">
+                <div class="col-md-4">
                     <!-- card -->
                     <div class="ml-3 mr-3">
                         <div class="card-fancy" style="width: 30rem;">
                             <div class="row">
-                                <div class="col-2">
+                                <div class="col-sm">
                                     <!-- img -->
                                 </div>
                                 <div class="col-10 pt-5">

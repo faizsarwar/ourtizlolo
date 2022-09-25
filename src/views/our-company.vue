@@ -103,37 +103,64 @@
         <section class="pt-5 pb-5" id="home-tabs">
             <div class="p-5 mt-5">
               <div class="row p-5 mt-5 ">
-                <div class="col-6 ml-3 text-left pl-5 pr-5 mt-4">
+                <div class="col-lg ml-3 text-left pl-5 pr-5 mt-4">
                   <h1><b style="color: black;">Trusted by </b> <br> <b style="color:#005091">leading </b>  <b style="color: black;">institutional investors.</b></h1>
                   <p style="color: #818181;" class="mt-4">Some of the world’s most sophisticated and experienced institutions are ourtizolo <br> clients. We continue to meet their rigorous operational, financial, <br>  and governance standards in the same real estate funds and deal-by-deal offerings <br> we deliver to individuals and advisors.</p>
               </div>
-                <div class="col-4 pl-5">
+              <div class="col-md-4 pl-5">
 
-                  <div class="row m-4">
-                    <div class="card bg-light" style="width: 22rem;">
-                      <div class=" pt-3 pb-2" >
-                        <h5>Icon Here</h5>
-                      </div>
+                <div class="row m-4">
+                  <div class="card bg-light" style="width: 22rem;">
+                    <div class=" pt-3 pb-2" >
+                      <img
+                      :src="require('@/assets/img/logoo1.png')"
+                      alt=""
+                      style="
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        text-align: center;
+                        width: 50%;
+                      "
+                    />
                     </div>
                   </div>
-
-                  <div class="row m-4 ">
-                    <div class="card bg-light" style="width: 22rem;">
-                      <div class=" pt-3 pb-2" >
-                        <h5>Icon Here</h5>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="row m-4">
-                    <div class="card bg-light" style="width: 22rem;">
-                      <div class=" pt-3 pb-2" >
-                        <h5>Icon Here</h5>
-                      </div>
-                    </div>
-                  </div>
-                  
                 </div>
+
+                <div class="row m-4 ">
+                  <div class="card bg-light" style="width: 22rem;">
+                    <div class=" pt-3 pb-2" >
+                      <img
+                      :src="require('@/assets/img/logoo2.png')"
+                      alt=""
+                      style="
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        text-align: center;
+                        width: 50%;
+                      "
+                    />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row m-4">
+                  <div class="card bg-light" style="width: 22rem;">
+                    <div class=" pt-3 pb-2" >
+                      <img
+                      :src="require('@/assets/img/logoo3.png')"
+                      alt=""
+                      style="
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        text-align: center;
+                        width: 50%;
+                      "
+                    />
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
               </div>
 
               <p class="mt-5 text-center" style="color:#818181 !important">Are you a registered investment advisor or institution? Learn how ourtizolo can partner with you. <br>

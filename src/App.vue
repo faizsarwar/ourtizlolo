@@ -44,7 +44,7 @@
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="/ourtizolo-funds">ourtizolo Funds</a>
                     <a class="dropdown-item" href="/deal-by-deal">Deal-By-Deal Investing</a>
-                    <a class="dropdown-item" href="/secondary-market">Secondary Market</a>
+                    <!-- <a class="dropdown-item" href="/secondary-market">Secondary Market</a> -->
                   </div>
                 </li>
                 <li class="nav-item dropdown ml-2 mr-2">
@@ -294,7 +294,7 @@
               Connect With Us
             </h5>
             <div class="row pl-5 pr-5">
-              <div claiss="col-3">
+              <div claiss="col-sm-3">
                 <a href="/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -310,7 +310,7 @@
                   </svg>
                 </a>
               </div>
-              <div claiss="col-3">
+              <div claiss="col-sm-3">
                 <a href="/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -326,7 +326,7 @@
                   </svg>
                 </a>
               </div>
-              <div claiss="col-3">
+              <div claiss="col-sm-3">
                 <a href="/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -342,7 +342,7 @@
                   </svg>
                 </a>
               </div>
-              <div claiss="col-3">
+              <div claiss="col-sm-3">
                 <a href="/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -1110,6 +1110,33 @@ ul {
   //   .card-img-top, .card-body, .seller-Card{
   //   height: 200px
   // }
+}
+
+.gradient-icon.purple {
+  background-color: #4e1eaf;
+  background-image: none;
+}
+
+.gradient-icon {
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+width: 38px;
+height: 38px;
+min-height: 38px;
+min-width: 38px;
+margin-right: 25px;
+-webkit-box-pack: center;
+-webkit-justify-content: center;
+-ms-flex-pack: center;
+justify-content: center;
+-webkit-box-align: center;
+-webkit-align-items: center;
+-ms-flex-align: center;
+align-items: center;
+border-radius: 5px;
+background-image: linear-gradient(81deg,#34009b,#288bff);
 }
 
 .card-body{

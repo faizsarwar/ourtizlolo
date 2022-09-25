@@ -3,7 +3,7 @@
   
       <div class="p-5 " style="background-color: black;" id="home-hero">
         <div class="row p-5  text-left d-flex justify-content-center">
-          <div class="col-3  ml-5 pl-5">
+          <div class="col-sm-3  ml-5 pl-5">
             <p>INSTITUTIONAL INVESTORS</p>
             <h2><b> Custom, fee-
                 efficient private
@@ -12,7 +12,7 @@
             <p class="mt-4">ourtizolo’s premier commercial real estate investment platform lets you offer your clients the same opportunities as some of the best-known institutional investors in the world.            </p>
             <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Contact Us</button> 
         </div>
-          <div class="col-6 ">
+          <div class="col-lg ">
             image here 
           </div>
         </div>
@@ -34,19 +34,17 @@
         </div>
       </div>
 
-      <div class="p-5" style="background-color: #f5f5f5;" id="home-performance">
+      <div class="p-5" style="background-color: #f5f5f5;" id="home-improve">
         <div class="row p-5  text-left d-flex justify-content-center">
-          <div class="col-3  ml-5 pl-5">
+          <div class="col-md-4  ml-5 mr-5 pl-5">
             <h2 style="color: black;"> Performance that
               speaks for itself.</h2>
             <b class="mt-4" style="color: black;">OUR PERFORMANCE AS OF 6/15/2022</b>
   
             <div class="p-3 pt-5 pb-5">
               <div class="row">
-                <div class="mr-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
-                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 9.5C7 8.672 6.552 8 6 8s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5zM4.285 6.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 4.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 3.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM10 8c-.552 0-1 .672-1 1.5s.448 1.5 1 1.5 1-.672 1-1.5S10.552 8 10 8z"/>
-                  </svg>
+                <div class="mr-3 gradient-icon purple">
+                  <img :src="SVG1"  />
                 </div>
                 <div >
                   <b style="color:black !important">$5.02B+</b>
@@ -55,10 +53,8 @@
               </div>
               <hr style="background-color:#005091">
               <div class="row">
-                <div class="mr-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
-                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 9.5C7 8.672 6.552 8 6 8s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5zM4.285 6.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 4.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 3.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM10 8c-.552 0-1 .672-1 1.5s.448 1.5 1 1.5 1-.672 1-1.5S10.552 8 10 8z"/>
-                  </svg>
+                <div class="mr-3 gradient-icon purple">
+                  <img :src="SVG2" />
                 </div>
                 <div >
                   <b style="color:black !important">27.5%</b>
@@ -67,10 +63,8 @@
               </div>
               <hr style="background-color:#005091">
               <div class="row">
-                <div class="mr-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
-                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 9.5C7 8.672 6.552 8 6 8s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5zM4.285 6.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 4.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 3.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM10 8c-.552 0-1 .672-1 1.5s.448 1.5 1 1.5 1-.672 1-1.5S10.552 8 10 8z"/>
-                  </svg>
+                <div class="mr-3 gradient-icon purple">
+                  <img :src="SVG3" />
                 </div>
                 <div >
                   <b style="color:black !important">$338.6M+</b>
@@ -80,16 +74,14 @@
             </div>
             <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">See Our Track Record</button>
           </div>
-          <div class="col-6 ">
-            
+          <div class="col-sm-3 ">
+            <Swiper/>
           </div>
-  
-          <p class="mt-5 text-center" style="color:#818181 !important">Are you a registered investment advisor or institution? Learn how ourtizolo can partner with you.
-            <br>
-            Current client? Welcome back! Log in here.</p>
         </div>
+        <p class="mt-5 text-center" style="color:#818181 !important">Are you a registered investment advisor or institution? Learn how ourtizolo can partner with you.
+          <br>
+          Current client? Welcome back! Log in here.</p>
       </div>
-
 
       <section id="home-efficient">
         <div class="p-5 m-5 d-flex justify-content-center">
@@ -227,11 +219,11 @@
             <section class="pt-5 pb-5" id="home-efficient">
               <div class="p-5 mt-5" id="home-best-known">
                 <div class="row p-5 mt-5 ">
-                  <div class="col-6 ml-3 text-left pl-5 pr-5 mt-4">
+                  <div class="col-lg ml-3 text-left pl-5 pr-5 mt-4">
                     <h1><b style="color: black;">Trusted by </b> <br> <b style="color:#005091">leading </b>  <b style="color: black;">institutional investors.</b></h1>
                     <p style="color: #818181;" class="mt-4">Some of the world’s most sophisticated and experienced institutions are ourtizolo <br> clients. We continue to meet their rigorous operational, financial, <br>  and governance standards in the same real estate funds and deal-by-deal offerings <br> we deliver to individuals and advisors.</p>
                 </div>
-                  <div class="col-4 pl-5" id="home-tabs">
+                  <div class="col-md-4 pl-5" id="home-tabs">
   
                     <div class="row m-4">
                       <div class="card bg-light" style="width: 22rem;">
@@ -323,6 +315,7 @@
   
   <script >
     import { defineComponent } from 'vue'
+    import Swiper from '../components/slider.vue'
   
   
     export default defineComponent({
@@ -334,11 +327,14 @@
             mySVG2: require('../assets/img/6245a14a9de15ddf987c3ab2_tranparacy-img.svg'),
             mySVG3: require('../assets/img/6245a1899de15d81b87c3b50_data-driven-graph.svg'),
             mySVG1: require('../assets/img/62df12f7dc504d31c5617d7f_my-investments-3-p-500.png'),
+            SVG1: require('../assets/img/1.svg'),
+            SVG2: require('../assets/img/2.svg'),
+            SVG3: require('../assets/img/3.svg'),
             allProducts:[],
         }
     },
       components: {
-      //   Swiper,
+        Swiper,
       //   SwiperSlide,
       },
       setup() {
