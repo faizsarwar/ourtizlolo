@@ -14,82 +14,74 @@
         </p>
       </div>
 
+      <nav class="navbar navbar-expand-lg navbar-light mt-0 mb-0 p-0" id="navbar_top" style="background-color:white; color:#0b0970">
+        <a href="/">
+        <img
+          :src="require('@/assets/img/Logo-Color-Positive.png')"
+          alt=""
+          srcset=""
+          style="height: 60px"
+          class="m-3 header-img ml-5 mr-5"
+        />
+       </a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse ml-5 pl-5 " id="navbarNavDropdown" style="color:#0b0970">
+<ul class="navbar-nav">
+  <li class="nav-item ml-5 mr-3 dropdown" >
+    <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Products
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="/ourtizolo-funds">ourtizolo Funds</a>
+      <a class="dropdown-item" href="/deal-by-deal">Deal-By-Deal Investing</a>
+      <!-- <a class="dropdown-item" href="/secondary-market">Secondary Market</a> -->
+    </div>
+  </li>
+  <li class="nav-item mr-3 ml-3  dropdown" >
+    <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Investors
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="/for-advisors">For Advisors</a>
+      <a class="dropdown-item" href="/institutions">For Institutions</a>
+    </div>
+  </li>
+  <li class="nav-item mr-3 ml-3  dropdown" >
+    <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Reseacrh
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="/track-record">Track Record </a>
+      <!-- <a class="dropdown-item" href="#">Insights</a> -->
+    </div>
+  </li>
+  <li class="nav-item ml-3 mr-3 dropdown">
+    <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      About US 
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="/our-company">Our Company  </a>
+      <a class="dropdown-item" href="/why-ourtizolo">Why ourtizolo</a>
+      <!-- <a class="dropdown-item" href="#">Media</a> -->
+      <!-- <a class="dropdown-item" href="#">FAQ</a> -->
+    </div>
+  </li>
+</ul>
+
+<!--button  -->
+<div class="ml-auto mr-0">
+  <button type="button" class="btn ml-3 mr-3 p-2 pl-3 pr-3" style="border-radius:20px !important; color:#0087e2; border-color: #0087e2; background-color:white">Sign Up</button>
+  <button type="button" class="btn p-2 pl-3 pr-3" style="border-radius:20px !important; background-color:#0087e2; color:white">Sign In</button>
+</div>
+
+</div>
+</nav>
+
+
   
-    <section class="header-main border-bottom  pl-5 pr-5" id="navbar_top" style="background-color:white">
-      <div class="container-fluid" >
-        <div class=" pt-2 pb-2 pl-0 pr-0  d-flex justify-content-around">
-          <div class=" p-0 m-0">
-            <a href="/" >
-              <img
-              :src="require('@/assets/img/Logo-Color-Positive.png')"
-              alt=""
-              style="
-                background-size: contain;
-                background-repeat: no-repeat;
-                text-align: center;
-                width: 30%;
-              "
-            />
-            </a>
-          </div>
-          <div class="">
-
-            <nav class="navbar navbar-expand-lg navbar-light ">
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ">
-                <li class="nav-item dropdown ml-2 mr-2">
-                  <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Products
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/ourtizolo-funds">ourtizolo Funds</a>
-                    <a class="dropdown-item" href="/deal-by-deal">Deal-By-Deal Investing</a>
-                    <!-- <a class="dropdown-item" href="/secondary-market">Secondary Market</a> -->
-                  </div>
-                </li>
-                <li class="nav-item dropdown ml-2 mr-2">
-                  <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Investors
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/for-advisors">For Advisors</a>
-                    <a class="dropdown-item" href="/institutions">For Institutions</a>
-                  </div>
-                </li>
-                <li class="nav-item dropdown ml-2 mr-2">
-                  <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Reseacrh
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/track-record">Track Record </a>
-                    <!-- <a class="dropdown-item" href="#">Insights</a> -->
-                  </div>
-                </li>
-                <li class="nav-item dropdown ml-2 mr-2">
-                  <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    About US 
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/our-company">Our Company  </a>
-                    <a class="dropdown-item" href="/why-ourtizolo">Why ourtizolo</a>
-                    <!-- <a class="dropdown-item" href="#">Media</a> -->
-                    <!-- <a class="dropdown-item" href="#">FAQ</a> -->
-                  </div>
-                </li>
-
-              </ul>
-            </div>
-            </nav>
-
-            
-          </div>
-          <div class="">
-            <button type="button" class="btn ml-3 mr-3 p-2 pl-3 pr-3" style="border-radius:20px !important; color:#0087e2; border-color: #0087e2; background-color:white">Sign Up</button>
-            <button type="button" class="btn p-2 pl-3 pr-3" style="border-radius:20px !important; background-color:#0087e2; color:white">Sign In</button>
-          </div>
-        </div>
-      </div>
-    </section>
 
 
     <section style="overflow-x: hidden" class="body-tag">
