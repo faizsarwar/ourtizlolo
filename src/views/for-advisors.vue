@@ -1,24 +1,24 @@
 <template>
     <div >
   
-      <div class="p-5 " style="background-color: black;" id="home-hero">
-        <div class="row p-5  text-left d-flex justify-content-center">
-          <div class="col-sm-3  ml-5 pr-5 pl-3">
-            <h2><b> Partner with ourtizolo to empower your clients.</b></h2>
+      <div class="pl-5 " style="background-color: black;" id="home-hero">
+        <div class="row  text-left d-flex justify-content-center">
+          <div class="col-sm-3  ml-5 p-5">
+            <h2 class="mt-5"><b> Partner with ourtizolo to empower your clients.</b></h2>
             <p class="mt-4">ourtizolo’s premier commercial real estate investment platform lets you offer your clients the same opportunities as some of the best-known institutional investors in the world.            </p>
             <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Contact Us</button> 
         </div>
           <div class="col-lg pl-5">
             <div class="pl-5 ml-5">
                 <img
-                :src="require('@/assets/img/advisor.jpg')"
+                :src="require('@/assets/img/manager-calculates-about-the-company-finances-by-p-2021-09-03-12-52-30-utc-scaled-1-1024x683.jpg')"
                 class="ml-5"
                 alt=""
                 style="
                   background-size: contain;
                   background-repeat: no-repeat;
                   text-align: center;
-                  width: 50%;
+                  width: 100%;
                 "
               />
             </div>

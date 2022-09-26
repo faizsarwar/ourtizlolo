@@ -171,7 +171,7 @@
               </div>
 
 
-              <p class="mt-5">Interested in the benefits of real estate broadly and how ourtizolo' is differentiated? <br>
+              <p class="mt-5" style="color: black;">Interested in the benefits of real estate broadly and how ourtizolo' is differentiated? <br>
                 Learn more here.</p>
         </section>
           

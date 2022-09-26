@@ -1,30 +1,45 @@
 <template>
   <div >
 
-    <div class="p-5 " style="background-color: black;" id="home-hero">
-      <div class="row p-5  text-left d-flex justify-content-center">
-        <div class="col-sm-3  ml-5 pl-5">
-          <h2><b> Reimagine your financial future with ourtizolo.</b></h2>
-          <p class="mt-4">ourtizolo's revolutionary platform breaks barriers to commercial real estate investing. We use the same high-quality underwriting available for deals to individuals, advisors, and institutions.</p>
-          <p class="mt-4">Looking for specific properties? Diversified funds? Opportunities for liquidity? This is your all access-pass.</p>
-        </div>
-        <div class="col-lg ">
-          
+    <section style="background-color:black;">
+      <div class="">
+        <div class="row ">
+          <div class="col-lg p-5" style=" text-align: left; color: black;">
+            <div class="  ml-5 p-5 ">
+              <h2 class="m-4"><b> Reimagine your financial future with ourtizolo.</b></h2>
+              <p class="m-4">ourtizolo's revolutionary platform breaks barriers to commercial real estate investing. We use the same high-quality underwriting available for deals to individuals, advisors, and institutions.</p>
+              <p class="m-4">Looking for specific properties? Diversified funds? Opportunities for liquidity? This is your all access-pass.</p>
+            </div>
+    
+          </div>
+          <div class="col-lg">
+            <img
+            :src="require('@/assets/img/960x0.jpg')"
+            alt=""
+            style="
+              background-size: contain;
+              background-repeat: no-repeat;
+              text-align: center;
+              width: 100%;
+            "
+          />
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+
 
     <div class="p-5" style="background-color: #f5f5f5;" id="home-improve">
       <div class="row p-5  text-left d-flex justify-content-center">
-        <div class="col-sm-3  ml-5 pl-5">
+        <div class="col-md-4  ml-5 mr-5 pl-5">
           <h2 style="color: black;"> Performance that
             speaks for itself.</h2>
           <b class="mt-4" style="color: black;">OUR PERFORMANCE AS OF 6/15/2022</b>
 
           <div class="p-3 pt-5 pb-5">
             <div class="row">
-              <div class="mr-3">
-                <img :src="SVG1" />
+              <div class="mr-3 gradient-icon purple">
+                <img :src="SVG1"  />
               </div>
               <div >
                 <b style="color:black !important">$5.02B+</b>
@@ -33,7 +48,7 @@
             </div>
             <hr style="background-color:#005091">
             <div class="row">
-              <div class="mr-3">
+              <div class="mr-3 gradient-icon purple">
                 <img :src="SVG2" />
               </div>
               <div >
@@ -43,7 +58,7 @@
             </div>
             <hr style="background-color:#005091">
             <div class="row">
-              <div class="mr-3">
+              <div class="mr-3 gradient-icon purple">
                 <img :src="SVG3" />
               </div>
               <div >
@@ -54,16 +69,14 @@
           </div>
           <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">See Our Track Record</button>
         </div>
-        <div class="col-lg ">
-          
+        <div class="col-sm-3 ">
+          <Swiper/>
         </div>
-
-        <p class="mt-5 text-center" style="color:#818181 !important">Are you a registered investment advisor or institution? Learn how ourtizolo can partner with you.
-          <br>
-          Current client? Welcome back! Log in here.</p>
       </div>
+      <p class="mt-5 text-center" style="color:#818181 !important">Are you a registered investment advisor or institution? Learn how ourtizolo can partner with you.
+        <br>
+        Current client? Welcome back! Log in here.</p>
     </div>
-
           <!--  -->
           <section class="bg-light" id="home-performance">
             <div class="p-5">
@@ -399,6 +412,7 @@
 
 <script >
   import { defineComponent } from 'vue'
+  import Swiper from '../components/slider.vue'
 
   export default defineComponent({
     name: 'swiper-example-vertical-',
@@ -422,7 +436,7 @@
       }
   },
     components: {
-    //   Swiper,
+      Swiper,
     // svg1
     //   SwiperSlide,
     },

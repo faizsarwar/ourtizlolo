@@ -1,16 +1,25 @@
 <template>
     <div >
         <section class="pl-5" id="home-hero">
-            <div class="row m-5 pl-5">
+            <div class="row  pl-5">
                 <div class="col-lg pt-5 pl-5 text-left">
                     <p style="color: black;">DEAL-BY-DEAL</p>
-                    <h1><b style="color:#005091"> Ultimate  </b> <b style="color: black;"> control</b><b style="color:#005091"> And </b> <br>   <b style="color: black;"> customization.</b></h1>
+                     <h1 class="mt-5"><b style="color:#005091"> Ultimate  </b> <b style="color: black;"> control</b><b style="color:#005091"> And </b> <br>   <b style="color: black;"> customization.</b></h1>
                     <p class="mt-5" style="color: black;">Build a bespoke real estate portfolio, one investment at a time, from a <br> selection of institutional-quality commercial properties.</p>
                     <!-- <p style="color: black;">Sign up in seconds to get notified when new ourtizolo Funds are open for investmen</p> -->
                     <button type="button" class="btn p-2  mt-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">View Details</button>
                 </div>
                 <div class="col-lg">
-                    img  here
+                    <img
+                    :src="require('@/assets/img/iStock-941729686.jpg')"
+                    alt=""
+                    style="
+                      background-size: contain;
+                      background-repeat: no-repeat;
+                      text-align: center;
+                      width: 100%;
+                    "
+                  />
                 </div>
             </div>
         </section>

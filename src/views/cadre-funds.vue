@@ -1,16 +1,25 @@
 <template>
     <div >
         <section id="home-hero" class="pl-5">
-            <div class="row m-5 pl-5">
-                <div class="col-lg pt-5 pl-5 text-left">
+            <div class="row  pl-5">
+                <div class="col-lg p-5 text-left">
                     <p style="color: black;">ourtizolo FUNDS</p>
                     <h1><b style="color:#005091"> Diversified portfolios </b><br> <b style="color: black;"> for</b><b style="color:#005091"> investors </b> <br>   <b style="color: black;"> who want it all.</b></h1>
-                    <p class="mt-5" style="color: black;">A one-and-done portfolio of commercial real estate in top-growth <br> markets. Assets include apartment, hotel, industrial and other  <br> properties—all managed by our experienced investment professionals.</p>
+                    <p class="mt-3" style="color: black;">A one-and-done portfolio of commercial real estate in top-growth <br> markets. Assets include apartment, hotel, industrial and other  <br> properties—all managed by our experienced investment professionals.</p>
                     <p style="color: black;">Sign up in seconds to get notified when new ourtizolo Funds are open for investmen</p>
                     <button type="button" class="btn p-2  mt-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Request Access</button>
                 </div>
-                <div class="col-lg">
-                    img  here
+                <div class="col-lg p-0">
+                  <img
+                  :src="require('@/assets/img/myhc_78543.jpg')"
+                  alt=""
+                  style="
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    text-align: center;
+                    width: 100%;
+                  "
+                />
                 </div>
             </div>
         </section>
