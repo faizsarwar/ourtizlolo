@@ -72,9 +72,13 @@
 </ul>
 
 <!--button  -->
-<div class="ml-auto mr-0">
-  <button type="button" class="btn ml-3 mr-3 p-2 pl-3 pr-3" style="border-radius:20px !important; color:#0087e2; border-color: #0087e2; background-color:white">Sign Up</button>
-  <button type="button" class="btn p-2 pl-3 pr-3" style="border-radius:20px !important; background-color:#0087e2; color:white">Sign In</button>
+<div class="ml-auto mr-2">
+  <a href="/sign-up">
+    <button type="button" class="btn ml-3 mr-3 p-2 pl-3 pr-3" style="border-radius:20px !important; color:#0087e2; border-color: #0087e2; background-color:white">Sign Up</button>
+  </a>
+  <a href="/login">
+    <button type="button" class="btn p-2 pl-3 pr-3" style="border-radius:20px !important; background-color:#0087e2; color:white">Sign In</button>
+  </a>
 </div>
 
 </div>
@@ -84,17 +88,20 @@
   
 
 
-    <section style="overflow-x: hidden" class="body-tag">
-      <div class="side-bar"><div class="side-bar-nav">
-        <a href="#home-hero" id="Button1" nav-link="section link" class="dot-link w-inline-block w--current"></a>
-        <a href="#home-improve" id="Button2" nav-link="section link" class="dot-link w-inline-block "> </a>
-        <a href="#home-performance" id="Button3" class="dot-link w-inline-block"></a>
-        <a href="#home-efficient" id="Button4" class="dot-link w-inline-block"></a>
-        <a href="#home-best-known" id="Button5" class="dot-link w-inline-block"></a>
-        <a href="#home-tabs" id="Button6" class="dot-link w-inline-block"></a>
-        <a href="#home-wealth" id="Button7" class="dot-link w-inline-block"></a>
-        <a href="#home-investors" id="Button8" class="dot-link w-inline-block"></a
-        ><a href="#home-insights" id="Button9" class="dot-link w-inline-block"></a></div></div>  
+    <section style="overflow-x: hidden" class="body-tag" >
+      <div class="side-bar" v-if="![ 'SignUp', 'login', 'forgot-password'].includes($route.name)">
+        <div class="side-bar-nav">
+          <a href="#home-hero" id="Button1" nav-link="section link" class="dot-link w-inline-block w--current"></a>
+          <a href="#home-improve" id="Button2" nav-link="section link" class="dot-link w-inline-block "> </a>
+          <a href="#home-performance" id="Button3" class="dot-link w-inline-block"></a>
+          <a href="#home-efficient" id="Button4" class="dot-link w-inline-block"></a>
+          <a href="#home-best-known" id="Button5" class="dot-link w-inline-block"></a>
+          <a href="#home-tabs" id="Button6" class="dot-link w-inline-block"></a>
+          <a href="#home-wealth" id="Button7" class="dot-link w-inline-block"></a>
+          <a href="#home-investors" id="Button8" class="dot-link w-inline-block"></a
+          ><a href="#home-insights" id="Button9" class="dot-link w-inline-block"></a>
+        </div>
+      </div>  
       
       <router-view />
     </section>
@@ -1131,9 +1138,6 @@ border-radius: 5px;
 background-image: linear-gradient(81deg,#34009b,#288bff);
 }
 
-.card-body{
-  height: 22rem;
-}
 
 ul li a {
   color: #818181;

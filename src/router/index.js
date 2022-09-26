@@ -48,6 +48,21 @@ const routes = [
       name: 'why-ourtizolo',
       component: () => import(/* webpackChunkName: "about" */ '../views/why-cadre.vue')
     },
+    {
+      path: '/login',
+      name: 'login',
+      component: () => import(/* webpackChunkName: "about" */ '../views/login.vue')
+    },
+    {
+      path: '/forgot-password',
+      name: 'forgot-password',
+      component: () => import(/* webpackChunkName: "about" */ '../views/forgot-password.vue')
+    },
+    {
+      path: '/sign-up',
+      name: 'SignUp',
+      component: () => import(/* webpackChunkName: "about" */ '../views/SignUp.vue')
+    },
 ]  
 
 
