@@ -89,7 +89,7 @@
 
 
     <section style="overflow-x: hidden" class="body-tag" >
-      <div class="side-bar" v-if="![ 'SignUp', 'login', 'forgot-password'].includes($route.name)">
+      <div class="side-bar" v-if="![ 'SignUp', 'login', 'forgot-password','account-information','not-accredited'].includes($route.name)">
         <div class="side-bar-nav">
           <a href="#home-hero" id="Button1" nav-link="section link" class="dot-link w-inline-block w--current"></a>
           <a href="#home-improve" id="Button2" nav-link="section link" class="dot-link w-inline-block "> </a>

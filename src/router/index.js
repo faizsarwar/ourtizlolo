@@ -63,6 +63,22 @@ const routes = [
       name: 'SignUp',
       component: () => import(/* webpackChunkName: "about" */ '../views/SignUp.vue')
     },
+    // account-information, not-accredited
+    {
+      path: '/accreditation-status',
+      name: 'accreditation-status',
+      component: () => import(/* webpackChunkName: "about" */ '../views/accreditation-status.vue')
+    },
+    {
+      path: '/account-information',
+      name: 'account-information',
+      component: () => import(/* webpackChunkName: "about" */ '../views/account-information.vue')
+    },
+    {
+      path: '/not-accredited',
+      name: 'not-accredited',
+      component: () => import(/* webpackChunkName: "about" */ '../views/not-accredited.vue')
+    },
 ]  
 
 
