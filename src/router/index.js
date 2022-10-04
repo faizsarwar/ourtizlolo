@@ -49,6 +49,16 @@ const routes = [
       component: () => import(/* webpackChunkName: "about" */ '../views/why-cadre.vue')
     },
     {
+      path: '/advisor-form',
+      name: 'advisor-form',
+      component: () => import(/* webpackChunkName: "about" */ '../views/advisor-form.vue')
+    },
+    {
+      path: '/investor-form',
+      name: 'investor-form',
+      component: () => import(/* webpackChunkName: "about" */ '../views/investor-form.vue')
+    },
+    {
       path: '/login',
       name: 'login',
       component: () => import(/* webpackChunkName: "about" */ '../views/login.vue')

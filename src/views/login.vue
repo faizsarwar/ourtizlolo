@@ -29,11 +29,7 @@
                     <p>Username or password is not valid </p>
                   </div>
 
-                    <button type="submit" class="btn btn-success">Log in</button>
 
-                  <hr />
-
-                  Or <router-link to="/sign-up">click here</router-link> <b> to Sign Up! </b> 
 
               </form>
 
@@ -82,7 +78,7 @@
                     axios.defaults.headers.common["Authorization"] = "Token " + token
                     localStorage.setItem("token", token)
                     localStorage.setItem("userid", userid)
-                    const toPath = this.$route.query.to || '/cart'
+                    const toPath = this.$route.query.to || '/advisor-home'
                     this.$router.push(toPath)
                 })
                 .catch(error => {

@@ -140,13 +140,6 @@
         this.errors.push("The passwords doesn't match");
       }
       if (!this.errors.length) {
-        let approved;
-        if (this.account_type== 'Consumer'){
-          approved = true
-        }else{
-          approved = false
-        }
-        console.log("approved :   "+approved)
         const formData = {
           first_name: this.first_name,
           last_name: this.last_name,
@@ -170,7 +163,7 @@
               showConfirmButton: false,
               timer: 1500
             })
-            this.$router.push("/login");
+            this.$router.push("/investor-form");
           })
           .catch((error) => {
             if (error.response) {

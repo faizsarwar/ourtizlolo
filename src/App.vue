@@ -83,10 +83,8 @@
 
 </div>
 </nav>
-
-
     <section style="overflow-x: hidden" class="body-tag" >
-      <div class="side-bar" v-if="![ 'SignUp', 'login', 'forgot-password','account-information','not-accredited','advisor-account-info','accreditation-status'].includes($route.name)">
+      <div class="side-bar" v-if="![ 'SignUp', 'login', 'forgot-password','account-information','advisor-form','investor-form','not-accredited','advisor-account-info','accreditation-status'].includes($route.name)">
         <div class="side-bar-nav">
           <a href="#home-hero" id="Button1" nav-link="section link" class="dot-link w-inline-block w--current"></a>
           <a href="#home-improve" id="Button2" nav-link="section link" class="dot-link w-inline-block "> </a>
@@ -249,7 +247,7 @@
           <!-- Grid column -->
           <div class="col-md-4">
             <!-- Links -->
-            <h5
+            <!-- <h5
               class="font-weight-bold text-uppercase mt-3 mb-4 ml-4"
               style="color: white"
             >
@@ -274,7 +272,7 @@
                   >By subscribing you agree with our Terms of Use & Privacy Policy.</sub
                 >
               </div>
-            </form>
+            </form> -->
 
             <p class="mt-5 mb-4 ml-4 pr-4" style="color: #818181 !important">
               4815 Excelsior Boulevard Minneapolis, MN 55416 Email: info@growtolife.com

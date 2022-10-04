@@ -6,25 +6,25 @@
 
             <h3  class="ml-5" style="color: black;">Join the waitlist below and we will let you know when we expand our offering</h3>
             
-            <form class="m-5">
+            <form class="m-5" @submit.prevent="submitForm">
               <div class="row">
                 <div class="form-group col-md-4">
                     <label for="exampleInputEmail1">First Name </label>
-                    <input type="text" class="form-control" placeholder="First name">
+                    <input type="text" class="form-control" v-model="first_name" placeholder="First name">
                   </div>
                   <div class="form-group col-md-4">
                     <label for="exampleInputPassword1">Last Name</label>
-                    <input type="text" class="form-control" placeholder="Last name">
+                    <input type="text" class="form-control" v-model="last_name" placeholder="Last name">
                   </div>
               </div>
               <div class="row">
                 <div class="form-group col-md-4">
                     <label for="exampleInputEmail1">Phone Number </label>
-                    <input type="text" class="form-control" placeholder="Phone number">
+                    <input type="text" class="form-control" v-model="phone_number" placeholder="Phone number">
                   </div>
                   <div class="form-group col-md-4">
                     <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                    <input type="email" class="form-control" id="exampleInputEmail1" v-model="email" aria-describedby="emailHelp" placeholder="Enter email" required>
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                   </div>
               </div>
@@ -40,44 +40,68 @@
   
   <script >
     import { defineComponent } from 'vue'
-
+    import axios from "axios";
+    // import { toast } from 'bulma-toast'
+    import Swal from 'sweetalert2'
+    
     export default defineComponent({
       name: 'account-info',
       title: 'Vertical slider',
       url: import.meta.url,
         data(){
         return {
-            allProducts:[],
-            date: null,
-            vuePhone: {
-                phone: "",
-                props: {
-                clearable: true,
-                fetchCountry: true,
-                preferredCountries: ["US", "GB"],
-                noExample: false,
-                translations: {
-                    countrySelectorLabel: "Country code",
-                    countrySelectorError: "Error",
-                    phoneNumberLabel: "Enter your phone",
-                    example: "Example:"
-                }
-                }
-            }
+            first_name:"",
+            last_name:"",
+            email:"",
+            phone_number:"",
         }
     },
       components: {
-      //   Swiper,
-      //   SwiperSlide,
-      // VuePhoneNumberInput
-    //   Datepicker,
-      // DatePick
       },
-      setup() {
-        return {
-          
-        }
+      
+      methods: {
+    submitForm() {
+      this.errors = [];
+      if (!this.email) {
+        this.errors.push("Email is Required");
       }
+      if (!this.errors.length) {
+        const formData = {
+          first_name: this.first_name,
+          last_name: this.last_name,
+          phone_number: this.phone_number,
+          email: this.email,
+          account_type: "non-accredited investor",
+          // approved : approved
+        };
+        axios
+          .post("/api/v1/info/", formData)
+          .then((response) => {
+            console.log(response.data)
+            Swal.fire({
+              icon: 'success',
+              title: ' Successfully Subscribed Newsletter',
+              showConfirmButton: false,
+              timer: 1500
+            })
+            this.$router.push("/");
+          })
+          .catch((error) => {
+            if (error.response) {
+              for (const property in error.response.data) {
+                this.errors.push(
+                  `${property}: ${error.response.data[property]}`
+                );
+              }
+              console.log(JSON.stringify(error.response.data));
+            } else if (error.message) {
+              this.errors.push("Something went wrong. Please try again");
+              console.log(JSON.stringify(error));
+            }
+          });
+      }
+    },
+    },
     })
   
   </script>
