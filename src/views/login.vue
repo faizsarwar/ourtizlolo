@@ -71,14 +71,14 @@
                 .then(response => {
                     const token = response.data.auth_token
                     const userid=response.data.id
-                    console.log(userid,"token")
+                    console.log(userid,"token login Page")
                     this.$store.commit('setToken', token)
                     this.$store.commit('setUserId', userid)
                     
                     axios.defaults.headers.common["Authorization"] = "Token " + token
                     localStorage.setItem("token", token)
                     localStorage.setItem("userid", userid)
-                    const toPath = this.$route.query.to || '/advisor-home'
+                    const toPath = this.$route.query.to || '/investor-landing'
                     this.$router.push(toPath)
                 })
                 .catch(error => {

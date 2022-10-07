@@ -73,18 +73,24 @@
 
 <!--button  -->
 <div class="ml-auto mr-2">
-  <a href="/sign-up">
-    <button type="button" class="btn ml-3 mr-3 p-2 pl-3 pr-3" style="border-radius:20px !important; color:#0087e2; border-color: #0087e2; background-color:white">Sign Up</button>
-  </a>
-  <a href="/login">
-    <button type="button" class="btn p-2 pl-3 pr-3" style="border-radius:20px !important; background-color:#0087e2; color:white">Sign In</button>
-  </a>
+
+  <li v-if="$store.state.isAuthenticated" style="list-style-type: none;">
+    <a href="/my-account" class="nav-link mr-5" style="color:black">My Account</a>
+  </li>
+  <li v-else style="list-style-type: none;">
+    <a href="/sign-up">
+      <button type="button" class="btn ml-3 mr-3 p-2 pl-3 pr-3" style="border-radius:20px !important; color:#0087e2; border-color: #0087e2; background-color:white">Sign Up</button>
+    </a>
+    <a href="/login">
+      <button type="button" class="btn p-2 pl-3 pr-3" style="border-radius:20px !important; background-color:#0087e2; color:white">Sign In</button>
+    </a>
+  </li> 
 </div>
 
 </div>
 </nav>
     <section style="overflow-x: hidden" class="body-tag" >
-      <div class="side-bar" v-if="![ 'SignUp', 'login', 'forgot-password','account-information','advisor-form','investor-form','not-accredited','advisor-account-info','accreditation-status'].includes($route.name)">
+      <div class="side-bar" v-if="![ 'SignUp', 'login', 'forgot-password','investor-landing','account-information','advisor-form','investor-form','not-accredited','advisor-account-info','accreditation-status'].includes($route.name)">
         <div class="side-bar-nav">
           <a href="#home-hero" id="Button1" nav-link="section link" class="dot-link w-inline-block w--current"></a>
           <a href="#home-improve" id="Button2" nav-link="section link" class="dot-link w-inline-block "> </a>
