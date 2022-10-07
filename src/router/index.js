@@ -64,6 +64,31 @@ const routes = [
       component: () => import(/* webpackChunkName: "about" */ '../views/investor-landing.vue')
     },
     {
+      path: '/account-settings/account',
+      name: 'account-settings',
+      component: () => import(/* webpackChunkName: "about" */ '../views/account-settings.vue')
+    },
+    {
+      path: '/account-settings/clients',
+      name: 'account-clients',
+      component: () => import(/* webpackChunkName: "about" */ '../views/account-clients.vue')
+    },
+    {
+      path: '/account-settings/documents',
+      name: 'account-document',
+      component: () => import(/* webpackChunkName: "about" */ '../views/account-document.vue')
+    },
+    {
+      path: '/account-settings/support',
+      name: 'account-support',
+      component: () => import(/* webpackChunkName: "about" */ '../views/account-settings.vue')
+    },
+    {
+      path: '/Portfolio',
+      name: 'Portfolio',
+      component: () => import(/* webpackChunkName: "about" */ '../views/Portfolio.vue')
+    },
+    {
       path: '/login',
       name: 'login',
       component: () => import(/* webpackChunkName: "about" */ '../views/login.vue')

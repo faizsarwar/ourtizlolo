@@ -1,14 +1,26 @@
 <template>
-    <div class="p-5 text-left" style="background-color: rgb(245, 245, 245);">
+    <div class=" text-left" style="">
+        <!-- background-color: rgb(245, 245, 245); -->
+
+
         <div class="m-5 p-5" >
-            <h1 class="ml-5" ><b style="color: black;">Welcome Muhammad </b></h1>
+            <h1 class="ml-5" ><b style="color: black;">Welcome {{this.account_details.first_name}}</b></h1>
 
             <p class="ml-5 mt-4">As a Cadre Member, you can explore our investment opportunities, review our proprietary content, and set up a call with your dedicated Investor Relations Representative to talk about your investment goals. We look forward to partnering with you.</p>
         </div>
 
         <div class="pl-5">
             <div class="card-fancy ml-5 mr-5" style="width: 95rem;">
-                <img class="card-img-top " :src="require('@/assets/img/cafe.jpg')"  style=" background-size: contain; background-repeat: no-repeat; text-align: center; width: 100%;" alt="Card image cap">
+                <!-- <img class="card-img-top " :src="require('@/assets/img/cafe.jpg')"  style=" background-size: contain; background-repeat: no-repeat; text-align: center; width: 100%;" alt="Card image cap"> -->
+                <div class="text-center p-5" :style="cssProps">
+                    <div class="m-5 p-5">
+                        <h1   class="mt-5" style="color: white; font-weight:1000" >
+                            Waller Creek Development
+                        </h1>
+                        <h5 style="color:azure">Invest in the tallest building in Texas. No upfront fees for a limited time.</h5>
+                        <button class="btn btn-primary mt-5 pl-5 pr-5"> View Details</button>
+                    </div>
+                </div>
                 <div class="card-body text-center">
                     <div class="row ">
                         <div class="col-sm p-3">
@@ -85,8 +97,6 @@
   <script >
     import { defineComponent } from 'vue'
     import axios from 'axios' 
-  
-  
     export default defineComponent({
       name: 'login-',
       title: 'Vertical slider',
@@ -94,48 +104,38 @@
         data(){
         return {
             email: '',
+            cssProps: {
+                backgroundImage: `url(${require('@/assets/img/slide2.jpg')})`
+            },
             password: '',
-            errors: []
+            errors: [],
+            account_details:[]
         }
     },
       components: {
-      //   Swiper,
-      //   SwiperSlide,
+
       },
+      mounted() {
+        this.getAccountDetails()
+    },
       methods: {
-        async submitForm() {
+        logout() {
             axios.defaults.headers.common["Authorization"] = ""
             localStorage.removeItem("token")
-            const formData = {
-                email: this.email,
-                password: this.password
-            }
-            await axios
-                .post("/api/v1/CustomUser/login", formData)
-                .then(response => {
-                    const token = response.data.auth_token
-                    const userid=response.data.id
-                    console.log(response.data,"token Invetsor Landing PAge")
-                    this.$store.commit('setToken', token)
-                    this.$store.commit('setUserId', userid)
-                    
-                    axios.defaults.headers.common["Authorization"] = "Token " + token
-                    localStorage.setItem("token", token)
-                    localStorage.setItem("userid", userid)
-                    const toPath = this.$route.query.to || '/advisor-home'
-                    this.$router.push(toPath)
-                })
-                .catch(error => {
-                    if (error.response) {
-                        for (const property in error.response.data) {
-                            this.errors.push(`${property}: ${error.response.data[property]}`)
-                        }
-                    } else {
-                        this.errors.push('Something went wrong. Please try again')
-                        
-                        console.log(JSON.stringify(error))
-                    }
-                })
+            localStorage.removeItem("username")
+            localStorage.removeItem("userid")
+            this.$store.commit('removeToken')
+            this.$store.commit('removeUserId')
+            this.$router.push('/')
+        },
+        getAccountDetails(){
+            axios.get(`/api/v1/CustomUser/${localStorage.getItem('userid')}/`)
+            .then(response=>{
+                this.account_details=response.data
+            })
+            .catch(error=>{
+                console.log(error)
+            })
         }
     }
     })
@@ -143,8 +143,8 @@
   </script>
   
   <style lang="scss" scoped>
-p , b , h1, h2, h3 ,h4{
-    color: black;
-}
+    p , b , h1, h2, h3 ,h4{
+        color: black;
+    }
 
   </style>

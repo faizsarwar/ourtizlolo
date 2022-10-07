@@ -14,83 +14,150 @@
         </p>
       </div>
 
-      <nav class="navbar navbar-expand-lg navbar-light mt-0 mb-0 p-0" id="navbar_top" style="background-color:white; color:#0b0970">
-        <a href="/">
-        <img
-          :src="require('@/assets/img/Logo-Color-Positive.png')"
-          alt=""
-          srcset=""
-          style="height: 60px"
-          class="m-3 header-img ml-5 mr-5"
-        />
-       </a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-
-<div class="collapse navbar-collapse ml-5 pl-5 " id="navbarNavDropdown" style="color:#0b0970">
-<ul class="navbar-nav">
-  <li class="nav-item ml-5 mr-3 dropdown" >
-    <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Products
-    </a>
-    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-      <a class="dropdown-item" href="/ourtizolo-funds">Direct Access Funds</a>
-      <a class="dropdown-item" href="/deal-by-deal">Deal-By-Deal Investing</a>
-      <!-- <a class="dropdown-item" href="/secondary-market">Secondary Market</a> -->
+      <div v-if="$store.state.isAuthenticated">
+        <nav class="navbar navbar-expand-lg navbar-light mt-0 mb-0 p-0" id="navbar_top" style="background-color:rgb(245, 245, 245);; color:#0b0970" >
+          <a href="/investor-landing">
+          <img
+            :src="require('@/assets/img/Logo-Color-Positive.png')"
+            alt=""
+            srcset=""
+            style="height: 60px"
+            class="m-2 header-img ml-5 mr-5"
+          />
+         </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse  " id="navbarNavDropdown" style="color:#0b0970">
+  <ul class="navbar-nav">
+    <li class="nav-item ml-5 mr-3 dropdown" >
+      <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Invest
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/ourtizolo-funds">Horizon Fund</a>
+        <a class="dropdown-item" href="/ourtizolo-funds">Direct Access Funds</a>
+        <a class="dropdown-item" href="/deal-by-deal">Deal-By-Deal Investing</a>
+        <!-- <a class="dropdown-item" href="/secondary-market">Secondary Market</a> -->
+      </div>
+    </li>
+    <li style="list-style-type: none;">
+      <a href="/Portfolio" class="nav-link mr-2" style="color:black">Portfolio</a>
+    </li>
+    <li style="list-style-type: none;">
+      <a href="/track-record" class="nav-link mr-2" style="color:black">Track Record</a>
+    </li>
+    <li style="list-style-type: none;">
+      <a href="/my-account" class="nav-link mr-2" style="color:black">Insights</a>
+    </li>
+  </ul>
+  
+  <!--button  -->
+  <div class="ml-auto mr-2">
+  
+    <div v-if="$store.state.isAuthenticated" style="list-style-type: none;   text-decoration: none;" class="d-flex mr-5" >
+      <a href="/account-settings/account" class="nav-link " style="color:black">My Account</a>
+      <button @click="logout()" class="btn btn-success" style="border-radius:20px !important; background-color:#0087e2; color:white">Log out</button>
     </div>
-  </li>
-  <li class="nav-item mr-3 ml-3  dropdown" >
-    <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Investors
-    </a>
-    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-      <a class="dropdown-item" href="/for-advisors">For Advisors</a>
-      <a class="dropdown-item" href="/institutions">For Institutions</a>
+    <li v-else style="list-style-type: none;">
+      <a href="/sign-up">
+        <button type="button" class="btn ml-3 mr-3 p-2 pl-3 pr-3" style="border-radius:20px !important; color:#0087e2; border-color: #0087e2; background-color:white">Sign Up</button>
+      </a>
+      <a href="/login">
+        <button type="button" class="btn p-2 pl-3 pr-3" style="border-radius:20px !important; background-color:#0087e2; color:white">Sign In</button>
+      </a>
+    </li> 
+  </div>
+  
+  </div>
+  </nav>
+  
+      </div>
+      <div v-else>
+        <nav class="navbar navbar-expand-lg navbar-light mt-0 mb-0 p-0" id="navbar_top" style="background-color:white; color:#0b0970" v-if="!['investor-landing'].includes($route.name)">
+          <a href="/">
+          <img
+            :src="require('@/assets/img/Logo-Color-Positive.png')"
+            alt=""
+            srcset=""
+            style="height: 60px"
+            class="m-3 header-img ml-5 mr-5"
+          />
+         </a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse ml-5 pl-5 " id="navbarNavDropdown" style="color:#0b0970">
+  <ul class="navbar-nav">
+    <li class="nav-item ml-5 mr-3 dropdown" >
+      <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Products
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="/ourtizolo-funds">Direct Access Funds</a>
+        <a class="dropdown-item" href="/deal-by-deal">Deal-By-Deal Investing</a>
+        <!-- <a class="dropdown-item" href="/secondary-market">Secondary Market</a> -->
+      </div>
+    </li>
+    <li class="nav-item mr-3 ml-3  dropdown" >
+      <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Investors
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="/for-advisors">For Advisors</a>
+        <a class="dropdown-item" href="/institutions">For Institutions</a>
+      </div>
+    </li>
+    <li class="nav-item mr-3 ml-3  dropdown" >
+      <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Reseacrh
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="/track-record">Track Record </a>
+        <!-- <a class="dropdown-item" href="#">Insights</a> -->
+      </div>
+    </li>
+    <li class="nav-item ml-3 mr-3 dropdown">
+      <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        About US 
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="/our-company">Our Company  </a>
+        <a class="dropdown-item" href="/why-ourtizolo">Why ourtizolo</a>
+        <!-- <a class="dropdown-item" href="#">Media</a> -->
+        <!-- <a class="dropdown-item" href="#">FAQ</a> -->
+      </div>
+    </li>
+  </ul>
+  
+  <!--button  -->
+  <div class="ml-auto mr-2">
+  
+    <div v-if="$store.state.isAuthenticated" style="list-style-type: none;">
+      <a href="/account-settings/account" class="nav-link mr-5" style="color:black">My Account</a>
+  
+      <button @click="logout()" class="btn btn-success" style="border-radius:20px !important; background-color:#0087e2; color:white">Log out</button>
     </div>
-  </li>
-  <li class="nav-item mr-3 ml-3  dropdown" >
-    <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Reseacrh
-    </a>
-    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-      <a class="dropdown-item" href="/track-record">Track Record </a>
-      <!-- <a class="dropdown-item" href="#">Insights</a> -->
-    </div>
-  </li>
-  <li class="nav-item ml-3 mr-3 dropdown">
-    <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      About US 
-    </a>
-    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-      <a class="dropdown-item" href="/our-company">Our Company  </a>
-      <a class="dropdown-item" href="/why-ourtizolo">Why ourtizolo</a>
-      <!-- <a class="dropdown-item" href="#">Media</a> -->
-      <!-- <a class="dropdown-item" href="#">FAQ</a> -->
-    </div>
-  </li>
-</ul>
+    <div v-else style="list-style-type: none;">
+      <a href="/sign-up">
+        <button type="button" class="btn ml-3 mr-3 p-2 pl-3 pr-3" style="border-radius:20px !important; color:#0087e2; border-color: #0087e2; background-color:white">Sign Up</button>
+      </a>
+      <a href="/login">
+        <button type="button" class="btn p-2 pl-3 pr-3" style="border-radius:20px !important; background-color:#0087e2; color:white">Sign In</button>
+      </a>
+    </div> 
+  </div>
+  
+  </div>
+        </nav>
+        </div>
 
-<!--button  -->
-<div class="ml-auto mr-2">
 
-  <li v-if="$store.state.isAuthenticated" style="list-style-type: none;">
-    <a href="/my-account" class="nav-link mr-5" style="color:black">My Account</a>
-  </li>
-  <li v-else style="list-style-type: none;">
-    <a href="/sign-up">
-      <button type="button" class="btn ml-3 mr-3 p-2 pl-3 pr-3" style="border-radius:20px !important; color:#0087e2; border-color: #0087e2; background-color:white">Sign Up</button>
-    </a>
-    <a href="/login">
-      <button type="button" class="btn p-2 pl-3 pr-3" style="border-radius:20px !important; background-color:#0087e2; color:white">Sign In</button>
-    </a>
-  </li> 
-</div>
-
-</div>
-</nav>
     <section style="overflow-x: hidden" class="body-tag" >
-      <div class="side-bar" v-if="![ 'SignUp', 'login', 'forgot-password','investor-landing','account-information','advisor-form','investor-form','not-accredited','advisor-account-info','accreditation-status'].includes($route.name)">
+      <div class="side-bar m-0" v-if="![ 'account-clients','account-document','account-support','Portfolio','account-settings','SignUp', 'login', 'forgot-password','investor-landing','account-information','advisor-form','investor-form','not-accredited','advisor-account-info','accreditation-status'].includes($route.name)">
         <div class="side-bar-nav">
           <a href="#home-hero" id="Button1" nav-link="section link" class="dot-link w-inline-block w--current"></a>
           <a href="#home-improve" id="Button2" nav-link="section link" class="dot-link w-inline-block "> </a>
@@ -937,6 +1004,12 @@ h2 b,
 h3 b,
 h4 b {
   color: #07ad31;
+}
+
+h1{
+
+  font-size: 3rem;
+  font-weight: 600;
 }
 
 p,
