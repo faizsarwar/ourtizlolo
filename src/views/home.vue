@@ -468,7 +468,6 @@ h2 {
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
   border-top: none;
 }
 </style>
