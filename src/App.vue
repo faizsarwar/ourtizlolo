@@ -1020,11 +1020,6 @@ h1{
   font-weight: 600;
 }
 
-p,
-strong,
-b {
-  color: #07ad31;
-}
 
 @media (max-width: 530px) {
   html {

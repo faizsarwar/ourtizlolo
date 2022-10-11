@@ -78,7 +78,7 @@
             </div>
         </div>
 
-        <Blogs/>
+        <blogs3/>
 
         <div class="p-5">
             <div class="ml-5 mr-5">
@@ -96,6 +96,7 @@
   
   <script >
     import { defineComponent } from 'vue'
+    import blogs3 from '../components/3blogs.vue'
     import axios from 'axios' 
     export default defineComponent({
       name: 'login-',
@@ -113,7 +114,7 @@
         }
     },
       components: {
-
+        blogs3
       },
       mounted() {
         this.getAccountDetails()
