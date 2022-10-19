@@ -1,11 +1,9 @@
-
-
 <template>
     <!-- BLOGS -->
     <section class="bg-light mt-5">
       <div class=" m-5">
         <div class="row center_elements mt-5">
-          <p class="mt-5">FROM THE BLOG</p>
+          <p class="mt-5">Ourtizolo Insights</p>
         </div>
 
         <loading :active="isLoading"
@@ -13,9 +11,6 @@
           :on-cancel="onCancel"
           :is-full-page="true"/>
 
-        <div class="row center_elements">
-          <h3 class="heading">TUNE INTO YOURSELF</h3>
-        </div>
 
           <div class="col-12">
             <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
@@ -26,21 +21,15 @@
                   <div class="row seller-Card">
   
                 <div class="col-md-4 mb-3" v-for="blog in this.blogs" :key="blog.id">
-                      <div class="card seller-Card">
-                      <img :src= blog.get_image  class="card-img-top" alt="..."  style="height:300px">
-                        <div class="card-body">
-                          <!-- <div class="row" style="color:#466D1D;"> -->
-                            <!-- <div class="row"> -->
-                              <p class="card-title " style="text-align:center; color:#466D1D;"><strong> {{blog.tittle}}</strong></p>
-                            <!-- </div> -->
-                            <!-- <div class="row" > -->
-                            <!-- </div> -->
-                          <!-- </div> -->
-                            <a :href="'/blogs/' + blog.id " class="btn btn btn-success">Read More</a>
-  
-                        </div>
-  
+                  <a :href="'/Blogs/' + blog.id " >
+                    <div class="card " style="border-radius: 25px; height:500px">
+                    <img :src= blog.get_image  class="card-img-top " alt="..."  >
+                      <div class="card-body p-2 pb-">
+                            <p class="card-title" style="text-align:center; color:#466D1D;"><strong> {{blog.tittle}}</strong></p>
+                            <p class="" style="text-align:center; color:black; font-weight: normal;font-size: large; ">{{blog.description}}</p>
                       </div>
+                    </div>
+                  </a>
                     </div>
                 </div>
               </div>              
@@ -60,7 +49,7 @@
   import Loading from 'vue-loading-overlay'
   import 'vue-loading-overlay/dist/vue-loading.css'
   export default {
-    name: "blogs",
+    name: "blogs-",
     data() {
       return {
         blogs: [],

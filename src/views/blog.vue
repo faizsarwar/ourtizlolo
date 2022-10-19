@@ -1,7 +1,7 @@
 <template>
     <div>
-      <section >
-        <img :src="blog.get_image" style="width: 100% ; background-size: 'cover' ; background-repeat: 'no=repeat'; height:80%" >
+      <section class="p-5">
+        <img :src="blog.get_image" style="width: 80% ; background-size: 'cover' ; background-repeat: 'no=repeat'; height:80%" >
       </section>    
       <h1 class="heading mt-5 mb-5">
             {{this.blog.tittle}}
@@ -16,11 +16,10 @@
 
 <script>
 // ES6 Modules or TypeScript
-import Loading from 'vue-loading-overlay'
-import 'vue-loading-overlay/dist/vue-loading.css'
+// import Loading from 'vue-loading-overlay'/ing.css'
 import axios from 'axios'
 export default {
-  name: 'blog',
+  name: 'blog-',
   data(){
       return {
           id: this.$route.params.blogId,
@@ -29,7 +28,7 @@ export default {
       }
   },
   components: {
-    Loading
+    // Loading
   },
   mounted(){
     this.getBlog()

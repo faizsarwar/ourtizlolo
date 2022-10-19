@@ -49,7 +49,7 @@
       <a href="/track-record" class="nav-link mr-2" style="color:black">Track Record</a>
     </li>
     <li style="list-style-type: none;">
-      <a href="/my-account" class="nav-link mr-2" style="color:black">Insights</a>
+      <a href="/insight" class="nav-link mr-2" style="color:black">Insights</a>
     </li>
   </ul>
   
@@ -165,7 +165,7 @@
 
 
     <section style="overflow-x: hidden" class="body-tag" >
-      <div class="side-bar m-0" v-if="![ 'account-clients','account-document','account-support','Portfolio','account-settings','SignUp', 'login', 'forgot-password','investor-landing','account-information','advisor-form','investor-form','not-accredited','advisor-account-info','accreditation-status'].includes($route.name)">
+      <div class="side-bar m-0" v-if="![ 'lo','blog-','blogs','account-clients','account-document','account-support','Portfolio','account-settings','SignUp', 'login', 'forgot-password','investor-landing','account-information','advisor-form','investor-form','not-accredited','advisor-account-info','accreditation-status'].includes($route.name)">
         <div class="side-bar-nav">
           <a href="#home-hero" id="Button1" nav-link="section link" class="dot-link w-inline-block w--current"></a>
           <a href="#home-improve" id="Button2" nav-link="section link" class="dot-link w-inline-block "> </a>

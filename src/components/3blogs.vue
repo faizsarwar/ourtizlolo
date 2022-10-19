@@ -23,22 +23,13 @@
                   <div class="row seller-Card">
   
                     <div class="col-md-4 mb-3" v-for="item in this.AllProducts[0]" :key="item.id">
-                      <a :href="'/products/' + item.id " >
+                      <a :href="'/Blogs/' + blog.id " >
                         <div class="card " style="border-radius: 25px; ">
                         <img :src= item.get_image  class="card-img-top " alt="..."  style="height:400px">
                           <div class="card-body p-2">
-                            <!-- <div class="row" style="color:#466D1D;"> -->
-                              <!-- <div class="row"> -->
                                 <p class="card-title" style="text-align:center; color:#466D1D;"><strong> {{item.tittle}}</strong></p>
-                              <!-- </div> -->
-                              <!-- <div class="row" > -->
                                 <p class="" style="text-align:center; color:black; font-weight: normal;font-size: large; ">{{item.description}}</p>
-                              <!-- </div> -->
-                            <!-- </div> -->
-
-    
                           </div>
-    
                         </div>
                       </a>
                     </div>

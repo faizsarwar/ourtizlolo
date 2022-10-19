@@ -68,6 +68,16 @@ const routes = [
       component: () => import(/* webpackChunkName: "about" */ '../views/investor-landing.vue')
     },
     {
+      path: '/insight',
+      name: 'lo',
+      component: () => import(/* webpackChunkName: "about" */ '../views/blogs.vue')
+    },
+    {
+      path: '/Blogs/:blogId',
+      name: 'blog-',
+      component: () => import('../views/blog.vue')
+    },
+    {
       path: '/account-settings/account',
       name: 'account-settings',
       component: () => import(/* webpackChunkName: "about" */ '../views/account-settings.vue')
