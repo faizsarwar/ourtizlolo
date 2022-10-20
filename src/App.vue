@@ -25,18 +25,18 @@
             class="m-2 header-img ml-5 mr-5"
           />
          </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-  </button>
+    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button> -->
   
   <div class="collapse navbar-collapse  " id="navbarNavDropdown" style="color:#0b0970">
   <ul class="navbar-nav">
-    <li class="nav-item ml-5 mr-3 dropdown" >
+    <li class="nav-item  dropdown" >
       <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Invest
       </a>
       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="/ourtizolo-funds">Horizon Fund</a>
+          <!-- <a class="dropdown-item" href="/ourtizolo-funds">Horizon Fund</a> -->
         <a class="dropdown-item" href="/ourtizolo-funds">Direct Access Funds</a>
         <a class="dropdown-item" href="/deal-by-deal">Deal-By-Deal Investing</a>
         <!-- <a class="dropdown-item" href="/secondary-market">Secondary Market</a> -->
@@ -56,8 +56,8 @@
   <!--button  -->
   <div class="ml-auto mr-2">
   
-    <div v-if="$store.state.isAuthenticated" style="list-style-type: none;   text-decoration: none; background-color: rgb(245, 245, 245);;" class="d-flex mr-5" >
-      <a href="/account-settings/account" class="nav-link " style="color:black">My Account</a>
+    <div v-if="$store.state.isAuthenticated" style="list-style-type: none;   text-decoration: none; background-color: rgb(245, 245, 245);;" class="d-flex right-side mr-5" >
+      <a href="/account-settings/account" class="nav-link " style="color:black">My Account </a>
       <button @click="logout()" class="btn"  >            
         <div class=" d-flex drill_cursor">
         <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-box-arrow-right mr-3" viewBox="0 0 16 16">
@@ -94,13 +94,13 @@
           />
          </a>
   
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
-  </button>
+  </button> -->
   
   <div class="collapse navbar-collapse ml-5 pl-5 " id="navbarNavDropdown" style="color:#0b0970">
   <ul class="navbar-nav">
-    <li class="nav-item ml-5 mr-3 dropdown" >
+    <li class="nav-item ml-2 mr-2 dropdown" >
       <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Products
       </a>
@@ -110,7 +110,7 @@
         <!-- <a class="dropdown-item" href="/secondary-market">Secondary Market</a> -->
       </div>
     </li>
-    <li class="nav-item mr-3 ml-3  dropdown" >
+    <li class="nav-item ml-2 mr-2 dropdown" >
       <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Investors
       </a>
@@ -119,7 +119,7 @@
         <a class="dropdown-item" href="/institutions">For Institutions</a>
       </div>
     </li>
-    <li class="nav-item mr-3 ml-3  dropdown" >
+    <li class="nav-item ml-2 mr-2 dropdown" >
       <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Reseacrh
       </a>
@@ -128,7 +128,7 @@
         <!-- <a class="dropdown-item" href="#">Insights</a> -->
       </div>
     </li>
-    <li class="nav-item ml-3 mr-3 dropdown">
+    <li class="nav-item ml-2 mr-2 dropdown">
       <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         About US 
       </a>
@@ -143,18 +143,12 @@
   
   <!--button  -->
   <div class="ml-auto mr-2">
-  
-    <div v-if="$store.state.isAuthenticated" style="list-style-type: none;">
-      <a href="/account-settings/account" class="nav-link mr-5" style="color:black">My Account</a>
-  
-      <button @click="logout()" class="btn btn-success" style="border-radius:20px !important; background-color:#0087e2; color:white">Log out</button>
-    </div>
-    <div v-else style="list-style-type: none;">
+    <div  style="list-style-type: none;">
       <a href="/sign-up">
-        <button type="button" class="btn ml-3 mr-3 p-2 pl-3 pr-3" style="border-radius:20px !important; color:#0087e2; border-color: #0087e2; background-color:white">Sign Up</button>
+        <button type="button" class="btn p-2 mr-3 pl-3 pr-3" style="border-radius:20px !important; color:#0087e2; border-color: #0087e2; background-color:white">Sign Up</button>
       </a>
       <a href="/login">
-        <button type="button" class="btn p-2 pl-3 pr-3" style="border-radius:20px !important; background-color:#0087e2; color:white">Sign In</button>
+        <button type="button" class="btn p-2 mr-3 pl-3 pr-3" style="border-radius:20px !important; background-color:#0087e2; color:white">Sign In</button>
       </a>
     </div> 
   </div>
@@ -356,10 +350,11 @@
             </form> -->
 
             <p class="mt-5 mb-4 ml-4 pr-4" style="color: #818181 !important">
-              4815 Excelsior Boulevard Minneapolis, MN 55416 Email: info@growtolife.com
-              <br />
-              Call: (952) 405-8181 <br />
+              116 Bullevard, Prenceton 
+              <br>
               Email: info@growtolife.com
+              <br />
+              Call: +1 (609) 375-0046 <br />
             </p>
 
             <h5
@@ -750,6 +745,10 @@ document.addEventListener("DOMContentLoaded", function () {
 /* max 1150px or less */
 @media only screen and (max-width: 1250px) {
   .header-img {
+    width: 80%;
+    margin-left: 10px !important;
+  }
+  .dropdown-toggle::after{
     display: none;
   }
   .product-img {
@@ -757,6 +756,23 @@ document.addEventListener("DOMContentLoaded", function () {
     width: 350px;
   }
 }
+
+// header-img
+/* max 1150px or less */
+@media only screen and (max-width: 1050px) {
+  .header-img {
+    width: 80%;
+    margin-left: 10px !important;
+  }
+  .dropdown-toggle::after{
+    display: none;
+  }
+  .product-img {
+    height: 400px;
+    width: 350px;
+  }
+}
+
 @media only screen and (min-width: 1250px) {
   .product-img {
     height: 600px;
@@ -987,6 +1003,9 @@ body{
     height: 270px;
   }
 }
+
+
+
 @media (max-width: 680px) {
   html {
     font-size: 70%;
@@ -1083,12 +1102,6 @@ h1{
   .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
-  }
-}
-@media (max-width: 767px) {
-  .dropdown:hover .dropdown-menu {
-    display: none;
-    margin-top: auto;
   }
 }
 
